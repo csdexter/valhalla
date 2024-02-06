@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.1.3">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Symbols for plumbing schematics&lt;/b&gt;
+&lt;p&gt;This library contains symbols used to describe plumbing as found in private dwellings.&lt;/p&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="UNION_MF">
+<description>&lt;b&gt;Union joint with male/female threads&lt;/b&gt;
+&lt;p&gt;Union joints are characterized by their ability to be separated without having to rotate the two joined sections. This symbol is for a male-to-female union, i.e. one that has a male thread on one end and a female one on the other.&lt;/p&gt;</description>
+<pin name="P$1" x="-15.24" y="0" visible="off" length="short"/>
+<pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.508" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.508" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="0" x2="5.08" y2="0" width="0.508" layer="94"/>
+</symbol>
+<symbol name="NIPPLE_EQ">
+<description>&lt;b&gt;Equal (symmetric) nipple&lt;/b&gt;
+&lt;p&gt;An equal nipple has male threads of the same size and handedness on both ends and a nut-like hexagonal section in the middle to facilitate tightening.&lt;/p&gt;</description>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.508" layer="94"/>
+</symbol>
+<symbol name="TEE_RD">
+<description>&lt;b&gt;Reducing tee&lt;/b&gt;
+&lt;p&gt;A reducing tee has female threads on all three ports, the colinear ones of the same size and the perpedicular one of a smaller size.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.508" layer="94"/>
+<wire x1="2.54" y1="0" x2="7.62" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.508" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.508" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="7.62" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="7.62" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<pin name="P$3" x="0" y="10.16" visible="off" length="short" rot="R270"/>
+</symbol>
+<symbol name="VALVE_BALL_MH">
+<description>&lt;b&gt;Hand-actuated ball valve with male thread and hose spigot&lt;/b&gt;
+&lt;p&gt;This type of valve is usually used as a drain valve, with a hose attached to the spigot leading the drained fluid to a suitable place.&lt;/p&gt;</description>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.508" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="-7.62" y2="2.54" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="0" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="0" x2="15.24" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="17.78" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-7.62" y1="0" x2="-12.7" y2="0" width="0.508" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<polygon width="0.508" layer="94">
+<vertex x="0" y="2.54" curve="90"/>
+<vertex x="-2.54" y="0" curve="90"/>
+<vertex x="0" y="-2.54" curve="90"/>
+<vertex x="2.54" y="0" curve="90"/>
+</polygon>
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.508" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="7.62" width="0.508" layer="94"/>
+</symbol>
+<symbol name="VALVE_BALL_FF">
+<description>&lt;b&gt;Hand-actuated ball valve with female threads on both ends&lt;/b&gt;
+&lt;p&gt;This type of valve is usually used as a stop valve, placed inline on the pipework.&lt;/p&gt;</description>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="-7.62" y2="2.54" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="0" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<polygon width="0.508" layer="94">
+<vertex x="0" y="-2.54" curve="90"/>
+<vertex x="2.54" y="0" curve="90"/>
+<vertex x="0" y="2.54" curve="90"/>
+<vertex x="-2.54" y="0" curve="90"/>
+</polygon>
+<wire x1="0" y1="0" x2="7.62" y2="2.54" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HOSE_FLEXIBLE_MF">
+<description>&lt;b&gt;Flexible hose with male thread and union nut&lt;/b&gt;
+&lt;p&gt;This can be an armored rubber hose or a corrugated stainless steel pipe, it has male threads on one end and a union nut (with female thread of the same size) on the other.&lt;/p&gt;</description>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.508" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="-15.24" y1="0" x2="-20.32" y2="0" width="0.508" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.508" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-10.16" y2="0" width="0.508" layer="94" curve="-180"/>
+<wire x1="-15.24" y1="0" x2="-10.16" y2="0" width="0.508" layer="94" curve="-180"/>
+<wire x1="-20.32" y1="0" x2="-27.94" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<pin name="P$2" x="-30.48" y="0" visible="off" length="short"/>
+</symbol>
+<symbol name="PUMP_CENTRIFUGAL">
+<description>&lt;b&gt;Centrifugal pump&lt;/b&gt;
+&lt;p&gt;This pump pushes the fluid to the outer edge of a cavity using an impeller, from whence an output port sends it to its destination.&lt;/p&gt;</description>
+<circle x="0" y="0" radius="8.032184375" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="0" y2="7.62" width="0.508" layer="94"/>
+<wire x1="0" y1="7.62" x2="7.62" y2="2.54" width="0.508" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.508" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="P$2" x="0" y="10.16" visible="off" length="short" rot="R270"/>
+</symbol>
+<symbol name="NIPPLE_RD">
+<description>&lt;b&gt;Reducing (concentric) nipple&lt;/b&gt;
+&lt;p&gt;A reducing nipple has male threads of different sizes and equal handedness on both ends and a nut-like hexagonal section in the middle to facilitate tightening.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SWITCH_PRESSURE_NC_F">
+<description>&lt;b&gt;Pressure-actuated switch with union nut, normally closed&lt;/b&gt;
+&lt;p&gt;This switch is normally closed at atmospheric pressure and opens at the set pressure, it has a union nut at the pressure port.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="3.048" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.858" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="2.54"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="0.762" y="1.524"/>
+</polygon>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.508" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.508" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="94"/>
+<pin name="P$1" x="0" y="-17.78" visible="off" length="short" rot="R90"/>
+</symbol>
+<symbol name="GAUGE_PRESSURE_M">
+<description>&lt;b&gt;Pressure gauge with male threads&lt;/b&gt;
+&lt;p&gt;This is a gauge that measure the pressure presented at its port, which has male threads.&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.508" layer="94"/>
+<polygon width="0.508" layer="94">
+<vertex x="5.08" y="5.08"/>
+<vertex x="4.318" y="3.302"/>
+<vertex x="3.302" y="4.318"/>
+</polygon>
+<circle x="0" y="0" radius="8.032184375" width="0.508" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-15.24" width="0.508" layer="94"/>
+<pin name="P$1" x="0" y="-17.78" visible="off" length="short" rot="R90"/>
+</symbol>
+<symbol name="TANK_EXPANSION_MF">
+<description>&lt;b&gt;Membrane expansion tank with male/female threads&lt;/b&gt;
+&lt;p&gt;This type of expansion tank is designed to be mounted inline on the pipework.&lt;/p&gt;</description>
+<wire x1="2.54" y1="5.08" x2="7.62" y2="0" width="0.508" layer="94" curve="-90"/>
+<wire x1="7.62" y1="0" x2="2.54" y2="-5.08" width="0.508" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="-5.08" x2="-7.62" y2="0" width="0.508" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="0" x2="-2.54" y2="5.08" width="0.508" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="7.62" y1="0" x2="15.24" y2="0" width="0.508" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-15.24" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-17.78" y="0" visible="off" length="short"/>
+<pin name="P$2" x="17.78" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="VALVE_PRESSURE_MM">
+<description>&lt;b&gt;Diaphragm-actuated adjustable pressure-reducing valve with union joints and male threads.&lt;/b&gt;
+&lt;p&gt;This kind of valve is usually mounted on the water inlet to a dwelling, to regulate the water mains pressure to a value safe for use with regular bathroom fixtures.&lt;/p&gt;</description>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="0" width="0.508" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-15.24" y1="0" x2="2.54" y2="0" width="0.508" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="15.24" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.508" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="25.4" y1="5.08" x2="25.4" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="15.24" y1="0" x2="33.02" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="-17.78" y="0" visible="off" length="short"/>
+<pin name="P$2" x="35.56" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="7.62" y1="2.54" x2="15.24" y2="2.54" width="0.508" layer="94" curve="-143.130102"/>
+<wire x1="10.16" y1="2.54" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="15.24" y="7.62"/>
+<vertex x="14.478" y="6.096"/>
+<vertex x="13.716" y="6.858"/>
+</polygon>
+</symbol>
+<symbol name="VALVE_CHECK_FF">
+<description>&lt;b&gt;Spring-loaded check valve with female threads&lt;/b&gt;
+&lt;p&gt;This valve is usually installed on a pump or similar device to prevent backflow during periods of inactivity.&lt;p&gt;</description>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="0" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.508" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="12.7" y2="0" width="0.508" layer="94"/>
+<wire x1="12.7" y1="0" x2="5.08" y2="5.08" width="0.508" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="0" width="0.508" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="12.7" y1="0" x2="20.32" y2="0" width="0.508" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="-5.08" width="0.508" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="22.86" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,1774 @@
+<project title="Hot Press Plumbing" version="0.90">
+    <titleblocktemplates>
+        <titleblocktemplate name="DIN_A4">
+            <information/>
+            <logos>
+                <logo name="Qet.svg" storage="xml" type="svg">
+                    <svg preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="600.000000pt" height="600.000000pt" viewBox="0 0 600.000000 600.000000" version="1.0">
+                        <metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+                        <g fill="#000000" stroke="none" transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)">
+                            <path d="M3585 5980 c-33 -36 -52 -136 -44 -225 4 -44 8 -206 8 -360 l1 -281&#xa;-157 -47 c-288 -88 -484 -170 -537 -226 l-29 -30 38 -50 37 -51 60 0 c38 0&#xa;148 21 310 60 138 33 253 58 256 55 3 -2 -7 -118 -22 -257 -57 -552 -116&#xa;-1218 -116 -1324 l0 -43 -127 -40 c-314 -98 -571 -166 -747 -196 -105 -18&#xa;-138 -19 -153 -4 -8 8 -13 8 -17 0 -4 -7 -43 -11 -95 -11 -75 0 -93 3 -122 23&#xa;-36 24 -53 51 -64 105 l-7 32 64 0 c129 1 212 35 371 153 163 120 287 258 355&#xa;393 51 101 64 172 60 315 -3 117 -5 128 -30 167 -58 86 -181 123 -300 88 -96&#xa;-27 -199 -105 -280 -210 -140 -181 -264 -383 -334 -544 l-32 -74 -6 74 c-3 40&#xa;-8 141 -11 223 -22 613 -177 1181 -402 1480 -242 321 -489 475 -762 475 -335&#xa;0 -563 -209 -707 -648 -51 -154 -58 -209 -10 -77 118 324 285 507 512 561 89&#xa;21 183 14 337 -25 146 -37 185 -55 295 -141 220 -170 391 -418 497 -721 116&#xa;-333 161 -700 152 -1237 -6 -378 -35 -583 -119 -842 -37 -117 -130 -310 -196&#xa;-410 -56 -84 -162 -214 -176 -215 -5 0 -20 38 -33 85 -101 360 -213 628 -276&#xa;662 -49 26 -114 -15 -156 -99 -52 -104 -115 -458 -96 -543 11 -48 25 -35 25&#xa;23 0 73 27 226 57 320 44 141 116 188 168 109 33 -50 93 -211 155 -416 69&#xa;-231 70 -223 -10 -263 -173 -88 -352 -76 -522 36 -337 222 -502 671 -459 1247&#xa;36 474 160 851 398 1214 101 153 240 293 338 340 78 37 178 50 237 31 50 -17&#xa;113 -74 164 -150 56 -84 59 -53 4 45 -51 92 -124 173 -186 204 -41 21 -63 25&#xa;-130 25 -74 -1 -89 -4 -160 -39 -161 -80 -335 -297 -489 -611 -172 -349 -260&#xa;-721 -272 -1150 -9 -342 27 -558 145 -858 53 -133 114 -223 234 -345 151 -152&#xa;287 -217 458 -216 107 0 192 19 289 64 35 17 66 30 70 30 4 0 13 -22 19 -49&#xa;16 -72 125 -372 199 -551 242 -586 496 -937 737 -1020 72 -24 103 -25 202 -3&#xa;71 16 80 20 151 86 123 115 202 252 245 424 20 76 23 113 22 278 -1 142 -5&#xa;206 -17 252 -18 69 -57 151 -94 200 -34 44 -115 83 -172 83 -57 0 -138 -37&#xa;-172 -78 l-26 -30 -14 71 c-7 40 -12 79 -11 87 2 8 4 105 5 215 2 179 4 205&#xa;23 245 24 51 49 77 59 60 20 -32 36 30 19 74 -14 36 -65 4 -87 -54 -3 -8 -6&#xa;-2 -7 15 -1 17 -5 39 -9 50 -13 31 -25 -152 -26 -367 0 -104 -1 -188 -2 -188&#xa;0 0 -12 19 -26 43 -14 23 -41 58 -61 76 -34 33 -36 38 -36 100 0 40 16 138 40&#xa;247 47 212 93 477 115 653 8 68 16 125 17 126 2 1 41 7 88 13 164 23 362 98&#xa;536 203 98 59 264 180 331 242 l46 42 -6 -139 c-4 -77 -7 -188 -7 -247 0 -92&#xa;-2 -108 -15 -103 -12 5 -15 -2 -15 -32 0 -22 -7 -156 -15 -299 -7 -143 -17&#xa;-373 -21 -511 l-7 -251 -53 -32 c-61 -38 -107 -39 -112 -4 -2 14 3 23 16 27&#xa;42 14 102 171 102 267 0 105 -38 129 -77 49 -48 -99 -88 -329 -69 -403 21 -84&#xa;96 -73 166 25 l28 38 6 -52 c4 -29 9 -74 12 -100 7 -57 27 -89 45 -71 9 9 9&#xa;15 0 26 -18 22 -30 149 -31 317 0 173 17 634 29 780 8 94 8 94 10 26 2 -97 18&#xa;-143 71 -198 47 -49 73 -58 111 -38 39 21 53 69 57 198 4 119 4 122 -17 122&#xa;-17 0 -21 -6 -21 -35 0 -20 -5 -35 -12 -35 -21 0 6 554 57 1180 53 637 106&#xa;1162 121 1192 33 65 165 129 363 177 170 42 364 74 447 75 63 0 80 -4 145 -36&#xa;41 -21 102 -62 136 -93 33 -30 64 -55 67 -55 12 0 6 52 -10 83 -36 69 -120&#xa;181 -173 228 -83 74 -134 89 -297 89 l-134 0 -254 -70 c-139 -38 -256 -70&#xa;-259 -70 -4 0 -7 51 -7 113 0 182 -19 483 -35 559 -20 96 -35 118 -84 118 -25&#xa;0 -44 -7 -56 -20z m-878 -2002 c53 -50 10 -155 -141 -345 -100 -126 -261 -243&#xa;-383 -278 -30 -8 -29 -1 11 92 139 325 286 506 441 544 46 11 47 11 72 -13z&#xa;m-793 -1127 c47 -90 182 -161 309 -161 26 0 47 -5 47 -11 0 -6 -11 -88 -24&#xa;-182 -30 -206 -43 -356 -51 -577 -3 -91 -8 -198 -11 -237 l-6 -73 -49 0 c-69&#xa;0 -104 -21 -134 -80 -14 -27 -25 -55 -25 -62 1 -7 7 1 14 17 33 74 109 102&#xa;169 62 l27 -17 0 -134 c0 -183 18 -475 35 -565 15 -77 38 -125 58 -118 45 15&#xa;97 185 104 345 6 109 7 113 35 137 16 14 37 25 46 25 32 0 157 -27 178 -38 93&#xa;-50 153 -230 140 -418 -13 -191 -95 -395 -200 -500 -137 -136 -282 -125 -473&#xa;36 -230 193 -476 647 -665 1224 -32 99 -58 186 -58 195 0 9 25 45 56 81 221&#xa;258 383 624 444 1003 7 42 14 77 16 77 2 0 10 -13 18 -29z m416 -326 c-18&#xa;-140 -85 -518 -95 -540 -9 -18 5 229 20 360 27 231 46 334 64 338 9 2 19 1 23&#xa;-3 5 -3 -1 -73 -12 -155z m-49 -1096 c54 -85 81 -206 63 -281 -3 -16 -2 -28 3&#xa;-28 23 0 -29 -281 -59 -317 -44 -54 -77 174 -78 536 0 173 0 174 20 156 11&#xa;-10 34 -40 51 -66z"/>
+                            <path d="M4450 2678 c0 -13 -7 -140 -15 -283 -8 -143 -18 -380 -21 -527 -4&#xa;-148 -10 -268 -14 -268 -35 0 -62 106 -57 233 2 81 -16 114 -21 38 -3 -37 -6&#xa;-42 -23 -38 -52 14 -89 -81 -89 -229 0 -136 45 -156 86 -36 26 78 30 81 37 36&#xa;7 -42 32 -74 58 -74 19 0 21 -8 34 -111 7 -55 28 -89 45 -73 8 8 7 18 -4 38&#xa;-8 15 -17 63 -21 106 -6 66 -4 82 12 106 17 26 17 28 0 21 -16 -6 -17 5 -17&#xa;156 1 89 5 250 10 357 21 435 24 570 12 570 -7 0 -12 -10 -12 -22z"/>
+                            <path d="M4857 2665 c-10 -31 -25 -297 -33 -573 -6 -203 -10 -252 -20 -248&#xa;-20 8 -51 -39 -63 -95 -12 -54 -13 -199 -2 -238 10 -36 36 -49 58 -28 18 16&#xa;20 13 37 -53 10 -39 21 -70 25 -70 4 0 3 42 -2 92 -8 77 -6 109 9 188 l19 95&#xa;5 -137 c3 -81 10 -142 16 -148 8 -8 13 56 16 247 6 306 -7 377 -27 153 -6 -68&#xa;-30 -158 -47 -175 -10 -10 -10 31 13 666 11 302 10 370 -4 324z"/>
+                            <path d="M3777 2534 c-4 -4 -7 -72 -7 -151 0 -78 -4 -143 -8 -143 -21 0 -92&#xa;-73 -92 -94 0 -34 9 -37 52 -15 22 11 41 19 43 17 2 -2 -1 -79 -6 -173 -14&#xa;-283 -16 -642 -2 -655 18 -19 26 22 18 91 -10 84 15 738 29 769 14 30 71 70&#xa;102 70 13 0 30 -10 40 -22 16 -23 16 -23 10 11 -7 40 -31 80 -51 88 -8 3 -35&#xa;-7 -60 -21 l-45 -27 -1 108 c-1 111 -8 160 -22 147z"/>
+                            <path d="M5307 2076 c-3 -8 -9 -46 -13 -85 -5 -60 -9 -69 -19 -55 -16 23 -42&#xa;12 -56 -23 -18 -45 -41 -214 -36 -265 3 -40 1 -48 -13 -48 -21 0 -45 26 -56&#xa;60 -4 14 -8 75 -8 135 -1 64 -5 111 -11 113 -5 1 -11 -16 -13 -39 -3 -35 -6&#xa;-40 -23 -36 -52 14 -89 -81 -89 -229 0 -140 45 -155 90 -28 l24 69 8 -40 c14&#xa;-65 58 -96 88 -60 8 9 21 13 35 9 20 -5 27 1 49 43 l25 48 0 -250 0 -250 -90&#xa;-68 c-53 -39 -100 -67 -114 -67 -103 0 -110 -104 -9 -138 21 -8 58 -21 82 -29&#xa;24 -8 69 -39 101 -69 32 -30 62 -54 66 -54 5 0 5 94 2 210 l-6 209 52 46 c59&#xa;51 55 61 -5 14 -21 -17 -41 -30 -43 -27 -10 10 -6 622 5 716 12 99 8 186 -10&#xa;197 -4 3 -10 -1 -13 -9z m-7 -1111 c0 -74 -3 -135 -6 -135 -3 0 -16 13 -30 29&#xa;-13 16 -50 39 -81 51 -32 13 -60 25 -63 27 -5 5 161 162 173 163 4 0 7 -61 7&#xa;-135z"/>
+                            <path d="M5805 1993 c-4 -21 -15 -105 -25 -188 l-18 -150 5 176 c4 115 2 178&#xa;-4 182 -13 8 -20 -59 -29 -265 -3 -82 -10 -148 -14 -148 -36 0 -64 109 -55&#xa;220 3 43 1 81 -4 90 -9 13 -11 13 -15 0 -3 -8 -6 -28 -8 -45 -2 -24 -7 -30&#xa;-24 -28 -49 5 -84 -90 -84 -233 0 -136 45 -156 86 -36 26 78 30 81 37 36 7&#xa;-43 32 -74 60 -74 19 0 19 -5 14 -77 -14 -167 22 -165 49 2 8 50 8 50 12 13 3&#xa;-37 14 -48 27 -29 3 6 11 53 19 106 7 52 15 97 17 100 3 2 6 -87 7 -198 3&#xa;-267 21 -387 56 -387 16 0 51 67 61 115 l6 30 -14 -30 c-8 -17 -21 -36 -30&#xa;-44 -15 -11 -18 -10 -27 14 -24 62 -31 227 -24 554 6 284 5 333 -7 329 -10 -3&#xa;-19 -43 -31 -129 l-17 -124 1 105 c1 135 0 150 -11 150 -5 0 -12 -17 -16 -37z"/>
+                            <path d="M3835 1893 c-9 -147 -6 -473 5 -493 15 -26 19 24 22 230 3 194 3 195&#xa;31 243 23 39 31 46 42 37 32 -27 49 37 21 76 -18 24 -40 13 -73 -36 l-23 -33&#xa;0 47 c0 25 -4 46 -9 46 -4 0 -12 -53 -16 -117z"/>
+                            <path d="M5408 1980 c-11 -51 -22 -500 -14 -543 15 -82 24 -26 28 171 3 189 5&#xa;210 25 248 26 48 48 70 58 54 13 -22 25 -8 25 29 0 42 -20 67 -45 57 -8 -3&#xa;-25 -23 -38 -43 l-22 -38 -5 50 c-5 50 -5 50 -12 15z"/>
+                            <path d="M2545 1941 c-35 -40 -76 -206 -82 -332 -5 -109 -4 -118 16 -138 39&#xa;-39 88 -22 140 50 l29 39 6 -40 c12 -75 61 -91 121 -39 34 30 92 116 84 124&#xa;-3 2 -29 -12 -59 -31 -64 -41 -113 -44 -118 -7 -2 14 3 23 16 27 42 14 102&#xa;168 102 262 0 95 -31 132 -66 79 -23 -36 -62 -166 -76 -258 -12 -79 -12 -80&#xa;-57 -108 -43 -28 -111 -40 -111 -20 0 5 -3 16 -6 24 -3 9 2 16 15 20 24 6 63&#xa;67 85 130 45 133 19 281 -39 218z"/>
+                            <path d="M3446 1938 c-22 -35 -62 -173 -76 -261 -23 -138 0 -227 57 -227 27 0&#xa;109 71 119 102 5 16 8 18 15 7 5 -8 9 -24 9 -35 0 -32 38 -74 66 -74 18 0 31&#xa;12 54 53 37 65 38 74 1 48 -37 -27 -77 -27 -91 -2 -20 38 0 235 29 290 13 23&#xa;46 28 54 9 10 -24 7 41 -3 66 -13 34 -42 33 -62 -1 -20 -35 -46 -149 -54 -242&#xa;l-7 -72 -51 -30 c-62 -35 -109 -36 -114 -1 -2 15 2 22 12 22 41 0 106 162 106&#xa;265 0 97 -30 136 -64 83z"/>
+                            <path d="M4094 1916 c-29 -45 -46 -130 -50 -261 -5 -112 -3 -135 13 -165 20&#xa;-38 54 -50 79 -29 15 12 64 101 64 115 0 3 -14 -6 -31 -21 -41 -34 -79 -31&#xa;-97 8 -11 22 -11 46 -2 123 6 52 17 112 24 132 14 39 42 54 57 30 6 -8 9 1 9&#xa;28 0 63 -36 85 -66 40z"/>
+                        </g>
+                    </svg>
+                </logo>
+            </logos>
+            <grid cols="t4%;t6%;t3%;t2%;t3%;t7%;t9%;t10%;t11%;r100%;t7%;t10%;t7%;t4%;" rows="10;10;10;10;">
+                <field name="" row="0" valign="center" col="0" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="0" valign="center" col="1" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="0" valign="center" col="2" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="0" valign="center" col="3" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="date" row="0" valign="center" col="4" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="en">%date</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">تاريخ</translation>
+                        <translation lang="de">Datum</translation>
+                        <translation lang="ru">Дата</translation>
+                        <translation lang="pt">Data</translation>
+                        <translation lang="en">Date</translation>
+                        <translation lang="hr">Datum</translation>
+                        <translation lang="it">Data</translation>
+                        <translation lang="fr">Date</translation>
+                        <translation lang="pl">Data</translation>
+                        <translation lang="es">Fecha</translation>
+                        <translation lang="ro">Data</translation>
+                        <translation lang="ca">Data</translation>
+                        <translation lang="cs">Datum</translation>
+                    </label>
+                </field>
+                <field name="DATE1" row="0" valign="center" col="5" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%date1</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="" row="0" valign="center" col="6" rowspan="2" fontsize="9" displaylabel="false" hadjust="true" colspan="1" align="center">
+                    <value>
+                        <translation lang="en">%date</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">تاريخ</translation>
+                        <translation lang="de">Datum</translation>
+                        <translation lang="ru">Дата</translation>
+                        <translation lang="pt">Data</translation>
+                        <translation lang="en">Date</translation>
+                        <translation lang="hr">Datum</translation>
+                        <translation lang="it">Data</translation>
+                        <translation lang="fr">Date</translation>
+                        <translation lang="pl">Data</translation>
+                        <translation lang="es">Fecha</translation>
+                        <translation lang="ro">Data</translation>
+                        <translation lang="ca">Data</translation>
+                        <translation lang="cs">Datum</translation>
+                    </label>
+                </field>
+                <logo name="" row="0" col="8" resource="Qet.svg" rowspan="2"/>
+                <field name="title" row="0" valign="center" col="9" rowspan="3" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="en">%title</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">عنوان</translation>
+                        <translation lang="de">Titel</translation>
+                        <translation lang="ru">Название</translation>
+                        <translation lang="pt">Título</translation>
+                        <translation lang="en">Title</translation>
+                        <translation lang="hr">Naslov</translation>
+                        <translation lang="it">Titolo</translation>
+                        <translation lang="fr">Titre</translation>
+                        <translation lang="pl">Tytuł</translation>
+                        <translation lang="es">Título</translation>
+                        <translation lang="ro">Titlu</translation>
+                        <translation lang="ca">Títol</translation>
+                        <translation lang="cs">Název</translation>
+                        <translation lang="da">Titel</translation>
+                    </label>
+                </field>
+                <field name="FICHIER" row="0" valign="center" col="10" rowspan="1" fontsize="6" displaylabel="false" hadjust="true" colspan="1" align="left">
+                    <value>
+                        <translation lang="en">%filename</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">ملف</translation>
+                        <translation lang="de">Datei</translation>
+                        <translation lang="ru">Файл</translation>
+                        <translation lang="pt">Ficheiro</translation>
+                        <translation lang="en">File</translation>
+                        <translation lang="hr">Datoteka</translation>
+                        <translation lang="it">File</translation>
+                        <translation lang="fr">Fichier</translation>
+                        <translation lang="pl">Plik</translation>
+                        <translation lang="es">Archivo</translation>
+                        <translation lang="ro">Fisier</translation>
+                        <translation lang="ca">Fitxer</translation>
+                        <translation lang="cs">Soubor</translation>
+                        <translation lang="da">Filnavn</translation>
+                    </label>
+                </field>
+                <field name="label4" row="0" valign="center" col="12" fontsize="6" displaylabel="false" hadjust="true" colspan="1" align="left">
+                    <value>
+                        <translation lang="en">%filename</translation>
+                        <translation lang="fr">%label4</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">ملف</translation>
+                        <translation lang="de">Datei</translation>
+                        <translation lang="ru">Файл</translation>
+                        <translation lang="pt">Ficheiro</translation>
+                        <translation lang="en">File</translation>
+                        <translation lang="hr">Datoteka</translation>
+                        <translation lang="it">File</translation>
+                        <translation lang="fr">Fichier</translation>
+                        <translation lang="pl">Plik</translation>
+                        <translation lang="es">Archivo</translation>
+                        <translation lang="ro">Fisier</translation>
+                        <translation lang="ca">Fitxer</translation>
+                        <translation lang="cs">Soubor</translation>
+                        <translation lang="da">Filnavn</translation>
+                    </label>
+                </field>
+                <field name="" row="1" valign="center" col="0" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="1" valign="center" col="1" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="1" valign="center" col="2" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="1" valign="center" col="3" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="" row="1" valign="center" col="4" fontsize="6" displaylabel="true" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">DESSINE</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="DESSIN" row="1" valign="center" col="5" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%dessin</translation>
+                    </value>
+                    <label>
+                        <translation lang="fr">design</translation>
+                    </label>
+                </field>
+                <field name="label5" row="1" valign="center" col="12" fontsize="6" displaylabel="false" hadjust="true" colspan="1" align="left">
+                    <value>
+                        <translation lang="fr">%label5</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="version" row="2" valign="center" col="0" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">%rev</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="emis" row="2" valign="center" col="1" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="it">Emissionne</translation>
+                        <translation lang="fr">EMIS</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="DATE" row="2" valign="center" col="2" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">%date2</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="" row="2" valign="center" col="3" fontsize="9" displaylabel="true" hadjust="true" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="CONTROLE" row="2" valign="center" col="4" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">CONTROL</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="CONTROL" row="2" valign="center" col="5" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%control</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="label3" row="2" valign="center" col="10" rowspan="1" fontsize="8" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%label3</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="" row="2" valign="center" col="11" rowspan="1" fontsize="9" displaylabel="true" hadjust="true" colspan="1" align="center">
+                    <value/>
+                    <label/>
+                </field>
+                <field name="FOLIO" row="2" valign="center" col="13" fontsize="6" displaylabel="true" hadjust="true" align="left">
+                    <value>
+                        <translation lang="en">%{folio-id}</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">صفحة</translation>
+                        <translation lang="de">Seite</translation>
+                        <translation lang="ru">Фолио</translation>
+                        <translation lang="pt">Folha</translation>
+                        <translation lang="en">Folio</translation>
+                        <translation lang="hr">List</translation>
+                        <translation lang="it">Foglio</translation>
+                        <translation lang="fr">Folio</translation>
+                        <translation lang="pl">Arkusz</translation>
+                        <translation lang="es">Folio</translation>
+                        <translation lang="ro">Pagina</translation>
+                        <translation lang="ca">Folio</translation>
+                        <translation lang="cs">Folio</translation>
+                        <translation lang="da">Ark</translation>
+                    </label>
+                </field>
+                <field name="rev" row="3" valign="center" col="0" fontsize="5" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">REV</translation>
+                    </value>
+                    <label>
+                        <translation lang="fr">rev</translation>
+                    </label>
+                </field>
+                <field name="modification" row="3" valign="center" col="1" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">MODIFICATION</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="DATE" row="3" valign="center" col="2" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="en">%date</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">تاريخ</translation>
+                        <translation lang="de">Datum</translation>
+                        <translation lang="ru">Дата</translation>
+                        <translation lang="pt">Data</translation>
+                        <translation lang="en">Date</translation>
+                        <translation lang="hr">Datum</translation>
+                        <translation lang="it">Data</translation>
+                        <translation lang="fr">Date</translation>
+                        <translation lang="pl">Data</translation>
+                        <translation lang="es">Fecha</translation>
+                        <translation lang="ro">Data</translation>
+                        <translation lang="ca">Data</translation>
+                        <translation lang="cs">Datum</translation>
+                        <translation lang="da">Dato</translation>
+                    </label>
+                </field>
+                <field name="FIRME" row="3" valign="center" col="3" fontsize="6" displaylabel="true" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">FIRME</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="APROUVE" row="3" valign="center" col="4" fontsize="6" displaylabel="false" hadjust="true" align="center">
+                    <value>
+                        <translation lang="fr">APROUV</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="APROUV" row="3" valign="center" col="5" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%aprouv</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="label1" row="3" valign="center" col="6" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%label1</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="label2" row="3" valign="center" col="7" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%label2</translation>
+                    </value>
+                    <label/>
+                </field>
+                <field name="origine" row="3" valign="center" col="8" fontsize="6" displaylabel="false" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">ORIGINE</translation>
+                    </value>
+                    <label>
+                        <translation lang="fr">origine</translation>
+                    </label>
+                </field>
+                <field name="TOTAL" row="3" valign="center" col="13" fontsize="6" displaylabel="true" hadjust="true" align="left">
+                    <value>
+                        <translation lang="fr">%{folio-total}</translation>
+                    </value>
+                    <label>
+                        <translation lang="ar">صفحة</translation>
+                        <translation lang="de">Seite</translation>
+                        <translation lang="ru">Фолио</translation>
+                        <translation lang="pt">Folha</translation>
+                        <translation lang="en">Folio</translation>
+                        <translation lang="hr">List</translation>
+                        <translation lang="it">Foglio</translation>
+                        <translation lang="fr">Folio</translation>
+                        <translation lang="pl">Arkusz</translation>
+                        <translation lang="es">Folio</translation>
+                        <translation lang="ro">Pagina</translation>
+                        <translation lang="ca">Folio</translation>
+                        <translation lang="cs">Folio</translation>
+                        <translation lang="da">Ark</translation>
+                    </label>
+                </field>
+            </grid>
+        </titleblocktemplate>
+    </titleblocktemplates>
+    <properties>
+        <property name="saveddate-eu" show="1">08-10-2023</property>
+        <property name="savedtime" show="1">22:49</property>
+        <property name="saveddate" show="1">10/8/23</property>
+        <property name="saveddate-us" show="1">2023-10-08</property>
+        <property name="savedfilepath" show="1">/home/rmihailescu/Documents/QElectroTech/valhalla-hotpress-plumbing.qet</property>
+        <property name="savedfilename" show="1">valhalla-hotpress-plumbing</property>
+    </properties>
+    <newdiagrams>
+        <border displaycols="true" displayrows="true" cols="17" rowsize="80" rows="8" colsize="60"/>
+        <inset plant="Valhalla" locmach="" titleblocktemplate="DIN_A4" title="" displayAt="bottom" indexrev="" version="" folio="%id/%total" auto_page_num="Create an auto folio numbering" author="Radu - Eosif Mihăilescu" filename="" date="null" titleblocktemplateCollection="common">
+            <properties>
+                <property name="rev" show="1"></property>
+                <property name="label1" show="1"></property>
+                <property name="date2" show="1"></property>
+                <property name="label3" show="1"></property>
+                <property name="title" show="1"></property>
+                <property name="dessin" show="1"></property>
+                <property name="date1" show="1"></property>
+                <property name="control" show="1"></property>
+                <property name="label5" show="1"></property>
+                <property name="date" show="1"></property>
+                <property name="filename" show="1"></property>
+                <property name="label2" show="1"></property>
+                <property name="aprouv" show="1"></property>
+            </properties>
+        </inset>
+        <conductors formula="" onetextperfolio="0" color2="#000000" num="_" dash-size="2" function="" vertirotatetext="270" horizrotatetext="0" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable=""/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref offset="40" delayprefix="" xrefpos="AlignTop" switchprefix="" showpowerctc="true" powerprefix="" type="coil" snapto="label" master_label="%f-%l%c" displayhas="cross" slave_label="(%f-%l%c)"/>
+            <xref offset="0" delayprefix="" xrefpos="" switchprefix="" showpowerctc="true" powerprefix="" type="protection" snapto="label" master_label="%f-%l%c" displayhas="cross" slave_label="(%f-%l%c)"/>
+            <xref offset="0" delayprefix="" xrefpos="" switchprefix="" showpowerctc="true" powerprefix="" type="commutator" snapto="label" master_label="%f-%l%c" displayhas="cross" slave_label="(%f-%l%c)"/>
+        </xrefs>
+        <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
+        <folio_autonums/>
+        <element_autonums freeze_new_elements="false" current_autonum=""/>
+    </newdiagrams>
+    <diagram folio="%id/%total" plant="Valhalla" author="Radu - Eosif Mihăilescu" indexrev="" order="1" titleblocktemplate="DIN_A4" date="null" filename="" displaycols="true" rows="8" colsize="60" title="Hot-Press Plumbing" rowsize="80" locmach="" displayAt="bottom" freezeNewElement="false" freezeNewConductor="false" version="0.90" displayrows="true" cols="17" titleblocktemplateCollection="embedded" height="660" auto_page_num="Create an auto folio numbering">
+        <properties>
+            <property name="rev" show="1"></property>
+            <property name="label1" show="1"></property>
+            <property name="date2" show="1"></property>
+            <property name="label3" show="1"></property>
+            <property name="title" show="1"></property>
+            <property name="dessin" show="1"></property>
+            <property name="date1" show="1"></property>
+            <property name="control" show="1"></property>
+            <property name="label5" show="1"></property>
+            <property name="date" show="1"></property>
+            <property name="filename" show="1"></property>
+            <property name="label2" show="1"></property>
+            <property name="aprouv" show="1"></property>
+        </properties>
+        <defaultconductor formula="" onetextperfolio="0" color2="#000000" num="_" dash-size="2" function="" vertirotatetext="270" horizrotatetext="0" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable=""/>
+        <elements>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/entrada-agua-fria.elmt" uuid="{76e3a049-dc24-4028-97f8-b16a147f1fb0}" x="910" z="10" y="340">
+                <terminals>
+                    <terminal orientation="3" id="0" x="-5.6" y="-0.0159467"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,6,-1,5,0,0,0,0,0,0,normal" uuid="{aaf08a99-53be-4d30-a10b-ebc3f1594d8c}" rotation="0" text_width="-1" text_from="ElementInfo" x="8" y="-5" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="2" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/grifo-caliente.elmt" uuid="{f1bb44ee-a5a7-435b-867c-c9818f125214}" x="710" z="10" y="230">
+                <terminals>
+                    <terminal orientation="0" id="1" x="-0.5" y="-6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{3b9dad9a-3ee3-4c4b-99da-cfdc5ee70d60}" rotation="180" text_width="-1" text_from="UserText" x="-6" y="7.5" Valignment="AlignTop">
+                        <text>_</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{b3e03214-38a2-456b-aecd-865c7ca01951}" rotation="180" text_width="-1" text_from="ElementInfo" x="-6" y="-2" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="1" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{c4cb7196-024d-48e8-8966-4b70027eff53}" x="890" z="10" y="140">
+                <terminals>
+                    <terminal orientation="3" id="2" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="3" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Service (IL)</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{d8c92add-b10e-43ec-81bb-3c0f35d9fccf}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Service (IL)</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/valv-termostatica.elmt" uuid="{d91956b6-4ee1-4263-be4c-947af4be0d26}" x="680" z="10" y="270">
+                <terminals>
+                    <terminal orientation="3" id="4" x="-5" y="0"/>
+                    <terminal orientation="1" id="5" x="13" y="0"/>
+                    <terminal orientation="2" id="6" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">50 C</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{2d4b2e64-e024-41d4-b81a-1e6cb4314507}" rotation="0" text_width="-1" text_from="ElementInfo" x="-6" y="-25.5" Valignment="AlignTop">
+                        <text>50 C</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="2" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/intercambiador-int.elmt" uuid="{d6177b67-c182-4df8-8b3a-b9be735e5d0c}" x="610" z="10" y="330">
+                <terminals>
+                    <terminal orientation="3" id="7" x="-23" y="-7"/>
+                    <terminal orientation="3" id="8" x="-23" y="-2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{3c3528ae-ba56-43af-a715-9bbfd7344b4d}" rotation="180" text_width="-1" text_from="ElementInfo" x="-11" y="-24" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="2" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/valv-retencion.elmt" uuid="{3c9d39cc-f1c9-4c5a-99d2-beb9424e566e}" x="530" z="10" y="520">
+                <terminals>
+                    <terminal orientation="3" id="9" x="-16" y="0"/>
+                    <terminal orientation="1" id="10" x="16" y="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{1399048b-a5f4-429b-8c67-ed696f5a68a0}" rotation="180" text_width="-1" text_from="ElementInfo" x="-6" y="-15" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/vertido-visto.elmt" uuid="{f7aecf41-701c-4dff-a848-838f54f82ba4}" x="1000" z="10" y="220">
+                <terminals>
+                    <terminal orientation="0" id="11" x="0.26" y="-9.6278"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{839ab39c-ba72-4629-a183-8368b6aaedb1}" rotation="0" text_width="-1" text_from="ElementInfo" x="3" y="3" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/intercambiador-int.elmt" uuid="{0ce64d7e-f50d-4b18-812e-4df94f08f013}" x="600" z="10" y="540">
+                <terminals>
+                    <terminal orientation="3" id="12" x="-23" y="-7"/>
+                    <terminal orientation="3" id="13" x="-23" y="-2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{963c205a-ba4d-417f-b373-4c82bafbc75c}" rotation="0" text_width="-1" text_from="ElementInfo" x="-11" y="-24" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/deposito-vertical.elmt" uuid="{390b92fe-2df9-4342-b7be-e9ec031e2c8e}" x="820" z="10" y="160">
+                <terminals>
+                    <terminal orientation="0" id="14" x="0" y="-32"/>
+                    <terminal orientation="3" id="15" x="-17" y="-20"/>
+                    <terminal orientation="1" id="16" x="17" y="-20"/>
+                    <terminal orientation="3" id="17" x="-17" y="10"/>
+                    <terminal orientation="1" id="18" x="17" y="10"/>
+                    <terminal orientation="2" id="19" x="0" y="23"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{0018527b-c543-414a-acf2-92c1e27e8b07}" rotation="0" text_width="-1" text_from="ElementInfo" x="-10" y="-20" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/vertido-visto.elmt" uuid="{d4e0e5f8-0716-4c7c-9ad6-4180ed757b03}" x="770" z="10" y="430">
+                <terminals>
+                    <terminal orientation="0" id="20" x="0.26" y="-9.6278"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{839ab39c-ba72-4629-a183-8368b6aaedb1}" rotation="0" text_width="-1" text_from="ElementInfo" x="3" y="3" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/bomba-simple.elmt" uuid="{278b8559-e93f-4f6b-88fc-bc347c404797}" x="440" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="21" x="-16" y="0"/>
+                    <terminal orientation="1" id="22" x="16" y="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{ca9358f0-3ca4-44a7-962e-0368513e674c}" rotation="0" text_width="-1" text_from="ElementInfo" x="-11.91" y="-26.6103" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/calderamural.mixta.elmt" uuid="{8db33948-1499-460e-837d-63dd4789329f}" x="490" z="10" y="480">
+                <terminals>
+                    <terminal orientation="2" id="23" x="-16.2" y="-4.98457"/>
+                    <terminal orientation="2" id="24" x="-9.45" y="-4.98457"/>
+                    <terminal orientation="2" id="25" x="5.4" y="-4.98457"/>
+                    <terminal orientation="2" id="26" x="12.15" y="-4.98457"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{cae3177b-5de8-4693-aaad-4a7087b4e438}" rotation="0" text_width="-1" text_from="ElementInfo" x="-10" y="-54" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/valv-retencion.elmt" uuid="{803ba8ce-e1ef-4d4f-943d-32cac1167335}" x="270" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="27" x="-16" y="0"/>
+                    <terminal orientation="1" id="28" x="16" y="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{1399048b-a5f4-429b-8c67-ed696f5a68a0}" rotation="0" text_width="-1" text_from="ElementInfo" x="-6" y="-15" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/dep-expansion.elmt" uuid="{cef43fcb-1d0c-4eb0-b107-a8ec9e062f02}" x="890" z="10" y="80">
+                <terminals>
+                    <terminal orientation="2" id="29" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">35 l, 0.5 bar</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{7d98fea7-1355-4e52-b458-b310035311f0}" rotation="0" text_width="-1" text_from="ElementInfo" x="-4" y="-32.1826" Valignment="AlignTop">
+                        <text>35 l, 0.5 bar</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/intercambiador-int.elmt" uuid="{4db33d07-defe-4822-9836-59293cc61a3d}" x="600" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="30" x="-23" y="-7"/>
+                    <terminal orientation="3" id="31" x="-23" y="-2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{3c3528ae-ba56-43af-a715-9bbfd7344b4d}" rotation="0" text_width="-1" text_from="ElementInfo" x="-11" y="-24" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/dep-expansion.elmt" uuid="{78e85b64-3985-4f66-8ed8-ace50c0119b0}" x="740" z="10" y="320">
+                <terminals>
+                    <terminal orientation="2" id="32" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">3l, 2.5 bar</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{7d98fea7-1355-4e52-b458-b310035311f0}" rotation="0" text_width="-1" text_from="ElementInfo" x="-4" y="-32.1826" Valignment="AlignTop">
+                        <text>3l, 2.5 bar</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/vertido-visto.elmt" uuid="{a8cf5bfb-54c2-402f-8f19-260e351419e1}" x="940" z="10" y="220">
+                <terminals>
+                    <terminal orientation="0" id="33" x="0.26" y="-9.6278"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{839ab39c-ba72-4629-a183-8368b6aaedb1}" rotation="0" text_width="-1" text_from="ElementInfo" x="3" y="3" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{058ebfdb-9fd7-4f27-a535-3660384d3718}" x="160" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="34" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="35" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Shutoff (IL)</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{82995ba8-565a-4e70-b6bc-35986e9134a7}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Shutoff (IL)</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="2" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/valv-retencion.elmt" uuid="{90566f31-c851-4171-b99a-b9479e3dfc7c}" x="790" z="10" y="340">
+                <terminals>
+                    <terminal orientation="3" id="36" x="-16" y="0"/>
+                    <terminal orientation="1" id="37" x="16" y="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{1399048b-a5f4-429b-8c67-ed696f5a68a0}" rotation="180" text_width="-1" text_from="ElementInfo" x="-6" y="-15" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/31_solar_thermal/expansion_soupape/soupape_01g.elmt" uuid="{95ff17c4-e257-43b4-ad1b-d5b0d8deaf3a}" x="1000" z="10" y="170">
+                <terminals>
+                    <terminal orientation="3" id="38" x="-6" y="0"/>
+                    <terminal orientation="2" id="39" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">3 bar</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,5,-1,5,0,0,0,0,0,0,normal" uuid="{05dc1093-05ab-46dd-9eaf-fe85457b805f}" rotation="0" text_width="-1" text_from="ElementInfo" x="-12" y="-29" Valignment="AlignTop">
+                        <text>3 bar</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{fdc14e64-cf32-44c3-89e4-89ca668b8345}" x="840" z="10" y="340">
+                <terminals>
+                    <terminal orientation="3" id="40" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="41" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Shutoff</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{b133c935-6338-41d9-9fcc-7d97edb6fb76}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Shutoff</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/31_solar_thermal/expansion_soupape/soupape_01g.elmt" uuid="{dfb2ee2c-a390-41ab-9c2d-659bd5757a77}" x="770" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="42" x="-6" y="0"/>
+                    <terminal orientation="2" id="43" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">6 bar</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,5,-1,5,0,0,0,0,0,0,normal" uuid="{05dc1093-05ab-46dd-9eaf-fe85457b805f}" rotation="0" text_width="-1" text_from="ElementInfo" x="-12" y="-29" Valignment="AlignTop">
+                        <text>6 bar</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/dep-expansion.elmt" uuid="{5a3fe626-d1e1-4989-896b-9b252b07b8d5}" x="210" z="10" y="350">
+                <terminals>
+                    <terminal orientation="2" id="44" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">8 l, 0.6 bar</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{7d98fea7-1355-4e52-b458-b310035311f0}" rotation="0" text_width="-1" text_from="ElementInfo" x="-4" y="-32.1826" Valignment="AlignTop">
+                        <text>8 l, 0.6 bar</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/31_solar_thermal/expansion_soupape/soupape_01g.elmt" uuid="{d1044ca2-0bb4-4485-aa23-0e6b379d6f29}" x="250" z="10" y="440">
+                <terminals>
+                    <terminal orientation="3" id="45" x="-6" y="0"/>
+                    <terminal orientation="2" id="46" x="0" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">3 bar</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,5,-1,5,0,0,0,0,0,0,normal" uuid="{05dc1093-05ab-46dd-9eaf-fe85457b805f}" rotation="0" text_width="-1" text_from="ElementInfo" x="-12" y="-29" Valignment="AlignTop">
+                        <text>3 bar</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{2e3b5f42-2dbc-4f1f-ab04-c50117e0cfd0}" x="920" z="10" y="110">
+                <terminals>
+                    <terminal orientation="3" id="47" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="48" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Drain</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{d97b3bdb-698d-42df-b12d-78203d1db9b5}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Drain</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{95fd0d75-5709-4136-988d-4057678fd529}" x="490" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="49" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="50" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Pump ISO</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{82995ba8-565a-4e70-b6bc-35986e9134a7}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Pump ISO</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{bd752298-ff1a-4ba3-a367-566a93035a5b}" x="160" z="10" y="290">
+                <terminals>
+                    <terminal orientation="3" id="51" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="52" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Shutoff (IL)</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{82995ba8-565a-4e70-b6bc-35986e9134a7}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Shutoff (IL)</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/vertido-visto.elmt" uuid="{32755e55-6266-4898-a1c1-13d34d991130}" x="250" z="10" y="500">
+                <terminals>
+                    <terminal orientation="0" id="53" x="0.26" y="-9.6278"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" uuid="{839ab39c-ba72-4629-a183-8368b6aaedb1}" rotation="0" text_width="-1" text_from="ElementInfo" x="3" y="3" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/21_refrigeration/Frio/sinopticosfrio/valvulas/llave-paso-general.elmt" uuid="{83d573df-d41e-4bc9-8a34-7e44ffb7f09a}" x="390" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="54" x="-8" y="0.0814798"/>
+                    <terminal orientation="1" id="55" x="8" y="0.0814798"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">Pump ISO</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" uuid="{82995ba8-565a-4e70-b6bc-35986e9134a7}" rotation="0" text_width="-1" text_from="ElementInfo" x="0" y="0" Valignment="AlignTop">
+                        <text>Pump ISO</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" orientation="0" type="embed://import/60_energy/11_water/01_Termicas-Fluidos2_Rafa/Calefaccion/a-esquemas-agua/filtro.elmt" uuid="{83c532a4-6c1e-4a6c-9249-e9b10bec7b83}" x="330" z="10" y="380">
+                <terminals>
+                    <terminal orientation="3" id="56" x="-5" y="0"/>
+                    <terminal orientation="1" id="57" x="6" y="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" uuid="{fdaf08c9-dce7-40cc-95e7-7c10ed44d3b8}" rotation="0" text_width="-1" text_from="ElementInfo" x="-4" y="-19.5" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor x="130" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="39" function="" vertirotatetext="270" horizrotatetext="0" terminal2="11" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="42" function="" vertirotatetext="270" horizrotatetext="0" terminal2="32" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="0" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="44" function="" vertirotatetext="270" horizrotatetext="0" terminal2="35" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="-40" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="46" function="" vertirotatetext="270" horizrotatetext="0" terminal2="53" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="37" function="" vertirotatetext="270" horizrotatetext="0" terminal2="32" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="0" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="45" function="" vertirotatetext="270" horizrotatetext="0" terminal2="27" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="90" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="49" function="" vertirotatetext="270" horizrotatetext="0" terminal2="22" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="80" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="47" function="" vertirotatetext="270" horizrotatetext="0" terminal2="2" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="130" formula="" onetextperfolio="0" y="200" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="9" function="" vertirotatetext="270" horizrotatetext="0" terminal2="12" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <segment orientation="horizontal" length="0"/>
+                <segment orientation="horizontal" length="0"/>
+                <segment orientation="vertical" length="13"/>
+                <segment orientation="horizontal" length="23"/>
+                <segment orientation="horizontal" length="0"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="43" function="" vertirotatetext="270" horizrotatetext="0" terminal2="20" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="6" function="" vertirotatetext="270" horizrotatetext="0" terminal2="7" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="80" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="38" function="" vertirotatetext="270" horizrotatetext="0" terminal2="18" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="-60" formula="" onetextperfolio="0" y="200" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="10" function="" vertirotatetext="270" horizrotatetext="0" terminal2="24" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="400" formula="" onetextperfolio="0" y="-170" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="41" function="" vertirotatetext="270" horizrotatetext="0" terminal2="0" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="400" formula="" onetextperfolio="0" y="-170" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="36" function="" vertirotatetext="270" horizrotatetext="0" terminal2="40" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="90" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="50" function="" vertirotatetext="270" horizrotatetext="0" terminal2="31" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="80" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="48" function="" vertirotatetext="270" horizrotatetext="0" terminal2="33" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="7" function="" vertirotatetext="270" horizrotatetext="0" terminal2="37" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="90" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="55" function="" vertirotatetext="270" horizrotatetext="0" terminal2="21" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="130" formula="" onetextperfolio="0" y="200" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="13" function="" vertirotatetext="270" horizrotatetext="0" terminal2="23" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="80" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="3" function="" vertirotatetext="270" horizrotatetext="0" terminal2="18" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="0" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="57" function="" vertirotatetext="270" horizrotatetext="0" terminal2="54" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="80" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="29" function="" vertirotatetext="270" horizrotatetext="0" terminal2="2" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="0" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="35" function="" vertirotatetext="270" horizrotatetext="0" terminal2="27" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="0" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="56" function="" vertirotatetext="270" horizrotatetext="0" terminal2="28" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="8" function="" vertirotatetext="270" horizrotatetext="0" terminal2="4" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="180" formula="" onetextperfolio="0" y="-160" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="5" function="" vertirotatetext="270" horizrotatetext="0" terminal2="1" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor x="0" formula="" onetextperfolio="0" y="0" freezeLabel="false" color2="#000000" num="_" dash-size="2" terminal1="52" function="" vertirotatetext="270" horizrotatetext="0" terminal2="30" horizontal-alignment="AlignBottom" displaytext="1" bus="" bicolor="false" numsize="7" condsize="1" type="multi" conductor_section="" vertical-alignment="AlignRight" conductor_color="" text_color="#000000" tension_protocol="" cable="">
+                <segment orientation="horizontal" length="31.5"/>
+                <segment orientation="horizontal" length="311.5"/>
+                <segment orientation="vertical" length="82.9185"/>
+                <segment orientation="horizontal" length="26.5"/>
+                <segment orientation="horizontal" length="31.5"/>
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="fr">Éléments importés</name>
+                <name lang="ja">インバートされた要素</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="en">Imported elements</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="uk">Імпортовані елементи</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="da">Importerede elementer</name>
+            </names>
+            <category name="60_energy">
+                <names>
+                    <name lang="el">Ενέργεια</name>
+                    <name lang="nl">Energie</name>
+                    <name lang="pl">Energia</name>
+                    <name lang="da">Energi teknik</name>
+                    <name lang="de">Energietechnik</name>
+                    <name lang="es">Energía</name>
+                    <name lang="en">Energy</name>
+                    <name lang="ru">Сантехника</name>
+                    <name lang="it">Energia</name>
+                    <name lang="ar">طاقة</name>
+                    <name lang="fr">Energie</name>
+                    <name lang="cs">Energie</name>
+                    <name lang="ja">エネルギー</name>
+                </names>
+                <category name="11_water">
+                    <names>
+                        <name lang="el">Νερό</name>
+                        <name lang="pl">Instalacje wodne</name>
+                        <name lang="da">VVS teknik</name>
+                        <name lang="de">Wasser</name>
+                        <name lang="es">Agua</name>
+                        <name lang="en">Water</name>
+                        <name lang="it">Acqua</name>
+                        <name lang="fr">Eaux</name>
+                        <name lang="cs">Voda</name>
+                        <name lang="ja">水</name>
+                    </names>
+                    <category name="plomberie_chauffage">
+                        <names>
+                            <name lang="es">Calefacción de fontanería</name>
+                            <name lang="en">Plumbing heating</name>
+                            <name lang="fr">Plomberie Chauffage</name>
+                        </names>
+                        <category name="raccords_fer">
+                            <names>
+                                <name lang="de">Stahl-Fittings</name>
+                                <name lang="fr">Raccords Fer</name>
+                            </names>
+                            <element name="union_fe_340_df.elmt">
+                                <definition hotspot_x="14" type="element" width="40" height="30" version="0.51" hotspot_y="15" link_type="simple">
+                                    <uuid uuid="{3fab18f1-47ba-4773-810f-3c23b15f1e15}"/>
+                                    <names>
+                                        <name lang="fr">Raccord union n° 340 DF</name>
+                                    </names>
+                                    <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                    <description>
+                                        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="7" height="14" antialias="false" x="13" y="-7"/>
+                                        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="7" height="14" antialias="false" x="-10" y="-7"/>
+                                        <line length1="1.5" x2="-10" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-4" y2="-4" end2="none" x1="-5"/>
+                                        <line length1="1.5" x2="15" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-4" y2="-4" end2="none" x1="20"/>
+                                        <line length1="1.5" x2="-5" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="4" end2="none" x1="-10"/>
+                                        <line length1="1.5" x2="20" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="4" end2="none" x1="15"/>
+                                        <input text="_" rotate="true" tagg="label" x="-7" y="29" size="9"/>
+                                        <arc angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="8" antialias="true" start="90" x="-7" y="-4"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="6" antialias="true" start="270" x="-7" y="-10"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="6" antialias="true" start="0" x="-7" y="4"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4" height="4" antialias="true" start="270" x="-4" y="-11"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4" height="4" antialias="true" start="0" x="-4" y="7"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="6" antialias="true" start="180" x="13" y="-10"/>
+                                        <arc angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="8" antialias="true" start="-90" x="13" y="-4"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="6" antialias="true" start="90" x="13" y="4"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4" height="4" antialias="true" start="180" x="10" y="-11"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4" height="4" antialias="true" start="90" x="10" y="7"/>
+                                        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="26" antialias="false" x="0" y="-13"/>
+                                        <line length1="1.5" x2="8" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-6" y2="-6" end2="none" x1="2"/>
+                                        <line length1="1.5" x2="8" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="6" y2="6" end2="none" x1="2"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="6" antialias="true" start="180" x="0" y="-12"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="6" antialias="true" start="270" x="6" y="-12"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="4" antialias="true" start="0" x="6" y="6"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="4" antialias="true" start="90" x="0" y="6"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="4" antialias="true" start="180" x="0" y="2"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="4" antialias="true" start="270" x="6" y="2"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="4" antialias="true" start="90" x="0" y="-6"/>
+                                        <arc angle="90" style="line-style:normal;line-weight:thin;filling:none;color:black" width="4" height="4" antialias="true" start="0" x="6" y="-6"/>
+                                        <terminal orientation="e" x="20" y="0"/>
+                                        <terminal orientation="w" x="-10" y="0"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="01_Termicas-Fluidos2_Rafa">
+                        <names>
+                            <name lang="es">Térmicas-Fluidos</name>
+                            <name lang="en">Thermal-Fluids</name>
+                            <name lang="it">Termica Fluidi</name>
+                            <name lang="ca">Tèrmiques-Fluids</name>
+                            <name lang="fr">Thermique-fluide</name>
+                        </names>
+                        <category name="Calefaccion">
+                            <names>
+                                <name lang="es">Calefacción</name>
+                                <name lang="en">Heating</name>
+                                <name lang="it">Riscaldamento</name>
+                                <name lang="ca">Calefacció</name>
+                                <name lang="fr">Chauffage</name>
+                            </names>
+                            <category name="a-esquemas-agua">
+                                <names>
+                                    <name lang="es">Esquemas de fluidos</name>
+                                    <name lang="en">Schemes of fluids</name>
+                                    <name lang="ca">Esquemes de fluids</name>
+                                    <name lang="fr">Schéma fluide</name>
+                                </names>
+                                <element name="valv-termostatica.elmt">
+                                    <definition hotspot_x="16" width="40" type="element" height="40" version="0.4" hotspot_y="22" link_type="simple">
+                                        <uuid uuid="{BA182778-1C32-472E-BA72-8DF281582642}"/>
+                                        <names>
+                                            <name lang="en">Termstatic valve</name>
+                                            <name lang="es">Válvula termostática</name>
+                                            <name lang="ca">Vàlvula termostàtica</name>
+                                            <name lang="fr">Vanne thermostatique</name>
+                                        </names>
+                                        <informations>24v et anti-bélier </informations>
+                                        <description>
+                                            <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-6.68" y2="-0.346667" end2="none" x1="0"/>
+                                            <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="10.9695" height="8" antialias="false" x="-5.76946" y="-15"/>
+                                            <polygon y3="8" x3="4" y4="0" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="0" antialias="true" y1="0" y2="8" x1="0"/>
+                                            <polygon y3="4" x6="8" x3="-8" y4="0" y7="0" y6="4" x7="0" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="0" y5="-4" x5="8" antialias="true" y1="0" y2="-4" x1="0"/>
+                                            <line length1="1.5" x2="15.292" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="7.57664"/>
+                                            <line length1="1.5" x2="-10.1327" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="-7.7729"/>
+                                            <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="8" y2="10" end2="none" x1="0"/>
+                                            <text text="T" x="-2" y="-9" size="4"/>
+                                            <input rotate="true" text="_" tagg="label" x="-6" y="-17.5" size="4"/>
+                                            <polygon y3="0" x3="14.75" y4="0" x2="14.75" style="line-style:dotted;line-weight:normal;filling:none;color:black" closed="false" x4="14.75" y5="0" x5="14.75" antialias="false" y1="-10" y2="-10" x1="5"/>
+                                            <terminal orientation="w" x="-9" y="0"/>
+                                            <terminal orientation="e" x="17" y="0"/>
+                                            <terminal orientation="s" x="0" y="10"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="intercambiador-int.elmt">
+                                    <definition hotspot_x="34" width="70" type="element" height="20" version="0.4" hotspot_y="14" link_type="simple" ic="true">
+                                        <uuid uuid="{D8754158-B7E6-4FC0-882E-7E976293363A}"/>
+                                        <names>
+                                            <name lang="es">Resistencia calor</name>
+                                            <name lang="ca">Resistència calor</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <polygon y3="-9" y4="-9" y6="-6" x4="29" x1="-27" y13="0" y14="-2" x3="-21" x12="29" x14="-23" closed="false" y2="-7" x10="29" x5="31" style="line-style:normal;line-weight:normal;filling:none;color:black" y12="0" y1="-7" y5="-7" x13="-21" x8="-23" x6="29" x2="-24" y11="-1" y7="-6" x11="31" antialias="false" y15="-2" y10="-3" y8="-5" x7="-21" y9="-3" x15="-27" x9="-21"/>
+                                            <input rotate="true" text="_W" tagg="label" x="-11" y="-16" size="4"/>
+                                            <terminal orientation="w" x="-27" y="-7"/>
+                                            <terminal orientation="w" x="-27" y="-2"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="deposito-vertical.elmt">
+                                    <definition hotspot_x="25" width="50" type="element" height="80" version="0.4" hotspot_y="44" link_type="simple" ic="true">
+                                        <uuid uuid="{60E432E6-5137-4768-B6A7-AD0DF7B9A854}"/>
+                                        <names>
+                                            <name lang="es">Depósito Vertical</name>
+                                            <name lang="ca">Dipòsit vertical</name>
+                                            <name lang="fr">Vase vertical</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line length1="1.5" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-30" y2="21" end2="none" x1="20"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10" antialias="true" start="-180" x="-20" y="-35"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10" antialias="true" start="0" x="-20" y="16"/>
+                                            <line length1="1.5" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-30" y2="21" end2="none" x1="-20"/>
+                                            <input rotate="true" text="_L" tagg="label" x="-10" y="-12" size="4"/>
+                                            <terminal orientation="n" x="0" y="-36"/>
+                                            <terminal orientation="s" x="0" y="27"/>
+                                            <terminal orientation="w" x="-21" y="-20"/>
+                                            <terminal orientation="w" x="-21" y="10"/>
+                                            <terminal orientation="e" x="21" y="-20"/>
+                                            <terminal orientation="e" x="21" y="10"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="deposito-rectang.elmt">
+                                    <definition hotspot_x="24" width="50" type="element" height="80" version="0.80" hotspot_y="42" link_type="simple">
+                                        <uuid uuid="{bfcf7134-0d0b-46ca-bb3b-e31fd5a6a31c}"/>
+                                        <names>
+                                            <name lang="fr">Vase rectangle</name>
+                                            <name lang="ca">Dipòsit rectangular</name>
+                                            <name lang="es">Depósito Rectangular</name>
+                                        </names>
+                                        <elementInformations/>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <rect rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" height="4" antialias="false" x="14" y="27"/>
+                                            <line x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" antialias="false" y1="-30" y2="21" end2="none" x1="20"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10" antialias="true" start="-180" x="-20" y="-35"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10" antialias="true" start="0" x="-20" y="16"/>
+                                            <line x2="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" antialias="false" y1="-30" y2="21" end2="none" x1="-20"/>
+                                            <rect rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="42" height="61" antialias="false" x="-21" y="-35"/>
+                                            <rect rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" height="4" antialias="false" x="-17" y="26"/>
+                                            <dynamic_text Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{212167db-83f7-40af-ace7-de49da04af5a}" rotation="0" text_from="ElementInfo" text_width="-1" x="-7" z="8" y="-27" Valignment="AlignTop">
+                                                <text/>
+                                                <info_name>label</info_name>
+                                            </dynamic_text>
+                                            <terminal orientation="e" x="20" y="10"/>
+                                            <terminal orientation="n" x="0" y="-34"/>
+                                            <terminal orientation="e" x="20" y="-20"/>
+                                            <terminal orientation="w" x="-20" y="10"/>
+                                            <terminal orientation="s" x="0" y="26"/>
+                                            <terminal orientation="w" x="-20" y="-20"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="dep-expansion.elmt">
+                                    <definition hotspot_x="14" width="30" type="element" height="40" version="0.4" hotspot_y="22" link_type="simple" ic="true">
+                                        <uuid uuid="{37BAE4B8-2C43-40C9-AF82-4F3FE53AB352}"/>
+                                        <names>
+                                            <name lang="es">Depósito de expansión</name>
+                                            <name lang="ca">Dipòsit d'expansió</name>
+                                            <name lang="en">Expansion deposit</name>
+                                            <name lang="fr">vase d'expansion</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="12" height="6" antialias="true" start="-180" x="0" y="-8"/>
+                                            <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" width="23" height="22" antialias="true" x="-11" y="-16"/>
+                                            <line x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="10" antialias="false" y1="6" end2="none" x1="0"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="11" height="7" antialias="true" start="0" x="-11" y="-8"/>
+                                            <input text="_L" rotate="true" tagg="label" x="-4" size="4" y="-24.1826"/>
+                                            <terminal orientation="s" x="0" y="10"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="bomba-simple.elmt">
+                                    <definition hotspot_x="24" width="50" type="element" height="30" version="0.80" hotspot_y="15" link_type="simple">
+                                        <uuid uuid="{b3b4b77c-5928-4b9d-90da-36722ee798e7}"/>
+                                        <names>
+                                            <name lang="ar">مضخة</name>
+                                            <name lang="cs">Pumpa</name>
+                                            <name lang="de">Pumpe</name>
+                                            <name lang="it">Pompa</name>
+                                            <name lang="en">Single pump</name>
+                                            <name lang="el">Αντλία</name>
+                                            <name lang="fr">Pompe</name>
+                                            <name lang="es">Bomba simple</name>
+                                            <name lang="nl">Pomp</name>
+                                            <name lang="pl">Pompa</name>
+                                            <name lang="ca">Bomba</name>
+                                        </names>
+                                        <elementInformations/>
+                                        <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                        <description>
+                                            <line length1="1.5" x2="12" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="19.5"/>
+                                            <polygon y3="9" y4="0" x3="-5" x2="-5" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="10" antialias="true" y1="0" y2="-9" x1="10"/>
+                                            <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="24" antialias="true" x="-12" y="-12"/>
+                                            <dynamic_text Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{6371eda7-a95d-43ad-a76f-39b9098279e0}" rotation="0" text_width="-1" text_from="ElementInfo" z="4" x="-11.91" Valignment="AlignTop" y="-26.6103">
+                                                <text/>
+                                                <info_name>label</info_name>
+                                            </dynamic_text>
+                                            <line length1="1.5" x2="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="-12"/>
+                                            <terminal orientation="w" x="-20" y="0"/>
+                                            <terminal orientation="e" x="20" y="0"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="calderamural.mixta.elmt">
+                                    <definition hotspot_x="22" width="40" type="element" height="50" version="0.4" hotspot_y="46" link_type="simple" ic="true">
+                                        <uuid uuid="{931666D2-1BA6-45E7-B54C-AE032B8177B1}"/>
+                                        <names>
+                                            <name lang="es">Caldera Mural Mixta</name>
+                                            <name lang="ca">Caldera Mural Mixta</name>
+                                            <name lang="fr">Chaudiére murale mixte</name>
+                                        </names>
+                                        <informations/>
+                                        <description>
+                                            <text text="ACS" x="3" y="-11" size="4"/>
+                                            <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="33.75" height="33.8606" antialias="false" x="-19" y="-36.3884"/>
+                                            <line length1="1.5" x2="-2.775" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-36.3884" y2="-43.5396" end2="none" x1="-7.8375"/>
+                                            <line length1="1.5" x2="3.3" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-43.5396" y2="-36.3884" end2="none" x1="-0.75"/>
+                                            <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="5.0625" height="2.86048" antialias="false" x="-4.05" y="-10.0312"/>
+                                            <text text="Cal" x="-15" y="-11" size="4"/>
+                                            <input rotate="true" text="_" tagg="label" x="-10" y="-46" size="4"/>
+                                            <terminal orientation="s" x="-16.2" y="-0.984572"/>
+                                            <terminal orientation="s" x="-9.45" y="-0.984572"/>
+                                            <terminal orientation="s" x="5.4" y="-0.984572"/>
+                                            <terminal orientation="s" x="12.15" y="-0.984572"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="calderamural.elmt">
+                                    <definition hotspot_x="14" type="element" width="30" height="50" version="0.70" hotspot_y="42" link_type="simple">
+                                        <uuid uuid="{e2dc029b-7bb9-4340-bbcb-b656d653021e}"/>
+                                        <names>
+                                            <name lang="es">Caldera Mural ACS</name>
+                                            <name lang="ca">Caldera Mural ACS</name>
+                                            <name lang="fr">Chaudiére murale</name>
+                                        </names>
+                                        <elementInformations/>
+                                        <informations/>
+                                        <description>
+                                            <rect rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="24" height="27" antialias="false" x="-12" y="-30"/>
+                                            <line length1="1.5" x2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y1="-30.091" y2="-37" antialias="false" end2="none" x1="-6.8125"/>
+                                            <line length1="1.5" x2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y1="-37" y2="-30" antialias="false" end2="none" x1="4"/>
+                                            <rect rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" height="3" antialias="false" x="-3" y="-14"/>
+                                            <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3.3" antialias="true" x="-1.65" y="-8.75"/>
+                                            <dynamic_text Halignment="AlignLeft" frame="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{6f5aa2b6-1507-4296-a4c3-36428866de85}" rotation="0" text_width="-1" text_from="ElementInfo" z="6" x="-10" y="-44" Valignment="AlignTop">
+                                                <text/>
+                                                <info_name>label</info_name>
+                                            </dynamic_text>
+                                            <terminal orientation="s" x="10" y="0"/>
+                                            <terminal orientation="s" x="-10" y="0"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="deposito-horiz.elmt">
+                                    <definition hotspot_x="43" width="90" type="element" height="50" version="0.4" hotspot_y="24" link_type="simple" ic="true">
+                                        <uuid uuid="{B11062F1-83AB-4F3D-91AB-5ADB81F5C5CE}"/>
+                                        <names>
+                                            <name lang="es">Depósito Horizontal</name>
+                                            <name lang="ca">Dipòsit Horitzontal</name>
+                                            <name lang="fr">Vase horizontal</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="16" height="36" antialias="true" start="-90" x="-33" y="-17"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="16" height="36" antialias="true" start="90" x="21" y="-17"/>
+                                            <line length1="1.5" x2="29" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-17" y2="-17" end2="none" x1="-25"/>
+                                            <line length1="1.5" x2="28" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="19" y2="19" end2="none" x1="-25"/>
+                                            <input rotate="true" text="_L" tagg="label" x="-14" y="-2" size="4"/>
+                                            <terminal orientation="e" x="38" y="1"/>
+                                            <terminal orientation="w" x="-35" y="0"/>
+                                            <terminal orientation="n" x="0" y="-19"/>
+                                            <terminal orientation="s" x="-1" y="21"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="entrada-agua-fria.elmt">
+                                    <definition hotspot_x="14" width="40" type="element" height="30" version="0.4" hotspot_y="15" link_type="simple">
+                                        <uuid uuid="{D4F3A01C-BF93-4366-BC55-D3A575FB893F}"/>
+                                        <names>
+                                            <name lang="es">Entrada agua fría</name>
+                                            <name lang="ca">Entrada aigua freda</name>
+                                            <name lang="fr">Arrivée d'eau froide</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line length1="1.5" x2="4.8" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0.0751242" y2="0.0751242" end2="none" x1="24.48"/>
+                                            <polygon y3="0.0751242" x3="-4.8" y4="-8.84975" x2="4.8" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="4.8" antialias="false" y1="-7.95726" y2="9" x1="4.8"/>
+                                            <input rotate="true" text="Agua fría_" tagg="label" x="8" y="5" size="6"/>
+                                            <terminal orientation="w" x="-9.6" y="-0.0159467"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="filtro.elmt">
+                                    <definition hotspot_x="14" width="30" type="element" height="20" version="0.4" hotspot_y="7" link_type="simple" ic="true">
+                                        <uuid uuid="{47310D76-F78E-4339-9B0B-9AFEA028EB1B}"/>
+                                        <names>
+                                            <name lang="es">Filtro</name>
+                                            <name lang="ca">Filtre</name>
+                                            <name lang="en">Filter</name>
+                                            <name lang="fr">Filtre</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line x2="9" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="3.25731" antialias="false" y1="-3.23751" end2="none" x1="9"/>
+                                            <line x2="-8" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="3.25731" antialias="false" y1="-3.23751" end2="none" x1="-8"/>
+                                            <line x2="5.90526" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="0" antialias="false" y1="0" end2="none" x1="-6.98947"/>
+                                            <line x2="-1" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="7" antialias="false" y1="0" end2="none" x1="-8"/>
+                                            <line x2="1" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="5" antialias="false" y1="9" end2="none" x1="-3"/>
+                                            <input text="_" rotate="true" tagg="label" x="-4" size="4" y="-11.5"/>
+                                            <terminal orientation="w" x="-9" y="0"/>
+                                            <terminal orientation="e" x="10" y="0"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="interacumulador.elmt">
+                                    <definition hotspot_x="33" type="element" width="60" height="80" version="0.5" hotspot_y="44" link_type="simple">
+                                        <uuid uuid="{D35DC743-A48F-4BC4-A456-A825FD6E52C1}"/>
+                                        <names>
+                                            <name lang="ca">Interacumulador</name>
+                                            <name lang="es">Interacumulador</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line length1="1.5" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="21" y1="-30" antialias="false" end2="none" x1="20"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10" antialias="true" start="-180" x="-20" y="-35"/>
+                                            <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10" antialias="true" start="0" x="-20" y="16"/>
+                                            <line length1="1.5" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="21" y1="-30" antialias="false" end2="none" x1="-20"/>
+                                            <input text="_L" rotate="true" tagg="label" x="-10" y="-12" size="4"/>
+                                            <polygon y3="0" y4="6" y6="6" x4="10" x1="-24" x3="-10" closed="false" y2="-6" x5="-24" style="line-style:normal;line-weight:normal;filling:none;color:black" y5="6" y1="-6" x8="-24" x6="-24" y7="6" x2="10" antialias="false" y8="6" x7="-24"/>
+                                            <terminal orientation="s" x="0" y="27"/>
+                                            <terminal orientation="n" x="0" y="-36"/>
+                                            <terminal orientation="w" x="-25" y="-6"/>
+                                            <terminal orientation="w" x="-25" y="6"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="lira-2.elmt">
+                                    <definition hotspot_x="25" width="50" type="element" height="30" version="0.4" hotspot_y="21" link_type="simple" ic="true">
+                                        <uuid uuid="{806104B2-A415-40CD-AB50-1F2FF57E1691}"/>
+                                        <names>
+                                            <name lang="es">Dilatador-lira2</name>
+                                            <name lang="ca">Dilatador-lira2</name>
+                                            <name lang="fr">Lyre</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <arc angle="-240" style="line-style:normal;line-weight:normal;filling:none;color:black" width="14" height="11" antialias="true" start="-150" x="-7" y="-15"/>
+                                            <arc angle="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" width="9" height="8" antialias="true" start="-90" x="5" y="-8"/>
+                                            <line length1="1.5" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="10"/>
+                                            <line length1="1.5" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="-20"/>
+                                            <arc angle="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" width="9" height="8" antialias="true" start="30" x="-14" y="-8"/>
+                                            <input rotate="true" text="_" tagg="label" x="-7" y="-17.5" size="4"/>
+                                            <terminal orientation="w" x="-20" y="0"/>
+                                            <terminal orientation="e" x="20" y="0"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="valv-retencion.elmt">
+                                    <definition hotspot_x="25" width="50" type="element" height="20" version="0.4" hotspot_y="10" link_type="simple" ic="true">
+                                        <uuid uuid="{95C0E11A-5DE1-43C0-B20B-B981CBCAFB0D}"/>
+                                        <names>
+                                            <name lang="es">Válvula retención</name>
+                                            <name lang="ca">Vàlvula retenció</name>
+                                            <name lang="fr">Clapet anti-retour</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line length1="1.5" x2="-9.6275" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="5.59109" y2="-6.80967" end2="none" x1="-9.6275"/>
+                                            <line length1="1.5" x2="9.4993" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="5.59109" y2="-6.80967" end2="none" x1="9.4993"/>
+                                            <line length1="1.5" x2="9.2725" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-6.84131" y2="5.62539" end2="none" x1="-9.6275"/>
+                                            <line length1="1.5" x2="3.6025" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="6.21904" y2="6.21904" end2="none" x1="-5.8475"/>
+                                            <line length1="1.5" x2="4.075" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4.43809" y2="6.21904" end2="none" x1="1.7125"/>
+                                            <line length1="1.5" x2="4.075" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="8" y2="6.21904" end2="none" x1="1.7125"/>
+                                            <line length1="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="20"/>
+                                            <line length1="1.5" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="0" end2="none" x1="-20"/>
+                                            <circle style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2" antialias="true" x="-11" y="-8"/>
+                                            <input rotate="true" text="_" tagg="label" x="-6" y="-7.5" size="3"/>
+                                            <terminal orientation="w" x="-20" y="0"/>
+                                            <terminal orientation="e" x="20" y="0"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="valvula-seguridad.elmt">
+                                    <definition hotspot_x="8" width="20" type="element" height="30" version="0.4" hotspot_y="6" link_type="simple" ic="true">
+                                        <uuid uuid="{9D4744A9-C720-48B4-BD5D-0F8B7DC2CC6A}"/>
+                                        <names>
+                                            <name lang="es">Válvula de seguridad</name>
+                                            <name lang="ca">Vàlvula de seguretat</name>
+                                            <name lang="fr">Vanne de sécurité</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line length1="1.5" x2="9.2993" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="8.9727" y2="-0.89732" end2="none" x1="9.2993"/>
+                                            <line length1="1.5" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="14" end2="none" x1="0"/>
+                                            <line length1="1.5" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="14" y2="14" end2="none" x1="-6"/>
+                                            <line length1="1.5" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="14" end2="none" x1="0"/>
+                                            <line length1="1.5" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="-1" end2="none" x1="0"/>
+                                            <line length1="1.5" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-1" y2="9" end2="none" x1="9"/>
+                                            <line length1="1.5" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="9" end2="none" x1="0"/>
+                                            <line length1="1.5" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="4" y2="0" end2="none" x1="0"/>
+                                            <line length1="1.5" x2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0" y2="-2" end2="none" x1="-5"/>
+                                            <line length1="1.5" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-2" y2="-4" end2="none" x1="1"/>
+                                            <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="15" y2="19" end2="none" x1="0"/>
+                                            <input rotate="true" text="_bar" tagg="label" x="-3" y="-12" size="4"/>
+                                            <terminal orientation="s" x="0" y="20"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="vertido-visto.elmt">
+                                    <definition hotspot_x="14" width="30" type="element" height="40" version="0.4" hotspot_y="22" link_type="simple" ic="true">
+                                        <uuid uuid="{5EE9426B-40CE-4DB6-BFD1-BD6C1EF0A276}"/>
+                                        <names>
+                                            <name lang="ar">مجرى صرف</name>
+                                            <name lang="en">Sewer drain</name>
+                                            <name lang="it">Scarico</name>
+                                            <name lang="fr">Vidange égout</name>
+                                            <name lang="pl">Spust</name>
+                                            <name lang="es">Vertido desagüe</name>
+                                            <name lang="nl">Afvoer</name>
+                                            <name lang="ca">Abocament desguàs</name>
+                                            <name lang="cs">Kohoutek</name>
+                                        </names>
+                                        <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                        <description>
+                                            <line length1="1.5" x2="0.26" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="-13.6278" y2="-5.5019" end2="none" x1="0.26"/>
+                                            <polygon y3="8.87466" x3="-4.87" y4="8.87466" x2="-6.58" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="-4.87" antialias="true" y1="8.87466" y2="12" x1="-8.29"/>
+                                            <line length1="1.5" x2="-6.58" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="3.87412" y2="12" end2="none" x1="-6.58"/>
+                                            <arc angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="2.85" height="3.12534" antialias="true" start="-180" x="-6.58" y="1.99891"/>
+                                            <arc angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="2.85" height="3.12534" antialias="true" start="90" x="-6.01" y="1.99891"/>
+                                            <line length1="1.5" x2="-3.16" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="6.37439" y2="3.87412" end2="none" x1="-3.16"/>
+                                            <line length1="1.5" x2="0.26" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="1.37385" y2="6.37439" end2="none" x1="0.26"/>
+                                            <arc angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="2.85" height="3.12534" antialias="true" start="-90" x="-3.16" y="5.12425"/>
+                                            <arc angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="2.85" height="3.12534" antialias="true" start="0" x="-2.59" y="5.12425"/>
+                                            <polygon y3="-9.87737" x3="10.52" y4="-9.87737" x2="0.26" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="10.52" antialias="false" y1="-9.87737" y2="1.37385" x1="-10"/>
+                                            <input rotate="true" text="_" tagg="label" x="3" y="10.5" size="3"/>
+                                            <terminal orientation="n" x="0.26" y="-13.6278"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                                <element name="grifo-caliente.elmt">
+                                    <definition hotspot_x="10" width="20" type="element" height="30" version="0.4" hotspot_y="16" link_type="simple" ic="true">
+                                        <uuid uuid="{A81E943C-5204-42E3-827B-834C2B33E806}"/>
+                                        <names>
+                                            <name lang="es">Grifo caliente</name>
+                                            <name lang="ca">Aixeta calenta</name>
+                                            <name lang="en">Warm faucet</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line x2="-0.26" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="1.36531" antialias="false" y1="-8.57189" end2="none" x1="-0.26"/>
+                                            <polygon y3="10" y4="1.60393" x3="-0.26" x2="-8" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="7.48" y2="1.60393" antialias="true" y1="1.60393" x1="7.48"/>
+                                            <input text="_" rotate="true" tagg="none" x="-6" size="4" y="15.5"/>
+                                            <input text="_" rotate="true" tagg="label" x="-6" size="4" y="6"/>
+                                            <terminal orientation="n" x="-0.5" y="-10"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                            </category>
+                        </category>
+                    </category>
+                </category>
+                <category name="21_refrigeration">
+                    <names>
+                        <name lang="el">Ψύξη</name>
+                        <name lang="nl">Koelers</name>
+                        <name lang="pl">Instalacje chłodnicze</name>
+                        <name lang="da">Køle teknik</name>
+                        <name lang="de">Kältetechnik</name>
+                        <name lang="es">Refrigeración</name>
+                        <name lang="en">Refrigeration</name>
+                        <name lang="it">Refrigerazione</name>
+                        <name lang="ar">تبريد</name>
+                        <name lang="fr">Froid</name>
+                        <name lang="cs">Chlazení</name>
+                        <name lang="ja">冷凍機</name>
+                    </names>
+                    <category name="Frio">
+                        <names>
+                            <name lang="es">Refrigeración</name>
+                            <name lang="de">Kühlung</name>
+                            <name lang="en">Refrigeration</name>
+                            <name lang="ca">Refrigeració</name>
+                            <name lang="fr">Refrigeration</name>
+                        </names>
+                        <category name="sinopticosfrio">
+                            <names>
+                                <name lang="de">Kühlsysteme</name>
+                                <name lang="es">Esquemas frigoríficos</name>
+                                <name lang="en">Refrigerators schemes</name>
+                                <name lang="ca">Esquemes frigorifics</name>
+                                <name lang="fr">Schémas froid</name>
+                            </names>
+                            <category name="valvulas">
+                                <names>
+                                    <name lang="es">Válvulas-Aparatos</name>
+                                    <name lang="de">Ventile</name>
+                                    <name lang="en">Valves</name>
+                                    <name lang="ca">Vàlvules-Aparells</name>
+                                    <name lang="fr">Vannes</name>
+                                </names>
+                                <element name="llave-paso-general.elmt">
+                                    <definition hotspot_x="20" width="40" type="element" height="20" version="0.4" hotspot_y="10" ic="true">
+                                        <uuid uuid="{22B669ED-D91C-4338-BD9B-5027548C9643}"/>
+                                        <names>
+                                            <name lang="es">Llave de paso general</name>
+                                        </names>
+                                        <informations>Rafael Ferrando.
+Mantenimiento de Instalaciones Térmicas</informations>
+                                        <description>
+                                            <line length1="1.5" x2="-6.34587" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0.0318443" y2="0.0318443" end2="none" x1="-11.3055"/>
+                                            <line length1="1.5" x2="11.9263" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" antialias="false" y1="0.0318443" y2="0.0318443" end2="none" x1="7.30108"/>
+                                            <polygon y3="-5" x3="7" y4="5" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="7" y5="-5" x5="-6" antialias="true" y1="-5" y2="5" x1="-6"/>
+                                            <terminal name="" orientation="e" number="" x="12" nameHidden="0" y="0.0814798"/>
+                                            <terminal name="" orientation="w" number="" x="-12" nameHidden="1" y="0.0814798"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                            </category>
+                        </category>
+                    </category>
+                </category>
+                <category name="31_solar_thermal">
+                    <names>
+                        <name lang="el">Ηλιακή θέρμανση</name>
+                        <name lang="nl">Zon thermisch</name>
+                        <name lang="pl">Instalacje solarne</name>
+                        <name lang="da">Sol og varme teknik</name>
+                        <name lang="de">Solar-Wärmetechnik</name>
+                        <name lang="es">Solar Térmica</name>
+                        <name lang="en">Solar-thermal</name>
+                        <name lang="it">Solare Termico</name>
+                        <name lang="ar">شمسية-حرارية</name>
+                        <name lang="fr">Solaire-thermique</name>
+                        <name lang="cs">Sluneční tepelné kolektory</name>
+                        <name lang="ja">太陽熱</name>
+                    </names>
+                    <category name="expansion_soupape">
+                        <names>
+                            <name lang="nl">Accesoires</name>
+                            <name lang="pl">Naczynia i zawory</name>
+                            <name lang="de">Ausdehnungstechnik</name>
+                            <name lang="en">Accesories</name>
+                            <name lang="it">Vasi di espansione</name>
+                            <name lang="ar">توسعة و صمّامات</name>
+                            <name lang="fr">Accessoires</name>
+                            <name lang="cs">Nádoby a uzávěry</name>
+                        </names>
+                        <element name="soupape_01d.elmt">
+                            <definition hotspot_x="12" width="30" type="element" height="40" version="0.5" hotspot_y="22" link_type="simple">
+                                <uuid uuid="{657c154f-68b0-4d42-863a-f653defbcb63}"/>
+                                <names>
+                                    <name lang="cs">Bezpečnostní uzávěr (pravý)</name>
+                                    <name lang="pl">Zawór bezpieczeństwa</name>
+                                    <name lang="it">Valvola di sicurezza DX</name>
+                                    <name lang="en">Safety Valve "right"</name>
+                                    <name lang="nl">Overdrukklep</name>
+                                    <name lang="ar">"صمّام أمان" يمين</name>
+                                    <name lang="fr">Soupape de Sécurité "droite"</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <polygon y3="6" x3="10" y4="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="0" y2="-6" antialias="true" y1="0" x1="0"/>
+                                    <polygon y3="10" x3="6" y4="0" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="0" y5="0" y2="10" antialias="true" y1="0" x5="0" x1="0"/>
+                                    <input text="xBar" tagg="label" x="-12" size="5" y="-19.5"/>
+                                    <polygon y3="-6" y4="-8" y6="-11" x4="3" x1="0" x3="-3" x12="0" closed="false" y2="-4" x10="0" x5="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" y12="-17" y5="-9" y1="0" x8="3" x6="3" x2="0" y11="-17" y7="-12" x11="0" antialias="true" y10="-17" y8="-14" x7="-3" y9="-15" x9="0"/>
+                                    <terminal orientation="e" x="10" y="0"/>
+                                    <terminal orientation="s" x="0" y="10"/>
+                                </description>
+                            </definition>
+                        </element>
+                        <element name="soupape_01g.elmt">
+                            <definition hotspot_x="18" width="30" type="element" height="40" version="0.5" hotspot_y="22" link_type="simple">
+                                <uuid uuid="{e628b510-6f84-4ee0-848d-f64a9fea0d54}"/>
+                                <names>
+                                    <name lang="cs">Bezpečnostní uzávěr (levý)</name>
+                                    <name lang="pl">Zawór bezpieczeństwa</name>
+                                    <name lang="it">Valvola di sicurezza SX</name>
+                                    <name lang="en">Safety valve "left"</name>
+                                    <name lang="nl">Overdrukklep</name>
+                                    <name lang="ar">"صمّام أمان" يسار</name>
+                                    <name lang="fr">Soupape Sécurité "gauche"</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <polygon y3="10" x3="6" y4="0" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="0" y2="10" antialias="true" y1="0" x1="0"/>
+                                    <polygon y3="6" x3="-10" y4="0" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="0" y5="0" y2="-6" antialias="true" y1="0" x5="0" x1="0"/>
+                                    <input text="xBar" tagg="label" x="-12" size="5" y="-19.5"/>
+                                    <polygon y3="-6" y4="-8" y6="-11" x4="3" x1="0" x3="-3" x12="0" closed="false" y2="-4" x10="0" x5="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" y12="-17" y5="-9" y1="0" x8="3" x6="3" x2="0" y11="-17" y7="-12" x11="0" antialias="true" y10="-17" y8="-14" x7="-3" y9="-15" x9="0"/>
+                                    <terminal orientation="w" x="-10" y="0"/>
+                                    <terminal orientation="s" x="0" y="10"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                    <category name="vanne">
+                        <names>
+                            <name lang="el">Βαλβίδες</name>
+                            <name lang="nl">Kleppen</name>
+                            <name lang="pl">Zawory</name>
+                            <name lang="de">Ventile</name>
+                            <name lang="es">Válvulas</name>
+                            <name lang="en">Valves</name>
+                            <name lang="it">Valvole</name>
+                            <name lang="ar">صمّامات</name>
+                            <name lang="fr">Vannes clapets soupapes</name>
+                            <name lang="cs">Hradítkové ventilové klapky</name>
+                        </names>
+                        <element name="soupape_thermique_01.elmt">
+                            <definition hotspot_x="14" width="40" type="element" height="30" version="0.5" hotspot_y="19" link_type="simple">
+                                <uuid uuid="{d5b338f3-2c86-484c-8bf9-82c33aede773}"/>
+                                <names>
+                                    <name lang="cs">Pojistný ventil s teplotním čidlem</name>
+                                    <name lang="pl">Zawór bezpieczeństwa z czujnikiem temperatury</name>
+                                    <name lang="it">Valvola di sicurezza termica con sonda</name>
+                                    <name lang="en">Thermal safety valve, with sensor</name>
+                                    <name lang="es">Válvula de seguridad térmica, con sensor</name>
+                                    <name lang="nl">klep thermische veiligheid met sensor</name>
+                                    <name lang="ar">صمّام أمان مع استشعار حراري</name>
+                                    <name lang="fr">Soupape de sûreté thermique, avec capteur</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <line length1="1.5" x2="11" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="-10" antialias="false" y1="-10" end2="none" x1="20"/>
+                                    <polygon y3="-14" x6="9" x3="6" y4="-10" y7="-10" y6="-10" x7="10" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="7" y5="-14" y2="-12" antialias="true" y1="-12" x5="8" x1="4"/>
+                                    <input text="soupape" tagg="label" x="-24" size="7" y="-21"/>
+                                    <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="2" height="4" antialias="false" x="2" y="-14"/>
+                                    <polygon y3="-14" x6="2" x3="2" y4="-5" y6="-4" x2="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="2" y5="-4" y2="-14" antialias="false" y1="-5" x5="2" x1="-2"/>
+                                    <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="2" antialias="false" y1="-1" end2="none" x1="0"/>
+                                    <line length1="1.5" x2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="-2" antialias="false" y1="-2" end2="none" x1="-1"/>
+                                    <line length1="1.5" x2="2" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="-3" antialias="false" y1="-3" end2="none" x1="-2"/>
+                                    <polygon y3="-4" x3="4" y4="-2" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="4" y2="-4" antialias="false" y1="-2" x1="-4"/>
+                                    <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="4" height="1" antialias="false" x="-2" y="1"/>
+                                    <polygon y3="-5" x6="-10" x3="10" y4="5" y6="-5" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="10" y5="-5" y2="5" antialias="true" y1="-5" x5="-10" x1="-10"/>
+                                    <terminal orientation="w" x="-10" y="0"/>
+                                    <terminal orientation="e" x="10" y="0"/>
+                                    <terminal orientation="e" x="20" y="-10"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                </category>
+            </category>
+        </category>
+    </collection>
+</project>

@@ -1,0 +1,28 @@
+#Chips:
+#Reference,Vendor,Model,PackageSuffix,GradeSuffix,Package
+U1,Microchip,ATmega328PB,-A,U,TQFP32(7x7/0.8)
+U2,AnalogDevices,MAX31865A,A,P+,SSOP20(5.3x7.2/0.65)
+U3,AnalogDevices,MAX31856M,U,D+,TSSOP14(4.4x5/0.65)
+U4,AnalogDevices,DS2484,R,+,SOT-23-6(1.625x2.9/0.95)
+U5,TexasInstruments,ISO1410,DW,,SOIC16(7.5x10.3/1.27)
+U6,AnalogDevices,MAX3483,SA,E,SOIC8(3.9x4.9/1.27)
+U7,TexasInstruments,SN74LVC2G125,DCT,,SSOP8(2.8x2.95/0.65)
+
+#Actives:
+#Reference,Model,Package,Constraint
+D6,"BZX84-C3V3,235",SOT-23-3(1.625x2.9/0.95),VCC_STANDOFF
+D7,BAT54S_R1_00001,SOT-23-3(1.625x2.9/0.95),VCC_STANDOFF
+D[1-4],_VARIOUS_,T5,
+
+#Passives:
+#Reference,Value,PartNumber,Package,Constraint
+R*,*,*,1206,
+C*,*,*,1206,
+R3,NTC,*,*,HIGH_PRECISION
+R9,RTD,*,*,HIGH_PRECISION
+RL[1-4],D[1-4],?,1206,FROM_DATASHEET
+Y1,7.3728MHz,"Abracon ABLS-7.3728MHZ-B4-T",HC49US(4.7x11.4),UART_BAUD
+C[12],20pF,*,1206,FROM_DATASHEET
+C14,U2,*,1206,FROM_DATASHEET
+L1,10uH,"Bourns CM322522-100KL",1210,MAX_AMPS
+FB1,,"FairRite 2512061217Y0",1206,MAX_AMPS
