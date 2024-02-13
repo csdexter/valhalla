@@ -4828,7 +4828,7 @@
   (symbol (lib_id "power:GND") (at 166.37 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00a8ef12-3a4f-412d-838d-25e4ddd0bfbb)
-    (property "Reference" "#PWR024" (at 166.37 133.35 0)
+    (property "Reference" "#PWR020" (at 166.37 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.275 128.27 0)
@@ -4844,7 +4844,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4853,7 +4853,7 @@
   (symbol (lib_id "Device:R") (at 260.35 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 03500e1d-5fae-4bb4-ad8a-c2b405eee31b)
-    (property "Reference" "R17" (at 262.128 111.8179 0)
+    (property "Reference" "R13" (at 262.128 111.8179 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 262.128 114.2421 0)
@@ -4870,7 +4870,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R17") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4879,7 +4879,7 @@
   (symbol (lib_id "power:GND") (at 81.28 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04240600-643c-486f-863d-a34a992b4dd6)
-    (property "Reference" "#PWR010" (at 81.28 224.79 0)
+    (property "Reference" "#PWR011" (at 81.28 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 222.5731 0)
@@ -4895,7 +4895,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4904,7 +4904,7 @@
   (symbol (lib_id "power:VCC") (at 35.56 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 071a5085-9f35-45e2-bf24-077996f88359)
-    (property "Reference" "#PWR03" (at 35.56 151.13 0)
+    (property "Reference" "#PWR01" (at 35.56 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 35.56 143.1869 0)
@@ -4920,7 +4920,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4929,7 +4929,7 @@
   (symbol (lib_id "Device:R") (at 54.61 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07a657c5-afc5-4671-b431-66f1f78f4c19)
-    (property "Reference" "R19" (at 56.388 156.2679 0)
+    (property "Reference" "R4" (at 56.388 156.2679 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 56.388 158.6921 0)
@@ -4946,7 +4946,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R19") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4955,7 +4955,7 @@
   (symbol (lib_id "Device:R") (at 83.82 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d9fb070-59b0-4b54-9dc6-077a9ac38aaa)
-    (property "Reference" "R6" (at 85.598 189.2879 0)
+    (property "Reference" "RL3" (at 85.598 189.2879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 85.598 191.7121 0)
@@ -4972,7 +4972,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R6") (unit 1)
+          (reference "RL3") (unit 1)
         )
       )
     )
@@ -4981,7 +4981,7 @@
   (symbol (lib_id "74xGxx:74LVC2G125") (at 200.66 114.3 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0db24387-f23e-4869-832a-561b792eef6f)
-    (property "Reference" "U10" (at 199.39 106.2299 0)
+    (property "Reference" "U9" (at 199.39 106.2299 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2G125" (at 199.39 103.8057 0)
@@ -5004,7 +5004,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "U10") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -5013,7 +5013,7 @@
   (symbol (lib_id "power:GND") (at 43.18 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1046e3bd-8ea5-4e52-8d47-dc967d413df3)
-    (property "Reference" "#PWR044" (at 43.18 193.04 0)
+    (property "Reference" "#PWR03" (at 43.18 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 190.8231 0)
@@ -5029,7 +5029,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -5038,7 +5038,7 @@
   (symbol (lib_id "Device:R") (at 40.64 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 115c7712-186c-4551-ba79-f0fb0c7fdf29)
-    (property "Reference" "R1" (at 38.8621 72.3321 0)
+    (property "Reference" "R2" (at 38.8621 72.3321 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 38.8621 69.9079 0)
@@ -5055,7 +5055,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5064,7 +5064,7 @@
   (symbol (lib_id "Device:LED") (at 83.82 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 162d22ec-8299-455f-ad46-a8c022ddc362)
-    (property "Reference" "D2" (at 86.741 201.0354 90)
+    (property "Reference" "D3" (at 86.741 201.0354 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Interlock" (at 86.741 203.4596 90)
@@ -5081,7 +5081,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5090,7 +5090,7 @@
   (symbol (lib_id "Converter_ACDC:IRM-02-5") (at 229.87 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17277e42-9a65-4f1e-997b-27d1e6628aaf)
-    (property "Reference" "PS2" (at 229.87 17.4457 0)
+    (property "Reference" "PS1" (at 229.87 17.4457 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "IRM-02-5" (at 229.87 19.8699 0)
@@ -5109,7 +5109,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "PS2") (unit 1)
+          (reference "PS1") (unit 1)
         )
       )
     )
@@ -5118,7 +5118,7 @@
   (symbol (lib_id "power:GND") (at 233.68 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18b7a8a5-cec4-4add-941a-069ea7babbf4)
-    (property "Reference" "#PWR032" (at 233.68 142.24 0)
+    (property "Reference" "#PWR029" (at 233.68 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 140.0231 0)
@@ -5134,7 +5134,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5143,7 +5143,7 @@
   (symbol (lib_id "power:GND") (at 67.31 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19354503-4f7d-484e-9a7f-f1f4ea10f5f8)
-    (property "Reference" "#PWR06" (at 67.31 59.69 0)
+    (property "Reference" "#PWR09" (at 67.31 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 57.4731 0)
@@ -5159,7 +5159,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -5168,7 +5168,7 @@
   (symbol (lib_id "power:VCC") (at 114.3 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a0fa842-2887-43aa-bd59-cf3dce0e595e)
-    (property "Reference" "#PWR014" (at 114.3 139.7 0)
+    (property "Reference" "#PWR013" (at 114.3 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 114.3 131.7569 0)
@@ -5184,7 +5184,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5193,7 +5193,7 @@
   (symbol (lib_id "power:VCC") (at 62.23 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c2fde3e-b8fa-4357-9973-702a1be55d9f)
-    (property "Reference" "#PWR05" (at 62.23 187.96 0)
+    (property "Reference" "#PWR06" (at 62.23 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 62.23 180.0169 0)
@@ -5209,7 +5209,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5244,7 +5244,7 @@
   (symbol (lib_id "74xGxx:74LVC2G125") (at 260.35 175.26 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23ad0c47-aefe-4461-87a0-7b2d3933523c)
-    (property "Reference" "U10" (at 266.192 174.0479 0)
+    (property "Reference" "U9" (at 266.192 174.0479 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC2G125" (at 266.192 176.4721 0)
@@ -5267,7 +5267,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "U10") (unit 3)
+          (reference "U9") (unit 3)
         )
       )
     )
@@ -5276,7 +5276,7 @@
   (symbol (lib_id "power:GND") (at 260.35 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26ea4caf-2eae-42ea-94cd-4803f693980c)
-    (property "Reference" "#PWR040" (at 260.35 125.73 0)
+    (property "Reference" "#PWR038" (at 260.35 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 123.5131 0)
@@ -5292,7 +5292,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5301,7 +5301,7 @@
   (symbol (lib_id "Device:R") (at 265.43 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27dcc9a1-16ce-4e11-afb5-8385abde37f0)
-    (property "Reference" "R7" (at 267.208 24.1879 0)
+    (property "Reference" "RL13" (at 267.208 24.1879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 267.208 26.6121 0)
@@ -5318,7 +5318,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R7") (unit 1)
+          (reference "RL13") (unit 1)
         )
       )
     )
@@ -5327,7 +5327,7 @@
   (symbol (lib_id "Device:C") (at 172.72 63.5 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c6cc502-e999-4893-a83f-04edb70e699f)
-    (property "Reference" "C11" (at 172.72 69.8033 90)
+    (property "Reference" "C10" (at 172.72 69.8033 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20pF" (at 172.72 67.3791 90)
@@ -5344,7 +5344,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -5393,7 +5393,7 @@
   (symbol (lib_id "power:VCC") (at 158.75 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c9f37a4-4c2c-446e-95a5-d1e058797430)
-    (property "Reference" "#PWR018" (at 158.75 149.86 0)
+    (property "Reference" "#PWR017" (at 158.75 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 158.75 141.9169 0)
@@ -5409,7 +5409,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -5418,7 +5418,7 @@
   (symbol (lib_id "power:GND") (at 124.46 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d885bf4-4541-4b24-8f7f-9d695da1c10d)
-    (property "Reference" "#PWR016" (at 124.46 119.38 0)
+    (property "Reference" "#PWR015" (at 124.46 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 117.1631 0)
@@ -5434,7 +5434,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5443,7 +5443,7 @@
   (symbol (lib_id "Device:LED") (at 185.42 195.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30505bba-8c07-46ab-9b13-96a03cf4ba71)
-    (property "Reference" "D8" (at 183.8325 189.2767 0)
+    (property "Reference" "D6" (at 183.8325 189.2767 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pump UVLO" (at 183.8325 191.7009 0)
@@ -5460,7 +5460,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D8") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -5469,7 +5469,7 @@
   (symbol (lib_id "Device:R") (at 195.58 195.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3128f6ba-1099-40c5-b2e8-8e0afdf40aa2)
-    (property "Reference" "R11" (at 195.58 190.4197 90)
+    (property "Reference" "RL6" (at 195.58 190.4197 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 195.58 192.8439 90)
@@ -5486,7 +5486,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R11") (unit 1)
+          (reference "RL6") (unit 1)
         )
       )
     )
@@ -5495,7 +5495,7 @@
   (symbol (lib_id "power:VCC") (at 93.98 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 315b6d5e-c488-48fa-a49b-9760ea04558b)
-    (property "Reference" "#PWR013" (at 93.98 22.86 0)
+    (property "Reference" "#PWR012" (at 93.98 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 93.98 14.9169 0)
@@ -5511,7 +5511,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5520,7 +5520,7 @@
   (symbol (lib_id "Device:R") (at 68.58 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 357a967e-b7c9-41f8-9acc-42dfbb20b5b2)
-    (property "Reference" "R4" (at 70.358 68.6379 0)
+    (property "Reference" "R6" (at 70.358 68.6379 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R" (at 70.358 71.0621 0)
@@ -5537,7 +5537,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5546,7 +5546,7 @@
   (symbol (lib_id "Device:D_Zener") (at 199.39 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35886cbb-3ddc-43cc-adc8-d566bb913146)
-    (property "Reference" "D6" (at 201.422 83.8779 90)
+    (property "Reference" "D11" (at 201.422 83.8779 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3V" (at 201.422 86.3021 90)
@@ -5563,7 +5563,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D6") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -5572,7 +5572,7 @@
   (symbol (lib_id "Device:Q_NPN_CBE") (at 29.21 179.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35b80b97-2a25-4128-8644-315530b10e3c)
-    (property "Reference" "Q2" (at 24.3587 177.8579 0)
+    (property "Reference" "Q1" (at 24.3587 177.8579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PN2222A" (at 24.3587 180.2821 0)
@@ -5590,7 +5590,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5599,7 +5599,7 @@
   (symbol (lib_id "Device:C") (at 48.26 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37d22b79-7cf0-4d91-99f1-a3b814be9969)
-    (property "Reference" "C2" (at 45.339 82.6079 0)
+    (property "Reference" "C1" (at 45.339 82.6079 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF" (at 45.339 85.0321 0)
@@ -5616,7 +5616,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -5625,7 +5625,7 @@
   (symbol (lib_id "LED:HDSP-4850_2") (at 179.07 163.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ad9a8bf-236a-4159-a347-0903bb2f242d)
-    (property "Reference" "D7" (at 179.07 146.9857 0)
+    (property "Reference" "D5" (at 179.07 146.9857 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pump" (at 179.07 149.4099 0)
@@ -5660,7 +5660,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -5695,7 +5695,7 @@
   (symbol (lib_id "valhalla-collected:ISO1410") (at 236.22 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f31e97f-ccd0-4cc4-95d8-d299757ce662)
-    (property "Reference" "U12" (at 242.57 104.14 0) (do_not_autoplace)
+    (property "Reference" "U11" (at 242.57 104.14 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ISO1410" (at 242.57 106.68 0) (do_not_autoplace)
@@ -5726,7 +5726,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "U12") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -5735,7 +5735,7 @@
   (symbol (lib_id "power:GND") (at 152.4 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41e260ec-8cac-4a3f-9e0f-478fbcb364ab)
-    (property "Reference" "#PWR017" (at 152.4 142.24 0)
+    (property "Reference" "#PWR016" (at 152.4 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.305 137.16 0)
@@ -5751,7 +5751,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5792,7 +5792,7 @@
   (symbol (lib_id "power:VCC") (at 234.95 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42e7f067-dbdc-454a-bba9-ae373e560e58)
-    (property "Reference" "#PWR033" (at 234.95 62.23 0)
+    (property "Reference" "#PWR030" (at 234.95 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 234.95 54.2869 0)
@@ -5808,7 +5808,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5817,7 +5817,7 @@
   (symbol (lib_id "power:GND") (at 260.35 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4661c085-aacf-46f5-a792-a379fcf148a1)
-    (property "Reference" "#PWR043" (at 260.35 194.31 0)
+    (property "Reference" "#PWR040" (at 260.35 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 192.0931 0)
@@ -5833,7 +5833,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -5842,7 +5842,7 @@
   (symbol (lib_id "Device:LED") (at 185.42 204.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4789d0fb-2287-493a-9d77-6163afc2984a)
-    (property "Reference" "D9" (at 183.8325 198.1667 0)
+    (property "Reference" "D7" (at 183.8325 198.1667 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pump Stand-By" (at 183.8325 200.5909 0)
@@ -5859,7 +5859,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D9") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -5868,7 +5868,7 @@
   (symbol (lib_id "power:GND") (at 114.3 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 484d0287-1927-47d1-a964-32679df89c7e)
-    (property "Reference" "#PWR015" (at 114.3 172.72 0)
+    (property "Reference" "#PWR014" (at 114.3 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 170.5031 0)
@@ -5884,7 +5884,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -5918,7 +5918,7 @@
   (symbol (lib_id "Device:C") (at 66.04 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a090773-56fc-4208-badd-3030af7fa91c)
-    (property "Reference" "C4" (at 68.961 118.1679 0)
+    (property "Reference" "C3" (at 68.961 118.1679 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 68.961 120.5921 0)
@@ -5935,7 +5935,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -5944,7 +5944,7 @@
   (symbol (lib_id "power:GND") (at 265.43 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c0ffc59-5c78-421b-89a4-cb777f16866b)
-    (property "Reference" "#PWR012" (at 265.43 48.26 0)
+    (property "Reference" "#PWR042" (at 265.43 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 46.0431 0)
@@ -5960,7 +5960,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -5969,7 +5969,7 @@
   (symbol (lib_id "power:VCC") (at 189.23 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c24b423-2015-4362-a2cd-3f70655aedb2)
-    (property "Reference" "#PWR022" (at 189.23 72.39 0)
+    (property "Reference" "#PWR023" (at 189.23 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 189.23 64.4469 0)
@@ -5985,7 +5985,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5994,7 +5994,7 @@
   (symbol (lib_id "Device:R") (at 62.23 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c28a8fd-aa83-47a8-ab51-1d7bf2964c66)
-    (property "Reference" "R2" (at 64.008 189.2879 0)
+    (property "Reference" "R5" (at 64.008 189.2879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 64.008 191.7121 0)
@@ -6011,7 +6011,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -6020,7 +6020,7 @@
   (symbol (lib_id "Device:C") (at 189.23 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50455bf7-74d1-42e3-80d8-696feea3e3fd)
-    (property "Reference" "C9" (at 192.151 83.8779 0)
+    (property "Reference" "C11" (at 192.151 83.8779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7nF" (at 192.151 86.3021 0)
@@ -6037,7 +6037,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -6046,7 +6046,7 @@
   (symbol (lib_id "Device:R") (at 195.58 222.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5056891f-a26d-40df-af86-d57ef45f685a)
-    (property "Reference" "R14" (at 195.58 217.0897 90)
+    (property "Reference" "RL9" (at 195.58 217.0897 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 195.58 219.5139 90)
@@ -6063,7 +6063,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R14") (unit 1)
+          (reference "RL9") (unit 1)
         )
       )
     )
@@ -6100,7 +6100,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 199.39 74.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52b26a20-5495-46d8-9de6-17002b27c426)
-    (property "Reference" "D5" (at 201.422 73.4004 90)
+    (property "Reference" "D10" (at 201.422 73.4004 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT54S_R1_00001" (at 201.422 75.8246 90)
@@ -6117,7 +6117,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D5") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -6126,7 +6126,7 @@
   (symbol (lib_id "power:VCC") (at 233.68 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531abac2-8c3c-4671-a287-7942d4fbbbb6)
-    (property "Reference" "#PWR031" (at 233.68 106.68 0)
+    (property "Reference" "#PWR028" (at 233.68 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 233.68 98.7369 0)
@@ -6142,7 +6142,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6151,7 +6151,7 @@
   (symbol (lib_id "Device:LED") (at 185.42 222.25 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54f738bd-b6b5-4ddb-859e-02adf071c847)
-    (property "Reference" "D11" (at 183.8325 215.9467 0)
+    (property "Reference" "D9" (at 183.8325 215.9467 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pump EFault" (at 183.8325 218.3709 0)
@@ -6168,7 +6168,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D11") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -6177,7 +6177,7 @@
   (symbol (lib_id "Device:R") (at 49.53 162.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58528009-8ba5-4900-9040-fd7129b68b21)
-    (property "Reference" "R18" (at 49.53 157.3997 90)
+    (property "Reference" "R3" (at 49.53 157.3997 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 49.53 159.8239 90)
@@ -6194,7 +6194,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R18") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -6203,7 +6203,7 @@
   (symbol (lib_id "Device:R") (at 252.73 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b1eec97-315c-42ef-b50c-7d264aa5b316)
-    (property "Reference" "R15" (at 254.508 111.8179 0)
+    (property "Reference" "R11" (at 254.508 111.8179 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 254.508 114.2421 0)
@@ -6220,7 +6220,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R15") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -6229,7 +6229,7 @@
   (symbol (lib_id "power:GND") (at 254 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d1b15f3-b349-4797-ab53-ae412d93cfb5)
-    (property "Reference" "#PWR039" (at 254 38.1 0)
+    (property "Reference" "#PWR036" (at 254 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 35.8831 0)
@@ -6245,7 +6245,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -6254,7 +6254,7 @@
   (symbol (lib_id "power:GND") (at 158.75 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dc53db7-af3b-4aa0-b014-cf577ff2bc4e)
-    (property "Reference" "#PWR019" (at 158.75 190.5 0)
+    (property "Reference" "#PWR018" (at 158.75 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.655 185.42 0)
@@ -6270,7 +6270,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -6279,7 +6279,7 @@
   (symbol (lib_id "Device:R") (at 252.73 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61aadee4-c592-435a-8d0f-5debcd2e8b83)
-    (property "Reference" "R16" (at 254.508 207.0679 0)
+    (property "Reference" "R12" (at 254.508 207.0679 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 254.508 209.4921 0)
@@ -6296,7 +6296,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R16") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -6331,7 +6331,7 @@
   (symbol (lib_id "power:VCC") (at 254 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e2b9cf1-51e9-4d46-9fdf-ebcabd18c8b0)
-    (property "Reference" "#PWR038" (at 254 22.86 0)
+    (property "Reference" "#PWR035" (at 254 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 254 14.9169 0)
@@ -6347,7 +6347,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -6382,7 +6382,7 @@
   (symbol (lib_id "Device:C") (at 67.31 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7162e72a-9554-44b1-be76-7f0c66b8196c)
-    (property "Reference" "C3" (at 70.231 45.7779 0)
+    (property "Reference" "C4" (at 70.231 45.7779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 70.231 48.2021 0)
@@ -6399,7 +6399,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -6560,7 +6560,7 @@
   (symbol (lib_id "power:VCC") (at 240.03 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c0a4ba3-af0f-4a81-83c1-464fb41abe78)
-    (property "Reference" "#PWR036" (at 240.03 163.83 0)
+    (property "Reference" "#PWR033" (at 240.03 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 240.03 155.8869 0)
@@ -6576,7 +6576,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -6758,7 +6758,7 @@
   (symbol (lib_id "power:VCC") (at 48.26 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97dfb5de-f180-4706-a19f-420c2c6c3c4f)
-    (property "Reference" "#PWR04" (at 48.26 101.6 0)
+    (property "Reference" "#PWR05" (at 48.26 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 48.26 93.6569 0)
@@ -6774,7 +6774,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -6783,7 +6783,7 @@
   (symbol (lib_id "power:GND") (at 200.66 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 982d77bd-98dd-4c4e-a328-c037670f330c)
-    (property "Reference" "#PWR028" (at 200.66 133.35 0)
+    (property "Reference" "#PWR025" (at 200.66 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 202.565 128.27 0)
@@ -6799,7 +6799,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -6808,7 +6808,7 @@
   (symbol (lib_id "power:GND") (at 240.03 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a7bac0a-4bc3-469a-acc3-2763d0ac3442)
-    (property "Reference" "#PWR037" (at 240.03 196.85 0)
+    (property "Reference" "#PWR034" (at 240.03 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 194.6331 0)
@@ -6824,7 +6824,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -6833,7 +6833,7 @@
   (symbol (lib_id "power:GND") (at 80.01 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9de0edb3-2acb-42db-a005-88c8d06a16f6)
-    (property "Reference" "#PWR09" (at 80.01 184.15 0)
+    (property "Reference" "#PWR010" (at 80.01 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 181.9331 0)
@@ -6849,7 +6849,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -7002,7 +7002,7 @@
   (symbol (lib_id "Device:R") (at 195.58 213.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b04e8b9b-864e-47c1-b409-00772312b1dd)
-    (property "Reference" "R13" (at 195.58 208.1997 90)
+    (property "Reference" "RL8" (at 195.58 208.1997 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 195.58 210.6239 90)
@@ -7019,7 +7019,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R13") (unit 1)
+          (reference "RL8") (unit 1)
         )
       )
     )
@@ -7028,7 +7028,7 @@
   (symbol (lib_id "Device:C") (at 172.72 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b08f6304-cd40-42ab-902f-5352a285cf9e)
-    (property "Reference" "C10" (at 172.72 47.0367 90)
+    (property "Reference" "C9" (at 172.72 47.0367 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20pF" (at 172.72 49.4609 90)
@@ -7045,7 +7045,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -7081,7 +7081,7 @@
   (symbol (lib_id "power:VCC") (at 167.64 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b34af1cb-b0ad-4b65-ac69-7a6f4966a370)
-    (property "Reference" "#PWR026" (at 167.64 22.86 0)
+    (property "Reference" "#PWR021" (at 167.64 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 167.64 14.9169 0)
@@ -7097,7 +7097,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -7106,7 +7106,7 @@
   (symbol (lib_id "Device:C") (at 60.96 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb855ca9-ad43-42dd-a3f3-5ea477160fa8)
-    (property "Reference" "C1" (at 58.039 170.2379 0)
+    (property "Reference" "C2" (at 58.039 170.2379 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF" (at 58.039 172.6621 0)
@@ -7123,7 +7123,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -7132,7 +7132,7 @@
   (symbol (lib_id "Device:R") (at 69.85 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc693523-944b-4cdd-8e41-f39641bd2e32)
-    (property "Reference" "R3" (at 71.628 24.1879 0)
+    (property "Reference" "RL2" (at 71.628 24.1879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 71.628 26.6121 0)
@@ -7149,7 +7149,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R3") (unit 1)
+          (reference "RL2") (unit 1)
         )
       )
     )
@@ -7184,7 +7184,7 @@
   (symbol (lib_id "Interface_UART:MAX3483") (at 234.95 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd73a2ec-0158-4f4e-9a55-3d0e92f4e980)
-    (property "Reference" "U11" (at 237.1441 59.3557 0)
+    (property "Reference" "U10" (at 237.1441 59.3557 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX3483" (at 237.1441 61.7799 0)
@@ -7207,7 +7207,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -7216,7 +7216,7 @@
   (symbol (lib_id "Device:LED") (at 185.42 213.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf5ab77b-ed9b-4dfa-b229-0e0a4048e8a8)
-    (property "Reference" "D10" (at 183.8325 207.0567 0)
+    (property "Reference" "D8" (at 183.8325 207.0567 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pump MFault" (at 183.8325 209.4809 0)
@@ -7233,7 +7233,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D10") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -7242,7 +7242,7 @@
   (symbol (lib_id "power:VCC") (at 265.43 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3386292-1abc-4673-a386-9178341b6f90)
-    (property "Reference" "#PWR011" (at 265.43 22.86 0)
+    (property "Reference" "#PWR041" (at 265.43 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 265.43 14.9169 0)
@@ -7258,7 +7258,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -7267,7 +7267,7 @@
   (symbol (lib_id "power:GND") (at 189.23 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c348cf1a-0912-4a8a-a032-5c25546d8840)
-    (property "Reference" "#PWR023" (at 189.23 97.79 0)
+    (property "Reference" "#PWR024" (at 189.23 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 95.5731 0)
@@ -7283,7 +7283,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -7292,7 +7292,7 @@
   (symbol (lib_id "74xGxx:74LVC2G125") (at 166.37 114.3 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3a50205-2a87-4dc1-af06-a21b819bee34)
-    (property "Reference" "U10" (at 167.64 106.2299 0)
+    (property "Reference" "U9" (at 167.64 106.2299 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2G125" (at 167.64 103.8057 0)
@@ -7315,7 +7315,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "U10") (unit 2)
+          (reference "U9") (unit 2)
         )
       )
     )
@@ -7350,7 +7350,7 @@
   (symbol (lib_id "Device:R") (at 82.55 153.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4a25bdd-c101-4248-9cd2-8c8c823709dc)
-    (property "Reference" "R5" (at 84.328 152.4579 0)
+    (property "Reference" "R7" (at 84.328 152.4579 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R" (at 84.328 154.8821 0)
@@ -7367,7 +7367,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -7428,7 +7428,7 @@
   (symbol (lib_id "power:GND") (at 162.56 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c860214c-2dee-4dbb-bb9e-251c03966b29)
-    (property "Reference" "#PWR025" (at 162.56 39.37 0)
+    (property "Reference" "#PWR019" (at 162.56 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 37.1531 0)
@@ -7444,7 +7444,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -7453,7 +7453,7 @@
   (symbol (lib_id "power:GND") (at 214.63 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb449dfc-2e2f-4d42-bb93-481b2f2cab7d)
-    (property "Reference" "#PWR030" (at 214.63 142.24 0)
+    (property "Reference" "#PWR027" (at 214.63 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 216.535 137.16 0)
@@ -7469,7 +7469,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -7478,7 +7478,7 @@
   (symbol (lib_id "Device:R") (at 214.63 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc124af8-88cc-4c69-b3a2-8a3193d693c1)
-    (property "Reference" "RL2" (at 216.408 128.3279 0)
+    (property "Reference" "RL12" (at 216.408 128.3279 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 216.408 130.7521 0)
@@ -7495,7 +7495,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "RL2") (unit 1)
+          (reference "RL12") (unit 1)
         )
       )
     )
@@ -7504,7 +7504,7 @@
   (symbol (lib_id "Device:R") (at 195.58 204.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf2cb38c-0cd4-4229-a1cf-1e1a573495c2)
-    (property "Reference" "R12" (at 195.58 199.3097 90)
+    (property "Reference" "RL7" (at 195.58 199.3097 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 195.58 201.7339 90)
@@ -7521,7 +7521,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R12") (unit 1)
+          (reference "RL7") (unit 1)
         )
       )
     )
@@ -7530,7 +7530,7 @@
   (symbol (lib_id "Device:LED") (at 265.43 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d02d23bf-1973-4a46-85ef-97a732b00bb7)
-    (property "Reference" "D3" (at 268.351 35.9354 90)
+    (property "Reference" "D13" (at 268.351 35.9354 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Power" (at 268.351 38.3596 90)
@@ -7547,7 +7547,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D3") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -7581,7 +7581,7 @@
   (symbol (lib_id "power:GND") (at 238.76 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6643c05-6de2-43fc-84bd-ab2e809f4c53)
-    (property "Reference" "#PWR035" (at 238.76 240.03 0)
+    (property "Reference" "#PWR032" (at 238.76 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.665 234.95 0)
@@ -7597,7 +7597,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -7664,7 +7664,7 @@
   (symbol (lib_id "power:GND") (at 234.95 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5d854d3-518b-42ac-ae23-c6ee9cd08720)
-    (property "Reference" "#PWR034" (at 234.95 97.79 0)
+    (property "Reference" "#PWR031" (at 234.95 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 95.5731 0)
@@ -7680,7 +7680,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -7689,7 +7689,7 @@
   (symbol (lib_id "power:GND") (at 182.88 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e67765a3-c438-4f9a-9f79-43c691768bbe)
-    (property "Reference" "#PWR027" (at 182.88 71.12 0)
+    (property "Reference" "#PWR022" (at 182.88 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 68.9031 0)
@@ -7705,7 +7705,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -7714,7 +7714,7 @@
   (symbol (lib_id "Device:R") (at 35.56 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea317263-7895-46ee-87a9-e3220d21a481)
-    (property "Reference" "R20" (at 37.338 172.7779 0)
+    (property "Reference" "R1" (at 37.338 172.7779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 37.338 175.2021 0)
@@ -7731,7 +7731,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "R20") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -7740,7 +7740,7 @@
   (symbol (lib_id "power:VCC") (at 46.99 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb1d596e-99c9-461f-bbe7-ffbd5831af7f)
-    (property "Reference" "#PWR01" (at 46.99 22.86 0)
+    (property "Reference" "#PWR04" (at 46.99 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 46.99 14.9169 0)
@@ -7756,7 +7756,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -7765,7 +7765,7 @@
   (symbol (lib_id "Device:D") (at 43.18 173.99 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed041a77-023e-4c88-acfe-44c66439c952)
-    (property "Reference" "D13" (at 45.212 172.7779 90)
+    (property "Reference" "D1" (at 45.212 172.7779 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (at 45.212 175.2021 90)
@@ -7788,7 +7788,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D13") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -7797,7 +7797,7 @@
   (symbol (lib_id "Device:R") (at 152.4 129.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef1245bf-07f7-40fc-99b3-a31956133cc9)
-    (property "Reference" "RL1" (at 154.178 128.3279 0)
+    (property "Reference" "RL4" (at 154.178 128.3279 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "470R" (at 154.178 130.7521 0)
@@ -7814,7 +7814,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "RL1") (unit 1)
+          (reference "RL4") (unit 1)
         )
       )
     )
@@ -7823,7 +7823,7 @@
   (symbol (lib_id "power:VCC") (at 200.66 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efa93762-3da8-4ee8-99e3-d7a03d5e11e7)
-    (property "Reference" "#PWR029" (at 200.66 156.21 0)
+    (property "Reference" "#PWR026" (at 200.66 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 200.66 148.2669 0)
@@ -7839,7 +7839,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -7874,7 +7874,7 @@
   (symbol (lib_id "Device:LED") (at 69.85 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6259205-2489-4418-bf4f-02358b8ecaae)
-    (property "Reference" "D1" (at 72.771 35.9354 90)
+    (property "Reference" "D2" (at 72.771 35.9354 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Heat" (at 72.771 38.3596 90)
@@ -7891,7 +7891,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -7900,7 +7900,7 @@
   (symbol (lib_id "Device:Q_PNP_CBE") (at 38.1 162.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa04989c-6377-4d54-8d96-1ccc25443012)
-    (property "Reference" "Q1" (at 33.2486 163.7721 0)
+    (property "Reference" "Q2" (at 33.2486 163.7721 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403" (at 33.2486 161.3479 0)
@@ -7918,7 +7918,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -7927,7 +7927,7 @@
   (symbol (lib_id "power:VCC") (at 257.81 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa1f909a-8667-4aba-a3ec-49bf57426fbe)
-    (property "Reference" "#PWR041" (at 257.81 204.47 0)
+    (property "Reference" "#PWR037" (at 257.81 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 257.81 196.5269 0)
@@ -7943,7 +7943,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -7952,7 +7952,7 @@
   (symbol (lib_id "power:VCC") (at 260.35 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fff5980b-3b65-4382-9c65-9005b5b152ab)
-    (property "Reference" "#PWR042" (at 260.35 166.37 0)
+    (property "Reference" "#PWR039" (at 260.35 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 260.35 158.4269 0)
@@ -7968,7 +7968,7 @@
     (instances
       (project "valhalla-ufh-cpu-SMT"
         (path "/99604d95-0094-4721-819b-0e681d40ac7b"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )

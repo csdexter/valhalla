@@ -55,19 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|147887019|48151002|5703d45f-37e8-43fc-846a-7735d8ef4bfb|a5a6cb9a-445d-4098-97e1-4235943264f3",
-        "lib_footprint_mismatch|200660000|70104000|5c0a0864-c315-4904-9b39-c3f69f16381d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|204978000|70104000|8bac5d4c-1765-4394-9a1d-e33af158b6c0|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|163483500|82457500|0e097b33-dd77-4d0e-b3ba-b3a4036b6e01|60c86733-abb4-43e0-a0e0-b03ddd9d3e1e",
-        "solder_mask_bridge|159882840|108404660|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde",
-        "solder_mask_bridge|160284160|110403640|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde",
-        "solder_mask_bridge|160682940|105404920|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde",
-        "solder_mask_bridge|160782000|104013000|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde",
-        "solder_mask_bridge|161081720|107604560|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde",
-        "solder_mask_bridge|161483040|107304840|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde",
-        "solder_mask_bridge|165481000|110998000|57df8d86-0108-43a0-98c9-8e4f09c4897b|b18e601c-b6da-4110-bd42-caac7bf08fde"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -480,7 +468,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "GND": "DCD_Power",
-      "Net-(D13-K)": "DCD_Power",
+      "Net-(D1-K)": "DCD_Power",
       "Net-(J1-Pin_2)": "DCD_Power",
       "Net-(J1-Pin_3)": "DCD_Power",
       "Net-(J3-Pin_2)": "DCD_Power",
@@ -488,7 +476,7 @@
       "Net-(J5-Pin_2)": "AC_Power",
       "Net-(J6-Pin_1)": "DCD_Power",
       "Net-(J6-Pin_4)": "DCD_Power",
-      "Net-(R15-Pad1)": "DCD_Power",
+      "Net-(R11-Pad1)": "DCD_Power",
       "Net-(U5-A)": "DCD_Power",
       "Net-(U7-AREF)": "DCD_Power",
       "VCC": "DCD_Power"
