@@ -138,6 +138,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 161.29) (xy 50.8 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0201dad9-8516-436c-81f5-6e6af84efd74")
+	)
+	(wire
+		(pts
 			(xy 114.3 63.5) (xy 114.3 68.58)
 		)
 		(stroke
@@ -178,7 +188,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 114.3) (xy 74.93 114.3)
+			(xy 91.44 114.3) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
@@ -228,7 +238,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 168.91) (xy 74.93 168.91)
+			(xy 90.17 167.64) (xy 30.48 167.64)
 		)
 		(stroke
 			(width 0)
@@ -278,7 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 219.71) (xy 73.66 219.71)
+			(xy 113.03 219.71) (xy 74.93 219.71)
 		)
 		(stroke
 			(width 0)
@@ -435,6 +445,16 @@
 			(type default)
 		)
 		(uuid "8996b628-b230-4904-a480-52ba081568b5")
+	)
+	(wire
+		(pts
+			(xy 30.48 107.95) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd39422-795f-4009-8453-b2593b2ae943")
 	)
 	(wire
 		(pts
@@ -618,6 +638,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 120.65) (xy 50.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8990b43-dd28-48ee-89d4-d76757e0c6c3")
+	)
+	(wire
+		(pts
 			(xy 130.81 172.72) (xy 90.17 172.72)
 		)
 		(stroke
@@ -648,7 +678,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 123.19) (xy 90.17 168.91)
+			(xy 90.17 123.19) (xy 90.17 167.64)
 		)
 		(stroke
 			(width 0)
@@ -758,6 +788,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 175.26) (xy 50.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e5a8c6-e5b6-49b8-953a-71198abcaae0")
+	)
+	(wire
+		(pts
 			(xy 118.11 187.96) (xy 74.93 187.96)
 		)
 		(stroke
@@ -805,6 +845,71 @@
 			(type default)
 		)
 		(uuid "fef35c34-9496-4f1d-aa01-101ed2812298")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 55.88 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0060a6ce-329f-4c66-b54f-7fa4c6e5bed9")
+		(property "Reference" "J11"
+			(at 55.245 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CYL_SIGNALS"
+			(at 55.245 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d59b0aeb-78d7-4eaf-a246-ab7778898a6a")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
@@ -940,6 +1045,204 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
+		(at 55.88 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cd2ac50-2ee5-41c0-a911-b1a8f48e2029")
+		(property "Reference" "J7"
+			(at 57.15 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UFH_SIGNALS"
+			(at 46.736 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710359ea-cc54-484a-a867-521fa8c7ce75")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 25.4 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16726178-66ad-454e-b0db-ba24537a586b")
+		(property "Reference" "J8"
+			(at 26.035 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CYL_CPU_POWER_IN"
+			(at 26.035 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b44c40-3bf0-4c04-9ffd-c545a991e3f3")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 55.88 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "203bbb4f-8806-4347-acc4-994a41986ea1")
+		(property "Reference" "J5"
+			(at 57.15 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UFH_CPU_POWER"
+			(at 43.18 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3b3192e-1031-44aa-9ebe-d4ab0f65f8c9")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
 		(at 135.89 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1007,6 +1310,71 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
+		(at 25.4 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26c129d2-4bd1-4e33-ba2f-e2423d01c7da")
+		(property "Reference" "J4"
+			(at 26.035 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UFH_CPU_POWER_IN"
+			(at 26.035 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f0387a3-ea44-4440-997e-75c2609b362a")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
 		(at 69.85 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1065,6 +1433,71 @@
 			(project "valhalla-hotpress-cabling"
 				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 25.4 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c7c766d-4394-4296-8184-b654223a6462")
+		(property "Reference" "J10"
+			(at 26.035 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CYL_SIGNALS"
+			(at 26.035 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ee7b5e9-d21a-4459-81a3-6bf40d44d7b5")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1667,7 +2100,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 69.85 114.3 180)
+		(at 25.4 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1676,7 +2109,7 @@
 		(fields_autoplaced yes)
 		(uuid "71fa0b42-83e7-4b95-bba6-25afcd930169")
 		(property "Reference" "J?"
-			(at 70.485 109.6985 0)
+			(at 26.035 109.6985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +2117,7 @@
 			)
 		)
 		(property "Value" "UFH_MODBUS"
-			(at 70.485 112.1227 0)
+			(at 26.035 112.1227 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 114.3 0)
+			(at 25.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 114.3 0)
+			(at 25.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +2143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 114.3 0)
+			(at 25.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,6 +2495,71 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
+		(at 55.88 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90be5e9d-ac48-481f-bdf7-ed494be4f895")
+		(property "Reference" "J9"
+			(at 55.245 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CYL_CPU_POWER"
+			(at 55.245 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe41f81e-667a-46b7-9113-2a42778bd10f")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
 		(at 69.85 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2192,7 +2690,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 68.58 219.71 180)
+		(at 69.85 219.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2201,7 +2699,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f2ae706-7eff-4d3b-9400-8d8c2fb6e5d6")
 		(property "Reference" "J?"
-			(at 69.215 215.1085 0)
+			(at 70.485 215.1085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2707,7 @@
 			)
 		)
 		(property "Value" "CYL_BOILER_POWER"
-			(at 69.215 217.5327 0)
+			(at 70.485 217.5327 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 219.71 0)
+			(at 69.85 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 219.71 0)
+			(at 69.85 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 219.71 0)
+			(at 69.85 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3413,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 69.85 168.91 180)
+		(at 25.4 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2924,7 +3422,7 @@
 		(fields_autoplaced yes)
 		(uuid "be221b94-c543-4ffb-b181-5614cffde685")
 		(property "Reference" "J?"
-			(at 70.485 164.3085 0)
+			(at 26.035 163.0385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +3430,7 @@
 			)
 		)
 		(property "Value" "CYL_1WIRE"
-			(at 70.485 166.7327 0)
+			(at 26.035 165.4627 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 168.91 0)
+			(at 25.4 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 168.91 0)
+			(at 25.4 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +3456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 168.91 0)
+			(at 25.4 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,6 +3605,71 @@
 			(project "valhalla-hotpress-cabling"
 				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 25.4 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb071cc2-8696-47f2-8fc4-262cd6c2d398")
+		(property "Reference" "J6"
+			(at 26.035 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UFH_SIGNALS"
+			(at 26.035 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba693af7-f792-4b25-a65f-586a2bad2d92")
+		)
+		(instances
+			(project "valhalla-hotpress-cabling"
+				(path "/82a3a489-6fa9-422a-97b4-734c41c15ea0"
+					(reference "J6")
 					(unit 1)
 				)
 			)
