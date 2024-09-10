@@ -49,11 +49,12 @@ int main(int argc, char *argv[]) {
   mapping = modbus_mapping_new(4, 4, 2, 2);
   request_body.reset(new uint8_t[MODBUS_MAX_ADU_LENGTH]);
 
-  double one_bit_us = 1000 * 1000 / FLAGS_baud_rate;
+  // TODO(rmihailescu): rewrite with std::ratio.
+  double one_bit_us = 1000000 / FLAGS_baud_rate;
   // 1 start bit, 8 character bits, 1 parity bit and 1 stop bit. The Modbus
   // specification mandates usage of 2 stop bits if no parity is configured,
   // thus keeping the raw character size at 11 bits at all times.
-  double one_character_us = one_bit_us * (1 + 8 + 1 +1);
+  double one_character_us = one_bit_us * (1 + 8 + 1 + 1);
   inter_frame_gap = std::chrono::microseconds(static_cast<uint32_t>(std::ceil(
       one_character_us * kInterFrameGapCharacters)));
 

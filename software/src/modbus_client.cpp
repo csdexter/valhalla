@@ -175,7 +175,7 @@ static uint8_t FigureOutFunctionOrDie(void) {
   // defaulted OR a possibly invalid --function_code passed.
   if (kFunctionNames.find(FLAGS_function_code) == kFunctionNames.end()) {
     LOG(FATAL) << "Unknown Modbus function code '" << FLAGS_function_code <<
-              "' passed via --function_code, cannot continue!";
+        "' passed via --function_code, cannot continue!";
   }
 
   if (kFunctionNames.at(FLAGS_function_code) == FLAGS_function_name) {
@@ -211,6 +211,7 @@ static uint8_t FigureOutFunctionOrDie(void) {
       return static_cast<uint8_t>(FLAGS_function_code);
     }
   }
+
   // Unreachable.
   assert(false);
   return 0;
@@ -276,6 +277,7 @@ static uint16_t FigureOutAddress(uint8_t function) {
       }
       break;
   }
+
   // Unreachable
   assert(false);
   return 0;
@@ -299,6 +301,7 @@ static uint8_t FigureOutCount(uint8_t function) {
       return std::count(std::begin(FLAGS_request_write_registers_data),
                         std::end(FLAGS_request_write_registers_data), ',') + 1;
   }
+
   // Unreachable
   assert(false);
   return 0;
@@ -345,6 +348,7 @@ static void *AssembleData(uint8_t function, uint16_t count) {
       }
       return register_buffer.get();
   }
+
   // Unreachable
   assert(false);
   return nullptr;
