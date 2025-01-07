@@ -5688,12 +5688,6 @@
 		(uuid "a9ca0b00-d9c0-40fa-8b49-b9cd5283702b")
 	)
 	(junction
-		(at 129.54 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aaaa05dc-10fb-411c-b408-ca42fb2d0f60")
-	)
-	(junction
 		(at 170.18 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6002,16 +5996,6 @@
 			(type default)
 		)
 		(uuid "1023672c-84f4-486b-a019-a90e967b080c")
-	)
-	(wire
-		(pts
-			(xy 129.54 82.55) (xy 129.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10abb241-c8c5-42d6-aef9-6c66eb52fd54")
 	)
 	(wire
 		(pts
@@ -8375,6 +8359,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 83.82) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45aa244-fec4-4084-9f97-9c7292e5f036")
+	)
+	(wire
+		(pts
 			(xy 234.95 124.46) (xy 234.95 125.73)
 		)
 		(stroke
@@ -8642,16 +8636,6 @@
 			(type default)
 		)
 		(uuid "ec40c18f-f73b-4add-8701-38f09e092a84")
-	)
-	(wire
-		(pts
-			(xy 129.54 83.82) (xy 135.89 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd0a931-ff72-4d77-88db-350691b6c57b")
 	)
 	(wire
 		(pts
@@ -11717,72 +11701,6 @@
 			(project "valhalla-ufh-sensor-SMT"
 				(path "/e7b68850-8d2b-4865-b2bd-a32c4325e4e6"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 129.54 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "614665bb-801a-4379-81d2-6e7012acd16f")
-		(property "Reference" "#PWR025"
-			(at 129.54 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 129.54 78.4169 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac4d9c49-fe48-4807-9cf7-4fac8988aebf")
-		)
-		(instances
-			(project "valhalla-ufh-sensor-SMT"
-				(path "/e7b68850-8d2b-4865-b2bd-a32c4325e4e6"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
