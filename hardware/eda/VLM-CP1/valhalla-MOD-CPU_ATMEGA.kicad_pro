@@ -318,7 +318,10 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/AGND": "DCA_Power",
       "/AVCC": "DCA_Power",
+      "/DGND": "DCD_Power",
+      "/DVCC": "DCD_Power",
       "Net-(U1-AVCC)": "DCA_Power",
       "Net-(U1-VCC)": "DCD_Power"
     },
