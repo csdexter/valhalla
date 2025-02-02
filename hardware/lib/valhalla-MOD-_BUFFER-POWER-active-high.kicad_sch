@@ -506,7 +506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dfe61de-d467-4ee7-aad5-0dbbf4ccbc7d")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 133.35 82.5499 0)
 			(effects
 				(font
@@ -595,8 +595,8 @@
 		)
 		(instances
 			(project "valhalla-MOD-CPU_ATMEGA"
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/f41873cd-99fe-4109-b415-d5d53cf2cc33"
-					(reference "U2")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/0e56eb88-dab4-4900-aca0-5fdf3b4369a1"
+					(reference "U3")
 					(unit 7)
 				)
 			)

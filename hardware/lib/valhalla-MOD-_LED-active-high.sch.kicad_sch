@@ -853,7 +853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ede947-10db-4767-aef3-810fb957b149")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 71.12 63.8174 90)
 			(effects
 				(font
@@ -906,12 +906,12 @@
 		)
 		(instances
 			(project "valhalla-MOD-CPU_ATMEGA"
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/80666bd4-e119-4742-84bb-076a3b6e96d5"
-					(reference "D1")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/4ff94fd9-b0e9-479c-b0ba-2f2eec27798f"
+					(reference "D5")
 					(unit 1)
 				)
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/ea92483d-f022-41b6-a7f4-0813633f064b"
-					(reference "D2")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/ccaf4ce2-d41c-402c-acb9-518abcc6cb9b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -927,7 +927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3dfe74c-544d-4d34-8976-39224a16db42")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -1014,12 +1014,12 @@
 		)
 		(instances
 			(project ""
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/80666bd4-e119-4742-84bb-076a3b6e96d5"
-					(reference "U2")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/4ff94fd9-b0e9-479c-b0ba-2f2eec27798f"
+					(reference "U3")
 					(unit 1)
 				)
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/ea92483d-f022-41b6-a7f4-0813633f064b"
-					(reference "U2")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/ccaf4ce2-d41c-402c-acb9-518abcc6cb9b"
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -1035,7 +1035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffb6078d-971c-4924-a708-cdddf82ac318")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 69.85 52.0699 0)
 			(effects
 				(font
@@ -1088,12 +1088,12 @@
 		)
 		(instances
 			(project "valhalla-MOD-CPU_ATMEGA"
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/80666bd4-e119-4742-84bb-076a3b6e96d5"
-					(reference "R3")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/4ff94fd9-b0e9-479c-b0ba-2f2eec27798f"
+					(reference "R4")
 					(unit 1)
 				)
-				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/ea92483d-f022-41b6-a7f4-0813633f064b"
-					(reference "R4")
+				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d/ccaf4ce2-d41c-402c-acb9-518abcc6cb9b"
+					(reference "R5")
 					(unit 1)
 				)
 			)
