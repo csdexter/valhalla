@@ -3879,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 58.42) (xy 204.47 58.42)
+			(xy 163.83 58.42) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4049,7 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 58.42) (xy 213.36 58.42)
+			(xy 203.2 58.42) (xy 213.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4378,6 +4378,29 @@
 		(uuid "07b60381-3e0f-4575-be27-ac9bf7c35866")
 		(property "Netclass" "DCD_Power"
 			(at 140.3985 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 212.09 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b678ad31-8ade-43a8-a2ba-c98ff5fe557a")
+		(property "Netclass" "DCD_Power"
+			(at 212.7885 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4874,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 208.28 58.42 90)
+		(at 199.39 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4860,7 +4883,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e74dc0-3ffe-4a13-9bcd-cf0ebb943130")
 		(property "Reference" "F1"
-			(at 208.28 52.07 90)
+			(at 199.39 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4891,7 @@
 			)
 		)
 		(property "Value" "250mA"
-			(at 208.28 54.61 90)
+			(at 199.39 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4899,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 213.36 57.15 0)
+			(at 204.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 58.42 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4918,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 208.28 58.42 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
