@@ -529,7 +529,11 @@
     "net_colors": null,
     "netclass_assignments": {
       "/DGND": "DCD_Power",
-      "/DVCC": "DCD_Power"
+      "/DVCC": "DCD_Power",
+      "/LVCC": "DCD_Power",
+      "Net-(JP1-B)": "DCD_Power",
+      "Net-(JP1-C)": "DCD_Power",
+      "Net-(JP3-C)": "DCD_Power"
     },
     "netclass_patterns": []
   },
