@@ -531,8 +531,10 @@
       "/DGND": "DCD_Power",
       "/DVCC": "DCD_Power",
       "/LVCC": "DCD_Power",
+      "Net-(J2-Pin_3)": "DCD_Power",
       "Net-(JP1-B)": "DCD_Power",
       "Net-(JP1-C)": "DCD_Power",
+      "Net-(JP2-A)": "DCD_Power",
       "Net-(JP3-C)": "DCD_Power"
     },
     "netclass_patterns": []
@@ -639,6 +641,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
