@@ -567,10 +567,20 @@
       "/LVCC": [
         "DCD_Power"
       ],
-      "/VCC": "DCD_Power",
-      "Net-(D1-A)": "DCD_Power",
+      "/VCC": [
+        "DCD_Power"
+      ],
+      "Net-(D1-A)": [
+        "DCD_Power"
+      ],
       "Net-(D2-K)": [
         "DCD_Power"
+      ],
+      "Net-(F2-Pad1)": [
+        "DCD_Power"
+      ],
+      "Net-(F3-Pad1)": [
+        "DCA_Power"
       ],
       "Net-(J1-Pin_1)": [
         "AC_Power"
@@ -581,16 +591,33 @@
       "Net-(J2-Pin_1)": [
         "DCD_Power"
       ],
-      "Net-(J2-Pin_2)": "DCD_Power",
-      "Net-(PS1-+Vo)": "DCD_Power",
-      "Net-(PS1--Vo)": "DCD_Power",
+      "Net-(J2-Pin_2)": [
+        "DCD_Power"
+      ],
+      "Net-(PS1-+Vo)": [
+        "DCD_Power"
+      ],
+      "Net-(PS1--Vo)": [
+        "DCD_Power"
+      ],
       "Net-(PS1-AC{slash}L)": [
         "AC_Power"
       ],
-      "unconnected-(F1-Pad1)": "AC_Power",
-      "unconnected-(J1-Pin_1-Pad1)": "AC_Power",
-      "unconnected-(J1-Pin_2-Pad2)": "AC_Power",
-      "unconnected-(PS1-AC{slash}N-Pad1)": "AC_Power"
+      "Net-(Q1-S)": [
+        "DCD_Power"
+      ],
+      "unconnected-(F1-Pad1)": [
+        "AC_Power"
+      ],
+      "unconnected-(J1-Pin_1-Pad1)": [
+        "AC_Power"
+      ],
+      "unconnected-(J1-Pin_2-Pad2)": [
+        "AC_Power"
+      ],
+      "unconnected-(PS1-AC{slash}N-Pad1)": [
+        "AC_Power"
+      ]
     },
     "netclass_patterns": []
   },
