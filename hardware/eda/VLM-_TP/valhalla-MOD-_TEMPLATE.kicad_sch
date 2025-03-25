@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f06f94c1-3b85-417f-a10f-1ec163aec97d")
 	(paper "A4")
+	(title_block
+		(title "Valhalla MOD-FOO(BAR)")
+		(date "2025-03-25")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x20_Socket"
 			(pin_names

@@ -5,9 +5,9 @@
 	(uuid "679144a0-43a8-4e3b-bec8-ba1ed1e1bb89")
 	(paper "A5")
 	(title_block
-		(title "Valhalla MOD PSU Module")
-		(date "2025-01-04")
-		(rev "1")
+		(title "Valhalla MOD-PSU")
+		(date "2025-03-25")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x20_Socket"

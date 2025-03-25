@@ -5,7 +5,7 @@
 	(uuid "f06f94c1-3b85-417f-a10f-1ec163aec97d")
 	(paper "A4")
 	(title_block
-		(title "Atmel ICSP interface for CPU(ATMega)")
+		(title "Valhalla MOD-ICP(AVR-ICSP)")
 		(date "2025-03-25")
 		(rev "2")
 	)
