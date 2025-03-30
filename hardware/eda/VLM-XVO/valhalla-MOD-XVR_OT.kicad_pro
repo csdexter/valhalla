@@ -542,7 +542,17 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/DGND": [
+        "DCD_Power"
+      ],
+      "/LVCC": [
+        "DCD_Power"
+      ],
+      "/OVCC": [
+        "DCD_Power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
