@@ -15923,7 +15923,7 @@
 	(symbol
 		(lib_id "74xx:74HC04")
 		(at 266.7 187.96 180)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16019,7 +16019,7 @@
 			(project ""
 				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d"
 					(reference "U9")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -18358,7 +18358,7 @@
 	(symbol
 		(lib_id "74xx:74HC04")
 		(at 266.7 201.93 180)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18454,7 +18454,7 @@
 			(project ""
 				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d"
 					(reference "U9")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -19279,12 +19279,12 @@
 	(symbol
 		(lib_id "74xx:74HC14")
 		(at 254 154.94 0)
+		(mirror y)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71c7bbbf-7337-4108-92c2-139580661872")
 		(property "Reference" "U3"
 			(at 254 146.05 0)
@@ -21027,7 +21027,7 @@
 	(symbol
 		(lib_id "74xx:74HC04")
 		(at 266.7 215.9 180)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21123,7 +21123,7 @@
 			(project ""
 				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d"
 					(reference "U9")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -22154,7 +22154,7 @@
 	(symbol
 		(lib_id "74xx:74HC04")
 		(at 266.7 229.87 180)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22250,7 +22250,7 @@
 			(project ""
 				(path "/f06f94c1-3b85-417f-a10f-1ec163aec97d"
 					(reference "U9")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
