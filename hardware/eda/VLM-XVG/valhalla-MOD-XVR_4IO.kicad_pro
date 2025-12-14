@@ -189,7 +189,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2032
+        0.2032,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -225,6 +226,10 @@
         {
           "diameter": 0.762,
           "drill": 0.4445
+        },
+        {
+          "diameter": 1.27,
+          "drill": 0.508
         }
       ],
       "zones_allow_external_fillets": false
@@ -498,7 +503,6 @@
         "bus_width": 12,
         "clearance": 1.27,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -516,7 +520,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -534,7 +537,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -635,6 +637,12 @@
       "Net-(D10-K)": [
         "DCD_Power"
       ],
+      "Net-(D11-K)": [
+        "DCD_Power"
+      ],
+      "Net-(D12-K)": [
+        "DCD_Power"
+      ],
       "Net-(D13--)": [
         "DCD_Power"
       ],
@@ -672,6 +680,12 @@
         "DCD_Power"
       ],
       "Net-(J9-Pin_3)": [
+        "DCD_Power"
+      ],
+      "Net-(R1-Pad1)": [
+        "DCD_Power"
+      ],
+      "Net-(R2-Pad1)": [
         "DCD_Power"
       ]
     },

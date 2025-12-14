@@ -13811,6 +13811,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 116.84 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12b12ae7-8975-45b0-8162-3e8c1bfc525a")
+		(property "Netclass" "DCD_Power"
+			(at 117.5385 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 111.76 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14087,6 +14110,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 99.06 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79364a6c-72fa-4f96-a275-b0dd5dc7413e")
+		(property "Netclass" "DCD_Power"
+			(at 99.7585 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 163.83 242.57 90)
 		(fields_autoplaced yes)
 		(effects
@@ -14190,6 +14236,29 @@
 		(uuid "a8c25112-0339-4cd5-aafa-b9477c261057")
 		(property "Netclass" "DCD_Power"
 			(at 33.7185 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 116.84 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a97c1c9e-cd5d-4bb5-b85d-5a86cb9ca24f")
+		(property "Netclass" "DCD_Power"
+			(at 117.5385 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,6 +14443,29 @@
 		(uuid "cbc0bba6-61d3-4433-aba7-4e2d474a52f8")
 		(property "Netclass" "DCD_Power"
 			(at 334.7085 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 99.06 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d183ff2a-48d3-4b02-8b79-95af07325888")
+		(property "Netclass" "DCD_Power"
+			(at 99.7585 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
