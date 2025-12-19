@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|121422675|36627675|10bcbe33-7549-43b7-9cee-18df01895e1e|d1d6c2c0-f261-43b1-ab1b-3b862bf5143f",
+          ""
+        ],
+        [
+          "courtyards_overlap|121422675|41707675|15267a8b-3fbe-44ae-837e-dc89285107ae|a00430a4-8676-4f13-874a-0157d9101d57",
+          ""
+        ],
+        [
+          "courtyards_overlap|188335373|92306000|1f9d4774-705c-4bc4-b42d-f522c83b875e|dec6a1c6-896a-483d-a570-1f0fac0b3229",
+          ""
+        ],
+        [
+          "courtyards_overlap|189685225|94846000|0034c0ac-2c1d-4e71-8270-56a78376a426|1f9d4774-705c-4bc4-b42d-f522c83b875e",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|124233675|39102675|d1d6c2c0-f261-43b1-ab1b-3b862bf5143f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|124233675|44182675|15267a8b-3fbe-44ae-837e-dc89285107ae|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -668,6 +693,12 @@
         "DCD_Power"
       ],
       "Net-(J18-Pin_4)": [
+        "DCD_Power"
+      ],
+      "Net-(J30-Pin_1)": [
+        "DCD_Power"
+      ],
+      "Net-(J33-Pin_1)": [
         "DCD_Power"
       ],
       "Net-(J8-Pin_2)": [
