@@ -245,7 +245,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1981200|1092200|9019af6c-88f4-4096-acdf-db94b4b3f43d|00000000-0000-0000-0000-000000000000|||",
+        "Footprint"
+      ],
+      [
+        "pin_to_pin|698500|673100|71589aff-680c-4ee6-bf4d-9ee1a84213e2|47cea513-df71-4d8d-b5db-5b939e866299|/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89|/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89|/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89",
+        "OR-ed supplies"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -581,6 +590,12 @@
       "Net-(D2-K)": [
         "DCD_Power"
       ],
+      "Net-(D4-A)": [
+        "DCD_Power"
+      ],
+      "Net-(D4-K)": [
+        "DCD_Power"
+      ],
       "Net-(F2-Pad1)": [
         "DCD_Power"
       ],
@@ -597,6 +612,27 @@
         "DCD_Power"
       ],
       "Net-(J2-Pin_2)": [
+        "DCD_Power"
+      ],
+      "Net-(JP1-A)": [
+        "AC_Power"
+      ],
+      "Net-(JP1-B)": [
+        "AC_Power"
+      ],
+      "Net-(JP2-A)": [
+        "DCD_Power"
+      ],
+      "Net-(JP2-B)": [
+        "DCD_Power"
+      ],
+      "Net-(JP3-A)": [
+        "DCD_Power"
+      ],
+      "Net-(JP3-B)": [
+        "AC_Power"
+      ],
+      "Net-(JP4-A)": [
         "DCD_Power"
       ],
       "Net-(PS1-+Vo)": [
@@ -673,7 +709,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -709,6 +745,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Constraint",
+          "name": "Constraint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
