@@ -3922,6 +3922,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "IRF4905_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF4905"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single P-Channel HEXFET Power MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRF4905_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRF4905_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Isolator:4N35"
 			(pin_names
 				(offset 1.016)
@@ -5228,192 +5526,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SolderJumper_2_Open_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_numbers
 				(hide yes)
@@ -6462,12 +6574,6 @@
 		(uuid "09d0c9fd-58d3-4ef3-a6ff-1c0f9dd65eb1")
 	)
 	(junction
-		(at 83.82 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a54387b-c831-48f8-a628-8bd397f5e3d6")
-	)
-	(junction
 		(at 123.19 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6510,12 +6616,6 @@
 		(uuid "3d364408-e8ef-420a-aa4b-0fdd04650faa")
 	)
 	(junction
-		(at 142.24 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e0102ce-89ec-4bab-aa04-f1483779a5e0")
-	)
-	(junction
 		(at 198.12 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6544,12 +6644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66780dbc-2740-4785-95da-d36da4a877d1")
-	)
-	(junction
-		(at 34.29 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d86b189-6b10-44bb-8d11-3797a64a0e9f")
 	)
 	(junction
 		(at 38.1 113.03)
@@ -6642,12 +6736,6 @@
 		(uuid "aa60c7dd-5313-4434-a74f-0df8f2f6abaa")
 	)
 	(junction
-		(at 24.13 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac681e03-89b0-40c8-a6b0-e25ddd47c33b")
-	)
-	(junction
 		(at 156.21 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6682,12 +6770,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9e5e943-6bdc-4f6a-bdf7-7bc83222cafb")
-	)
-	(junction
-		(at 123.19 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca8dbdc9-2cbe-44eb-ada2-807c03f8d9fc")
 	)
 	(junction
 		(at 34.29 44.45)
@@ -6766,12 +6848,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9f15a53-4995-46c1-8fdf-53aa48ca150f")
-	)
-	(junction
-		(at 102.87 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffe819af-2dfa-4769-85b3-cb6abf3dd9f2")
 	)
 	(no_connect
 		(at 22.86 143.51)
@@ -7441,16 +7517,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 62.23) (xy 90.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5930e63d-81af-42f7-b83b-5281aeb6b3c8")
-	)
-	(wire
-		(pts
 			(xy 34.29 44.45) (xy 33.02 44.45)
 		)
 		(stroke
@@ -7561,16 +7627,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 55.88) (xy 24.13 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d3b8f3-ade1-43c7-9791-744a6dbd493f")
-	)
-	(wire
-		(pts
 			(xy 38.1 62.23) (xy 49.53 62.23)
 		)
 		(stroke
@@ -7628,16 +7684,6 @@
 			(type default)
 		)
 		(uuid "6b704b1b-8e2e-4269-9a09-dc012788c1d4")
-	)
-	(wire
-		(pts
-			(xy 34.29 55.88) (xy 34.29 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6be1d285-7651-4c06-aea0-41023aef1def")
 	)
 	(wire
 		(pts
@@ -7791,16 +7837,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 34.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78dc9a05-03fa-4f19-802b-ae288b45b571")
-	)
-	(wire
-		(pts
 			(xy 78.74 142.24) (xy 78.74 144.78)
 		)
 		(stroke
@@ -7921,16 +7957,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 107.95) (xy 142.24 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90bfb4b3-f577-4de1-8f9c-ad9f0ea1556e")
-	)
-	(wire
-		(pts
 			(xy 69.85 113.03) (xy 72.39 113.03)
 		)
 		(stroke
@@ -8001,16 +8027,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 62.23) (xy 102.87 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc0680e-1487-4f0c-982f-633ebdd1d438")
-	)
-	(wire
-		(pts
 			(xy 43.18 113.03) (xy 48.26 113.03)
 		)
 		(stroke
@@ -8041,7 +8057,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 55.88) (xy 34.29 44.45)
+			(xy 34.29 44.45) (xy 34.29 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8511,16 +8527,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 55.88) (xy 24.13 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e9f69b-deea-4140-aa13-dc31e1d2b3fb")
-	)
-	(wire
-		(pts
 			(xy 198.12 111.76) (xy 198.12 113.03)
 		)
 		(stroke
@@ -8591,7 +8597,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 55.88) (xy 24.13 44.45)
+			(xy 24.13 44.45) (xy 24.13 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8668,16 +8674,6 @@
 			(type default)
 		)
 		(uuid "fa6dc2d6-f14b-42d2-a8dd-752477844cc4")
-	)
-	(wire
-		(pts
-			(xy 123.19 107.95) (xy 128.27 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc292eb2-919d-48b8-a308-1b1849976c95")
 	)
 	(wire
 		(pts
@@ -9617,75 +9613,6 @@
 			(project "valhalla-MOD-PSU"
 				(path "/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SolderJumper_2_Open_1")
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 93.98 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d8b803d-e363-4a8f-ab6e-1dafcc807efe")
-		(property "Reference" "JP2"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SINGLE"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5956e9ef-df20-4ee6-8547-7c8dac93dbdd")
-		)
-		(pin "1"
-			(uuid "a192e219-1808-46ef-b555-4d1c3098fb3b")
-		)
-		(instances
-			(project "valhalla-MOD-PSU"
-				(path "/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -12071,75 +11998,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SolderJumper_2_Open_1")
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 29.21 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b03ba7cf-b0db-47f3-811a-817ffd8382c0")
-		(property "Reference" "JP1"
-			(at 29.21 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~{REMOTE}"
-			(at 29.21 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4e586c8-9ee5-4d43-8118-c87e0f3218aa")
-		)
-		(pin "1"
-			(uuid "b0b9f39e-5f5d-4f69-8add-3b59795c4c58")
-		)
-		(instances
-			(project ""
-				(path "/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 165.1 116.84 0)
 		(unit 1)
@@ -12295,74 +12153,6 @@
 			(project "valhalla-MOD-PSU"
 				(path "/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SolderJumper_2_Open_1")
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 132.08 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4fa5671-9562-4d22-b819-2d3a25bc1315")
-		(property "Reference" "JP3"
-			(at 132.08 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SINGLE"
-			(at 132.08 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "29644018-0dda-4626-a654-820110647a1c")
-		)
-		(pin "1"
-			(uuid "1f335064-261a-4ef8-bc81-fca4b789b2f4")
-		)
-		(instances
-			(project "valhalla-MOD-PSU"
-				(path "/679144a0-43a8-4e3b-bec8-ba1ed1e1bb89"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -12975,7 +12765,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IRF4905_1")
+		(lib_name "IRF4905_2")
 		(lib_id "Transistor_FET:IRF4905")
 		(at 93.98 73.66 270)
 		(mirror x)
@@ -13348,7 +13138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Wide"
 			(at 182.88 109.22 0)
 			(effects
 				(font

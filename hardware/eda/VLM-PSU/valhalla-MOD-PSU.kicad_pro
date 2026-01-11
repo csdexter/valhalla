@@ -644,7 +644,16 @@
       "Net-(PS1-AC{slash}L)": [
         "AC_Power"
       ],
+      "Net-(PS2-+OUT)": [
+        "DCD_Power"
+      ],
+      "Net-(Q1-A2)": [
+        "AC_Power"
+      ],
       "Net-(Q1-S)": [
+        "DCD_Power"
+      ],
+      "Net-(Q10-S)": [
         "DCD_Power"
       ],
       "unconnected-(F1-Pad1)": [
