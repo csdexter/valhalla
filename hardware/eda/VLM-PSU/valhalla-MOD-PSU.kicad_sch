@@ -3926,6 +3926,9 @@
 			(pin_numbers
 				(hide yes)
 			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6947,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 231.14 78.74)
+			(xy 228.6 78.74) (xy 233.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7327,7 +7330,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 78.74) (xy 259.08 78.74)
+			(xy 241.3 78.74) (xy 259.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8815,6 +8818,16 @@
 		)
 		(uuid "62e7d32d-4e1d-4e58-9f19-e671409c88b8")
 	)
+	(label "RAW_VCC"
+		(at 228.6 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89e312b5-1fca-45b9-8746-506a3369cd59")
+	)
 	(label "DGND"
 		(at 250.19 113.03 180)
 		(effects
@@ -8854,6 +8867,16 @@
 			(justify left bottom)
 		)
 		(uuid "da39008c-d44c-4f40-a766-6ef978e0a935")
+	)
+	(label "RAW_LVCC"
+		(at 232.41 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb34cc25-0f49-4819-b2fc-d6513419e861")
 	)
 	(label "PS_ON{slash}~{OFF}"
 		(at 111.76 137.16 180)
@@ -12527,21 +12550,21 @@
 		(fields_autoplaced yes)
 		(uuid "d6fc7d1d-66b6-4b19-a363-6428ce6a9364")
 		(property "Reference" "R17"
-			(at 222.25 76.1999 0)
+			(at 217.17 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470R"
-			(at 222.25 78.7399 0)
+			(at 217.17 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
@@ -12767,8 +12790,7 @@
 	(symbol
 		(lib_name "IRF4905_2")
 		(lib_id "Transistor_FET:IRF4905")
-		(at 93.98 73.66 270)
-		(mirror x)
+		(at 93.98 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12792,7 +12814,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 92.075 68.58 0)
+			(at 95.885 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +12825,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c"
-			(at 90.17 68.58 0)
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,15 +13067,16 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 234.95 78.74 90)
+		(at 237.49 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e3229945-21da-447c-b536-e9215406776a")
 		(property "Reference" "F4"
-			(at 237.744 73.914 90)
+			(at 237.49 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13061,7 +13084,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 237.744 75.946 90)
+			(at 237.49 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13069,7 +13092,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm"
-			(at 240.03 77.47 0)
+			(at 242.57 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,7 +13102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 78.74 0)
+			(at 237.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13088,7 +13111,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 234.95 78.74 0)
+			(at 237.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

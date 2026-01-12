@@ -578,6 +578,9 @@
       "/LVCC": [
         "DCD_Power"
       ],
+      "/RAW_VCC": [
+        "DCD_Power"
+      ],
       "/VCC": [
         "DCD_Power"
       ],
