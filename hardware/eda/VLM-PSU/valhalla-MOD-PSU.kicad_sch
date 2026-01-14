@@ -6751,12 +6751,6 @@
 		(uuid "b2646c6b-894a-4149-aafe-f4e43df0d809")
 	)
 	(junction
-		(at 133.35 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2e6a0b9-47f8-4230-a2e0-5051912153c8")
-	)
-	(junction
 		(at 219.71 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6833,6 +6827,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7849e39-acae-40d1-9e54-bae231038c8d")
+	)
+	(junction
+		(at 132.08 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed183daa-f9fe-4818-a066-1effd006cb91")
 	)
 	(junction
 		(at 123.19 99.06)
@@ -6950,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 233.68 78.74)
+			(xy 228.6 78.74) (xy 237.49 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7330,7 +7330,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 78.74) (xy 259.08 78.74)
+			(xy 245.11 78.74) (xy 259.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7380,6 +7380,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 90.17) (xy 134.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41525e1a-4d2a-403c-b28f-9d44d46c6467")
+	)
+	(wire
+		(pts
 			(xy 219.71 72.39) (xy 220.98 72.39)
 		)
 		(stroke
@@ -7387,6 +7397,16 @@
 			(type default)
 		)
 		(uuid "4216dcdb-4a27-4a3c-a6b8-155b97a29d45")
+	)
+	(wire
+		(pts
+			(xy 133.35 83.82) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43817a49-5de3-4a75-b762-41500a172459")
 	)
 	(wire
 		(pts
@@ -7510,7 +7530,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 133.35 90.17)
+			(xy 130.81 90.17) (xy 132.08 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7557,16 +7577,6 @@
 			(type default)
 		)
 		(uuid "5d2b89fa-ba88-483c-b918-df1e336e89aa")
-	)
-	(wire
-		(pts
-			(xy 132.08 91.44) (xy 132.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d402a2a-8a55-4f92-9115-967ee0559570")
 	)
 	(wire
 		(pts
@@ -7880,7 +7890,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 142.24 99.06)
+			(xy 138.43 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8200,6 +8210,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 83.82) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdf5ef0-5844-4a6c-b6e4-538c20c833dd")
+	)
+	(wire
+		(pts
 			(xy 142.24 83.82) (xy 133.35 83.82)
 		)
 		(stroke
@@ -8350,7 +8370,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 123.19 99.06)
+			(xy 128.27 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8387,16 +8407,6 @@
 			(type default)
 		)
 		(uuid "ca7d8d33-548f-4db8-9ca2-3084a0de0c81")
-	)
-	(wire
-		(pts
-			(xy 133.35 90.17) (xy 134.62 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce2e2fac-3ad4-4830-a01d-b0139e37eccb")
 	)
 	(wire
 		(pts
@@ -8660,16 +8670,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82) (xy 133.35 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98bc9a9-a2a5-4c9f-9cc6-f3a7586d7703")
-	)
-	(wire
-		(pts
 			(xy 256.54 86.36) (xy 256.54 113.03)
 		)
 		(stroke
@@ -8699,7 +8699,7 @@
 		(uuid "ff8737bc-8c8e-4b38-803b-35feef2cd4bf")
 	)
 	(label "AVCC"
-		(at 250.19 86.36 180)
+		(at 254 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8719,7 +8719,7 @@
 		(uuid "0f126b5e-fb88-4752-84e1-008ac577b002")
 	)
 	(label "LVCC"
-		(at 250.19 78.74 180)
+		(at 254 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8729,7 +8729,7 @@
 		(uuid "1cf10bd4-23f2-4817-899b-87fe1b8b046e")
 	)
 	(label "DVCC"
-		(at 250.19 82.55 180)
+		(at 254 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8739,7 +8739,7 @@
 		(uuid "20c0a1b9-42dc-4bfc-a03e-74c84d01e755")
 	)
 	(label "BVCC"
-		(at 250.19 88.9 180)
+		(at 254 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8937,6 +8937,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 228.6 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22636d37-9f6e-4e30-b75c-5ce90300270b")
+		(property "Netclass" "DCD_Power"
+			(at 229.2985 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 24.13 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9029,7 +9052,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 242.57 86.36 0)
+		(at 246.38 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9039,7 +9062,7 @@
 		)
 		(uuid "60b79518-80e3-4ea0-94e4-2ab89049d49e")
 		(property "Netclass" "DCA_Power"
-			(at 243.2685 83.82 0)
+			(at 247.0785 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9075,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 242.57 82.55 0)
+		(at 246.38 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9062,7 +9085,7 @@
 		)
 		(uuid "6f755a54-ad1c-4bc9-a781-fa8e67997e55")
 		(property "Netclass" "DCD_Power"
-			(at 243.2685 80.01 0)
+			(at 247.0785 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +9190,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 242.57 78.74 0)
+		(at 246.38 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9177,7 +9200,7 @@
 		)
 		(uuid "d1d32f30-7302-4233-9e03-ea258098604b")
 		(property "Netclass" "DCD_Power"
-			(at 243.2685 76.2 0)
+			(at 247.0785 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +9973,7 @@
 	(symbol
 		(lib_name "IRF4905_1")
 		(lib_id "Transistor_FET:IRF4905")
-		(at 132.08 96.52 90)
+		(at 133.35 96.52 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9959,7 +9982,7 @@
 		(dnp no)
 		(uuid "2e00a41c-890b-4a9c-a361-47471289067a")
 		(property "Reference" "Q8"
-			(at 132.08 105.41 90)
+			(at 133.35 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +9990,7 @@
 			)
 		)
 		(property "Value" "SUP90P06-09L"
-			(at 132.08 102.87 90)
+			(at 133.35 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9998,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 133.985 101.6 0)
+			(at 135.255 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +10009,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c"
-			(at 135.89 101.6 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10019,7 @@
 			)
 		)
 		(property "Description" "-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"
-			(at 132.08 96.52 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,21 +10832,21 @@
 		(fields_autoplaced yes)
 		(uuid "844b5b3c-aee3-4a38-b8e9-4f75d7dd91c1")
 		(property "Reference" "R12"
-			(at 139.7 80.0101 0)
+			(at 144.78 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 139.7 77.4701 0)
+			(at 144.78 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
@@ -12262,21 +12285,21 @@
 		(fields_autoplaced yes)
 		(uuid "bfdbed26-1a21-4e5b-8074-2b1ea98b1d04")
 		(property "Reference" "R11"
-			(at 120.65 80.0101 0)
+			(at 125.73 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10K"
-			(at 120.65 77.4701 0)
+			(at 125.73 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
@@ -13067,7 +13090,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 237.49 78.74 90)
+		(at 241.3 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13076,7 +13099,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3229945-21da-447c-b536-e9215406776a")
 		(property "Reference" "F4"
-			(at 237.49 72.39 90)
+			(at 241.3 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,7 +13107,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 237.49 74.93 90)
+			(at 241.3 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13092,7 +13115,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm"
-			(at 242.57 77.47 0)
+			(at 246.38 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13102,7 +13125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 78.74 0)
+			(at 241.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +13134,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 237.49 78.74 0)
+			(at 241.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

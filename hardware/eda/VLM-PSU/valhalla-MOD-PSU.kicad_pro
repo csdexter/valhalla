@@ -189,7 +189,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2032
+        0.2032,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -225,6 +226,10 @@
         {
           "diameter": 0.762,
           "drill": 0.4445
+        },
+        {
+          "diameter": 1.27,
+          "drill": 0.508
         }
       ],
       "zones_allow_external_fillets": false
@@ -576,6 +581,9 @@
         "DCD_Power"
       ],
       "/LVCC": [
+        "DCD_Power"
+      ],
+      "/RAW_LVCC": [
         "DCD_Power"
       ],
       "/RAW_VCC": [
