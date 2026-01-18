@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.5,
-          "width": 1.0
+          "drill": 3.1,
+          "height": 3.1,
+          "width": 3.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|80224500|59252000|d5a67fa6-4558-467a-ad22-93e48b553f36|c040524f-9ca6-40b3-87a9-457d558aba8d",
+          "Risk accepted"
+        ],
+        [
+          "isolated_copper|81175701|38375638|9d2f143b-18fc-4264-8eba-b1f7d2c9a71a|00000000-0000-0000-0000-000000000000",
+          "Intentional design"
+        ],
+        [
+          "isolated_copper|87640943|38356177|13bac3c4-70fd-4a9d-8f21-d0cc9d6bf307|00000000-0000-0000-0000-000000000000",
+          "Intentional design"
+        ],
+        [
+          "isolated_copper|98562943|45468177|13bac3c4-70fd-4a9d-8f21-d0cc9d6bf307|00000000-0000-0000-0000-000000000000",
+          "Intentional design"
+        ],
+        [
+          "isolated_copper|98562943|45468177|9d2f143b-18fc-4264-8eba-b1f7d2c9a71a|00000000-0000-0000-0000-000000000000",
+          "Intentional design"
+        ],
+        [
+          "lib_footprint_mismatch|125263000|36830000|ea5ec604-1a91-429d-bf1c-979ff2d0bcf6|00000000-0000-0000-0000-000000000000",
+          "Local adjustment"
+        ],
+        [
+          "lib_footprint_mismatch|29771000|60960000|04f61db7-02e9-45f2-a786-83ccd874ef4e|00000000-0000-0000-0000-000000000000",
+          "Local adjustment"
+        ],
+        [
+          "lib_footprint_mismatch|32654500|45465000|53d4b711-bc3a-422d-9efc-0e36823abd27|00000000-0000-0000-0000-000000000000",
+          "Local adjustment"
+        ],
+        [
+          "lib_footprint_mismatch|58928000|64770000|f19846d9-71ec-4653-9c2d-34955094eb02|00000000-0000-0000-0000-000000000000",
+          "Geometry"
+        ],
+        [
+          "lib_footprint_mismatch|81812000|50282000|c7b41bba-2e11-4a09-b5dc-facc558057e2|00000000-0000-0000-0000-000000000000",
+          "Local adjustment"
+        ],
+        [
+          "silk_overlap|39316819|97544095|719617d6-1491-4db1-8fb4-982087563a07|f79393da-fc76-4cad-ab27-7fbf50147d6b",
+          "Still readable"
+        ],
+        [
+          "silk_overlap|45618000|58583182|747455ad-8abc-45cb-9ca7-9cb3ca6fc13e|b46ea229-be32-4df8-8599-184dc04088a1",
+          "Geometry"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -224,8 +273,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.762,
-          "drill": 0.4445
+          "diameter": 0.8128,
+          "drill": 0.3048
         },
         {
           "diameter": 1.27,
@@ -512,7 +561,6 @@
         "bus_width": 12,
         "clearance": 1.27,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -530,7 +578,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -548,7 +595,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
