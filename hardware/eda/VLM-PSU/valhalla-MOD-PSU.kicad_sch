@@ -6865,8 +6865,8 @@
 		(uuid "3307009f-0f9f-418c-aca8-f11191c58536")
 	)
 	(no_connect
-		(at 22.86 133.35)
-		(uuid "6ef979be-a5e0-4cbf-a726-e2adb1079aea")
+		(at 22.86 140.97)
+		(uuid "b4837dee-dfc0-4333-9f86-0965e7b88287")
 	)
 	(wire
 		(pts
@@ -7690,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 140.97) (xy 35.56 140.97)
+			(xy 22.86 135.89) (xy 35.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8400,7 +8400,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 135.89) (xy 35.56 135.89)
+			(xy 22.86 133.35) (xy 35.56 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8809,7 +8809,7 @@
 		(uuid "5b08bf47-411f-4743-b1f1-f7a7fe2d0451")
 	)
 	(label "DGND"
-		(at 34.29 140.97 180)
+		(at 34.29 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8849,7 +8849,7 @@
 		(uuid "b81904af-eb3a-4ce2-9db3-4d065d832c1b")
 	)
 	(label "BUS_DVCC"
-		(at 34.29 135.89 180)
+		(at 34.29 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
