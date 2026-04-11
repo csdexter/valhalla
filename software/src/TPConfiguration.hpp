@@ -63,7 +63,8 @@ protected:
 
 template <typename S, typename C>
 class TTPConfiguration :
-    public ITPConfigurationBuilder<S, C>, public ITPConfigurationProvider<S, C> {
+    public ITPConfigurationBuilder<S, C>,
+    public ITPConfigurationProvider<S, C> {
 public:
   TTPConfiguration(void): in_use_(false), pools_({}), quotas_({}) {};
   virtual ~TTPConfiguration(void) = default;

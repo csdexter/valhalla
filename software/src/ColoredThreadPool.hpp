@@ -6,6 +6,7 @@
 #define COLOREDTHREADPOOL_HPP_
 
 #include <atomic>
+#include <condition_variable>
 #include <cstddef>
 #include <functional>
 #include <future>
@@ -26,63 +27,65 @@ typedef struct {
   void *output;
 } TWorkItem;
 
-template <typename S, typename C>
-class TColoredThreadPool {
+template <typename C>
+class IColoredThreadPoolController {
 public:
   typedef std::function<void(TWorkItem *)> TWorker;
 
+  virtual void register_worker(const C &color, const TWorker &worker) = 0;
+  virtual void start(void) = 0;
+  virtual void stop(void) = 0;
+};
+
+template <typename S, typename C>
+class IColoredThreadPoolExecutor {
+public:
+  virtual std::future<void> submit_work(
+      const S &source, const C &color, TWorkItem *work,
+      std::size_t priority = std::numeric_limits<size_t>::max()) = 0;
+};
+
+template <typename S, typename C>
+class TColoredThreadPool :
+    public IColoredThreadPoolController<C>,
+    public IColoredThreadPoolExecutor<S, C> {
+public:
   TColoredThreadPool(void) = delete;
   explicit TColoredThreadPool(const ITPConfigurationProvider<S, C> &config);
   virtual ~TColoredThreadPool(void) { this->stop(); };
-  virtual void register_worker(const C &color, const TWorker &worker);
-  virtual void start(void);
+  virtual void register_worker(
+      const C &color,
+      const typename IColoredThreadPoolController<C>::TWorker &worker) override;
+  virtual void start(void) override;
   virtual std::future<void> submit_work(
       const S &source, const C &color, TWorkItem *work,
-      std::size_t priority = std::numeric_limits<size_t>::max());
-  virtual void stop(void);
+      std::size_t priority = std::numeric_limits<size_t>::max()) override;
+  virtual void stop(void) override;
 private:
   typedef struct {
-    C color;
-    TWorkItem *work;
-    std::size_t priority;
-    std::promise<void> signal;
-    typename TTPConfiguration<S, C>::TWorkItemKey quota_key;
-  } TWorkTuple;
-  typedef std::queue<TWorkTuple> TWorkQueue;
+    TWorkItem *item;
+    std::promise<void> promise;
+    const typename IColoredThreadPoolController<C>::TWorker *worker;
+  } TPreparedWorkItem;
+  typedef struct {
+    std::vector<std::thread> threads;
+    std::queue<TPreparedWorkItem> work_queue;
+    std::mutex work_mutex;
+    std::condition_variable work_cv;
+  } TPool;
 
-  std::atomic<bool> running_;
-  std::mutex state_mutex_;
+  std::atomic<bool> started_;
+  std::atomic<bool> stopped_;
+  std::mutex config_mutex_;
   const TTPConfiguration<S, C> &config_;
   // Work item color to executor mapping.
-  std::unordered_map<C, TWorker> workers_;
-  // Work item key to (remaining) concurrency quota mapping.
   std::unordered_map<
-        typename TTPConfiguration<S, C>::TWorkItemKey,
-        typename TTPConfiguration<S, C>::TQuotaValue,
-        boost::hash<typename TTPConfiguration<S, C>::TWorkItemKey>> quota_;
-  std::unordered_map<
-        typename TTPConfiguration<S, C>::TPoolKey, std::mutex,
-        boost::hash<typename TTPConfiguration<S, C>::TPoolKey>> quota_mutexes_;
-  std::unordered_map<
-        typename TTPConfiguration<S, C>::TPoolKey, std::condition_variable,
-        boost::hash<typename TTPConfiguration<S, C>::TPoolKey>> quota_signals_;
-  std::unordered_map<std::size_t, std::size_t> pool_sizes_;
-  std::unordered_map<
-      typename TTPConfiguration<S, C>::TPoolKey, std::vector<std::thread>,
-      boost::hash<typename TTPConfiguration<S, C>::TPoolKey>> pools_;
-  std::unordered_map<
-      typename TTPConfiguration<S, C>::TPoolKey, TWorkQueue,
-      boost::hash<typename TTPConfiguration<S, C>::TPoolKey>> queues_;
-  std::unordered_map<
-      typename TTPConfiguration<S, C>::TPoolKey, std::mutex,
-      boost::hash<typename TTPConfiguration<S, C>::TPoolKey>> queue_mutexes_;
-  std::unordered_map<
-      typename TTPConfiguration<S, C>::TPoolKey, std::condition_variable,
-      boost::hash<typename TTPConfiguration<S, C>::TPoolKey>> queue_signals_;
+      C, typename IColoredThreadPoolController<C>::TWorker> workers_;
+  // Pool index (as returned by ITPConfigurationProvider::get_pools) to worker
+  // mapping.
+  std::unordered_map<std::size_t, TPool> pools_;
 
   void pool_enumerator(std::size_t index, std::size_t size);
-  void dispatch_worker(
-      TWorkQueue &queue, std::mutex &mutex, std::condition_variable &signal);
 };
 
 class EColoredThreadPool : public std::runtime_error {
@@ -91,7 +94,15 @@ class EColoredThreadPool : public std::runtime_error {
 class ECUnfinalizedConfiguration : public EColoredThreadPool {
   using EColoredThreadPool::EColoredThreadPool;
 };
-
+class ECBusy : public EColoredThreadPool {
+  using EColoredThreadPool::EColoredThreadPool;
+};
+class ECNotRunning : public EColoredThreadPool {
+  using EColoredThreadPool::EColoredThreadPool;
+};
+class ECStale : public EColoredThreadPool {
+  using EColoredThreadPool::EColoredThreadPool;
+};
 } // compute
 } // cancer
 

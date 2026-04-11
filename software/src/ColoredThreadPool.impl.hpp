@@ -2,7 +2,7 @@
    TColoredThreadPool.impl.hpp SHALL be considered one file. They are only
    rendered as two separate files for aesthetical reasons.*/
 
-#include <cstddef>
+#include "ColoredThreadPool.hpp"
 #if !defined(COLOREDTHREADPOOL_HPP_)
 #error "Do not include ColoredThreadPool.impl.hpp directly, include ColoredThreadPool.hpp instead!"
 #endif
@@ -15,150 +15,101 @@ namespace compute {
 template<typename S, typename C>
 TColoredThreadPool<S, C>::TColoredThreadPool(
     const ITPConfigurationProvider<S, C> &config):
-    running_(false), config_(config) {
+    started_(false), stopped_(false), config_(config) {
   if (!config.ready()) {
     throw ECUnfinalizedConfiguration(
         "Attempted to instantiate a TColoredThreadPool passing an unfinalized "
         "configuration object!");
-  };
+  }
 
   this->config_.get_pools([this](std::size_t index, std::size_t threads) {
     this->pool_enumerator(index, threads);
   });
-};
+}
 
 template<typename S, typename C>
 void TColoredThreadPool<S, C>::register_worker(
-    const C &color, const TWorker &worker) {
-  assert(!this->in_use_);
+    const C &color,
+    const typename IColoredThreadPoolController<C>::TWorker &worker) {
+  if(this->started_) {
+    throw ECBusy("Attempted to register a new worker for an already running "
+                 "thread pool!");
+  }
 
   this->workers_[color] = worker;
 }
 
 template<typename S, typename C>
 void TColoredThreadPool<S, C>::start(void) {
-  const std::lock_guard<std::mutex> lock(this->state_mutex_);
-
-  assert(!this->running_.load());
-
-  for (auto &one_pool_size : this->pool_sizes_) {
-    this->pools_[one_pool_size.first].resize(one_pool_size.second);
-    for (std::size_t i = 0; i < this->pools_[one_pool_size.first].size(); i++) {
-      this->pools_[one_pool_size.first].at(i) = std::thread(
-          [this, &one_pool_size]() {
-            this->dispatch_worker(this->queues_[one_pool_size.first],
-                                  this->queue_mutexes_[one_pool_size.first],
-                                  this->queue_signals_[one_pool_size.first]);
-          });
-    }
+  if(this->started_) {
+    throw ECBusy("Attempted to start an already running thread pool!");
   }
 
-  this->running_.store(true);
+  if(this->stopped_) {
+      throw ECStale(
+          "Attempted to start a thread pool that was previously stopped!");
+    }
+
+  this->started_ = true;
 }
 
 template<typename S, typename C>
 std::future<void> TColoredThreadPool<S, C>::submit_work(
     const S &source, const C &color, TWorkItem *work, std::size_t priority) {
-  TWorkTuple work_record = {color, work, priority};
-  typename TTPConfiguration<S, C>::TPoolKey target_pool = this->config_.which_pool(source, color);
+  std::size_t target_pool;
+  {
+    const std::lock_guard<std::mutex> lock(this->config_mutex_);
+    target_pool = this->config_.which_pool(source, color);
+  }
 
   work_record.signal.reset(new std::promise<void>);
   std::future result = work_record.signal->get_future();
-  {
-    std::unique_lock<std::mutex> qlock(this->queue_mutexes_[target_pool]);
-    auto const &target_quota = this->config_.quota_for(source, color);
-    work_record.quota_key = target_quota.first;
-    {
-      std::unique_lock<std::mutex> slock(this->state_mutex_);
-      auto const &maybe_quota = this->quota_.find(target_quota.first);
-
-      if (maybe_quota != this->quota_.end()) {
-        // We have seen this quota allocation before and it's likely in use.
-        if (!maybe_quota->second) {
-          // Block and wait for quota to appear.
-          // TODO(rmihailescu): implement priority using an extra queue per quota
-          //                    key and a dedicated worker that implements the
-          //                    "block-and-wait" below, popping from the priority
-          //                    queue and pushing into the work queue. Bonus,
-          //                    this makes this function non-blocking.
-          std::unique_lock<std::mutex> lock(
-              this->quota_mutexes_[target_quota.first]);
-          this->quota_signals_[target_quota.first].wait(
-              lock, [this, &target_quota]() {
-                return this->quota_[target_quota.first] || !this->running_.load();
-              });
-          this->quota_[target_quota.first]--;
-        } else {
-          this->quota_[target_quota.first]--;
-        }
-      } else {
-        // We have never seen this quota allocation before, needs initialization.
-        this->quota_[target_quota.first] = target_quota.second;
-      }
-    }
-    // Now that the quota situation is settled, submit the work for processing.
-    this->queues_[target_pool].push(std::move(work_record));
-  }
-  this->queue_signals_[target_pool].notify_one();
+  
 
   return result;
 }
 
 template<typename S, typename C>
 void TColoredThreadPool<S, C>::stop(void) {
-  assert(this->running_.load());
-
-  this->running_.store(false);
-
-  const std::lock_guard<std::mutex> lock(this->state_mutex_);
-
-  for (auto &one_signal : this->queue_signals_) {
-    one_signal.second.notify_all();
+  if (!this->started_) {
+    throw ECNotRunning("Attempted to stop a not yet started thread pool!");
   }
 
-  for (auto &one_pool : this->pools_) {
-    for (auto &one_thread : one_pool.second) {
-      one_thread.join();
-    }
-    one_pool.second.clear();
+  if (this->stopped_) {
+    throw ECStale("Attempted to stop an already stopped thread pool!");
   }
+
+  this->stopped_ = true;
 }
 
 template<typename S, typename C>
 void TColoredThreadPool<S, C>::pool_enumerator(
     std::size_t index, std::size_t threads) {
-  this->pool_sizes_[index] = threads;
-}
+  TPool &one_pool = this->pools_[index];
+  for (std::size_t i; i < threads; i++) {
+    this->pools_[index].threads.emplace_back([this, &one_pool] {
+      while (true) {
+        TPreparedWorkItem work = {};
+        {
+          const std::lock_guard<std::mutex> lock(one_pool.work_mutex);
 
-template<typename S, typename C>
-void TColoredThreadPool<S, C>::dispatch_worker(
-    TWorkQueue &queue, std::mutex &mutex, std::condition_variable &signal) {
-  while (true) {
-    TWorkTuple work_record;
+          one_pool.work_cv.wait(lock, [this, &one_pool] {
+            return this->stopped_ || !one_pool.work_queue.empty();
+          });
 
-    {
-      std::unique_lock<std::mutex> lock(mutex);
-      signal.wait(lock, [this, &queue]() {
-        return !queue.empty() || !this->running_.load();
-      });
-      if (!this->running_.load()) {
-        return;
+          if (this->stopped_) {
+            return;
+          }
+
+          work = std::move(one_pool.work_queue.front());
+          one_pool.work_queue.pop();
+        }
+        /* Accounting should be updated (borrowed) here. */
+        work.worker(work.item);
+        work.promise.set_value();
+        /* Accounting should be updated (returned) here. */
       }
-      work_record = std::move(queue.front());
-      queue.pop();
-    }
-
-    // Perform the actual work ...
-    this->workers_[work_record.color](work_record.work);
-    // ... signal completion ...
-    work_record.signal->set_value();
-    // ... and finally replenish (return) quota.
-    {
-      std::unique_lock<std::mutex> lock(this->state_mutex_);
-      this->quota_[work_record.quota_key]++;
-    }
-    this->quota_signals_[work_record.quota_key].notify_one();
-    signal.notify_one();
+    });
   }
 }
 
