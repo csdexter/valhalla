@@ -39,3 +39,11 @@ cc_test(
     ],
     size="small",
 )
+
+cc_library(
+    name = "ColoredThreadPool",
+    srcs = [
+        "ColoredThreadPool.hpp",
+        "ColoredThreadPool.impl.hpp",
+    ],
+)

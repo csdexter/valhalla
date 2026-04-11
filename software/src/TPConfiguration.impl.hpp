@@ -1,4 +1,7 @@
-#include "TPConfiguration.hpp"
+/* For the purposes of authorship and licensing, TPConfiguration.hpp and
+   TPConfiguration.impl.hpp SHALL be considered one file. They are only rendered
+   as two separate files for aesthetical reasons.*/
+
 #if !defined(TPCONFIGURATION_HPP_)
 #error "Do not include TPConfiguration.impl.hpp directly, include TPConfiguration.hpp instead!"
 #endif
@@ -209,7 +212,7 @@ void TTPConfiguration<S, C>::postprocess_quotas(void) {
 
   // Coerce defaulted backlog to zero backlog.
   for (auto const &quota_entry : this->quotas_) {
-    if (!quota_entry.first.first.has_value()) {
+    if (!quota_entry.second.first.has_value()) {
       new_quotas[quota_entry.first] = {
           0, this->quotas_[quota_entry.first].second};
     } else {
@@ -217,7 +220,7 @@ void TTPConfiguration<S, C>::postprocess_quotas(void) {
     }
   }
   this->quotas_ = std::move(new_quotas);
-  // new_quotas is in unspecified state after std::move, ensure clean slate.
+  // new_quotas is in unspecified state after std::move(), ensure clean slate.
   new_quotas.clear();
 
   // Coerce defaulted concurrency to resolved pool(s) size.

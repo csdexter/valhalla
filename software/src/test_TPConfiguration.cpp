@@ -243,19 +243,150 @@ TEST(TPConfiguration, PoolLookup) {
   EXPECT_EQ(as_provider->which_pool("foo", kRed), pool_map[43]);
 }
 
-//TEST(TPConfiguration, QuotaLookup) {
-//  std::unique_ptr<cancer::compute::TTPConfiguration<std::string, TWIColor>> dut_ptr(
-//      new cancer::compute::TTPConfiguration<std::string, TWIColor>);
-//  cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *as_builder =
-//      dynamic_cast<cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *>(dut_ptr.get());
-//  cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *as_provider =
-//      dynamic_cast<cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *>(dut_ptr.get());
-//
-//  as_builder->pool(42).quota("foo", {41, 43}).quota(kRed, {42, 44});
-//  EXPECT_NO_THROW(as_builder->build());
-//  EXPECT_TRUE(as_provider->ready());
-//  EXPECT_EQ(as_provider->quota_for("bar", kBlack), ({0, 42}));
-//  EXPECT_EQ(as_provider->quota_for("foo", kBlack), ({41, 43}));
-//  EXPECT_EQ(as_provider->quota_for("bar", kRed), ({42, 44}));
-//  EXPECT_EQ(as_provider->quota_for("foo", kRed), ({41, 43}));
-//}
+TEST(TPConfiguration, QuotaLookupSimple) {
+  std::unique_ptr<cancer::compute::TTPConfiguration<std::string, TWIColor>> dut_ptr(
+      new cancer::compute::TTPConfiguration<std::string, TWIColor>);
+  cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *as_builder =
+      dynamic_cast<cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *>(dut_ptr.get());
+  cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *as_provider =
+      dynamic_cast<cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *>(dut_ptr.get());
+
+  as_builder->pool(42).quota("foo", {41, 43}).quota(kRed, {42, 44});
+  EXPECT_NO_THROW(as_builder->build());
+  EXPECT_TRUE(as_provider->ready());
+
+  auto result1 = as_provider->quota_for("bar", kBlack);
+  // Regrettably, the preprocessor is stuck in the stone age and is unable to
+  // handle brace-enclosed initializers.
+  // Even more regrettably, a contemporary unit testing framework for C++,
+  // authored by a listed multinational corporation uses macros.
+  EXPECT_EQ(result1.first.first, std::nullopt);
+  EXPECT_EQ(result1.first.second, std::nullopt);
+  EXPECT_EQ(result1.second.first, 0);
+  EXPECT_EQ(result1.second.second, 0);
+  
+  auto result2 = as_provider->quota_for("foo", kBlack);
+  EXPECT_EQ(result2.first.first, "foo");
+  EXPECT_EQ(result2.first.second, std::nullopt);
+  EXPECT_EQ(result2.second.first, 41);
+  EXPECT_EQ(result2.second.second, 43);
+
+  auto result3 = as_provider->quota_for("bar", kRed);
+  EXPECT_EQ(result3.first.first, std::nullopt);
+  EXPECT_EQ(result3.first.second, kRed);
+  EXPECT_EQ(result3.second.first, 42);
+  EXPECT_EQ(result3.second.second, 44);
+
+  auto result4 = as_provider->quota_for("foo", kRed);
+  EXPECT_EQ(result4.first.first, "foo");
+  EXPECT_EQ(result4.first.second, std::nullopt);
+  EXPECT_EQ(result4.second.first, 41);
+  EXPECT_EQ(result4.second.second, 43);
+}
+
+TEST(TPConfiguration, QuotaLookupSpecific) {
+  std::unique_ptr<cancer::compute::TTPConfiguration<std::string, TWIColor>> dut_ptr(
+      new cancer::compute::TTPConfiguration<std::string, TWIColor>);
+  cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *as_builder =
+      dynamic_cast<cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *>(dut_ptr.get());
+  cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *as_provider =
+      dynamic_cast<cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *>(dut_ptr.get());
+
+  as_builder->pool(42).quota("foo", {41, 43}).quota(kRed, {42, 44}).quota("foo", kRed, {45, 46});
+  EXPECT_NO_THROW(as_builder->build());
+  EXPECT_TRUE(as_provider->ready());
+
+  auto result1 = as_provider->quota_for("foo", kRed);
+  EXPECT_EQ(result1.first.first, "foo");
+  EXPECT_EQ(result1.first.second, kRed);
+  EXPECT_EQ(result1.second.first, 45);
+  EXPECT_EQ(result1.second.second, 46);
+}
+
+TEST(TPConfiguration, QuotaLookupPostprocessedSource) {
+  std::unique_ptr<cancer::compute::TTPConfiguration<std::string, TWIColor>> dut_ptr(
+      new cancer::compute::TTPConfiguration<std::string, TWIColor>);
+  cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *as_builder =
+      dynamic_cast<cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *>(dut_ptr.get());
+  cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *as_provider =
+      dynamic_cast<cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *>(dut_ptr.get());
+
+  as_builder->pool(1).pool(kRed, 2).pool(kBlack, 3)
+      .quota("foo", {1, std::nullopt}).quota("bar", {std::nullopt, 1});
+  EXPECT_NO_THROW(as_builder->build());
+  EXPECT_TRUE(as_provider->ready());
+
+  auto result1 = as_provider->quota_for("baz", kBlue);
+  EXPECT_EQ(result1.first.first, std::nullopt);
+  EXPECT_EQ(result1.first.second, std::nullopt);
+  EXPECT_EQ(result1.second.first, 0);
+  EXPECT_EQ(result1.second.second, 0);
+  
+  auto result2 = as_provider->quota_for("bar", kBlue);
+  EXPECT_EQ(result2.first.first, "bar");
+  EXPECT_EQ(result2.first.second, std::nullopt);
+  EXPECT_EQ(result2.second.first, 0);
+  EXPECT_EQ(result2.second.second, 1);
+
+  auto result3 = as_provider->quota_for("foo", kBlue);
+  EXPECT_EQ(result3.first.first, "foo");
+  EXPECT_EQ(result3.first.second, std::nullopt);
+  EXPECT_EQ(result3.second.first, 1);
+  EXPECT_EQ(result3.second.second, 1);
+
+  auto result4 = as_provider->quota_for("foo", kRed);
+  EXPECT_EQ(result4.first.first, "foo");
+  EXPECT_EQ(result4.first.second, kRed);
+  EXPECT_EQ(result4.second.first, 1);
+  EXPECT_EQ(result4.second.second, 2);
+
+  auto result5 = as_provider->quota_for("foo", kBlack);
+  EXPECT_EQ(result5.first.first, "foo");
+  EXPECT_EQ(result5.first.second, kBlack);
+  EXPECT_EQ(result5.second.first, 1);
+  EXPECT_EQ(result5.second.second, 3);
+}
+
+TEST(TPConfiguration, QuotaLookupPostprocessedColor) {
+  std::unique_ptr<cancer::compute::TTPConfiguration<std::string, TWIColor>> dut_ptr(
+      new cancer::compute::TTPConfiguration<std::string, TWIColor>);
+  cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *as_builder =
+      dynamic_cast<cancer::compute::ITPConfigurationBuilder<std::string, TWIColor> *>(dut_ptr.get());
+  cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *as_provider =
+      dynamic_cast<cancer::compute::ITPConfigurationProvider<std::string, TWIColor> *>(dut_ptr.get());
+
+  as_builder->pool(1).pool("foo", 2).pool("bar", 3)
+      .quota(kRed, {1, std::nullopt}).quota(kBlack, {std::nullopt, 1});
+  EXPECT_NO_THROW(as_builder->build());
+  EXPECT_TRUE(as_provider->ready());
+
+  auto result1 = as_provider->quota_for("baz", kBlue);
+  EXPECT_EQ(result1.first.first, std::nullopt);
+  EXPECT_EQ(result1.first.second, std::nullopt);
+  EXPECT_EQ(result1.second.first, 0);
+  EXPECT_EQ(result1.second.second, 0);
+
+  auto result2 = as_provider->quota_for("baz", kBlack);
+  EXPECT_EQ(result2.first.first, std::nullopt);
+  EXPECT_EQ(result2.first.second, kBlack);
+  EXPECT_EQ(result2.second.first, 0);
+  EXPECT_EQ(result2.second.second, 1);
+
+  auto result3 = as_provider->quota_for("baz", kRed);
+  EXPECT_EQ(result3.first.first, std::nullopt);
+  EXPECT_EQ(result3.first.second, kRed);
+  EXPECT_EQ(result3.second.first, 1);
+  EXPECT_EQ(result3.second.second, 1);
+
+  auto result4 = as_provider->quota_for("foo", kRed);
+  EXPECT_EQ(result4.first.first, "foo");
+  EXPECT_EQ(result4.first.second, kRed);
+  EXPECT_EQ(result4.second.first, 1);
+  EXPECT_EQ(result4.second.second, 2);
+
+  auto result5 = as_provider->quota_for("bar", kRed);
+  EXPECT_EQ(result5.first.first, "bar");
+  EXPECT_EQ(result5.first.second, kRed);
+  EXPECT_EQ(result5.second.first, 1);
+  EXPECT_EQ(result5.second.second, 3);
+}

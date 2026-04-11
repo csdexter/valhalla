@@ -1,3 +1,7 @@
+/* Thread Pool Configuration implementation
+ * Copyright(C) 2026 Radu - Eosif Mihăilescu <eu@radu-mihailescu.nom.ro>
+ * BSD 3-clause license */
+
 #ifndef TPCONFIGURATION_HPP_
 #define TPCONFIGURATION_HPP_
 
