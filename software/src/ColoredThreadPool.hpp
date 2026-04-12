@@ -94,6 +94,9 @@ class EColoredThreadPool : public std::runtime_error {
 class ECUnfinalizedConfiguration : public EColoredThreadPool {
   using EColoredThreadPool::EColoredThreadPool;
 };
+class ECInvalidConfiguration : public EColoredThreadPool {
+  using EColoredThreadPool::EColoredThreadPool;
+};
 class ECBusy : public EColoredThreadPool {
   using EColoredThreadPool::EColoredThreadPool;
 };

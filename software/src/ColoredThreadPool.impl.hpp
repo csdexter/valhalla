@@ -3,6 +3,7 @@
    rendered as two separate files for aesthetical reasons.*/
 
 #include "ColoredThreadPool.hpp"
+#include <mutex>
 #if !defined(COLOREDTHREADPOOL_HPP_)
 #error "Do not include ColoredThreadPool.impl.hpp directly, include ColoredThreadPool.hpp instead!"
 #endif
@@ -31,24 +32,28 @@ template<typename S, typename C>
 void TColoredThreadPool<S, C>::register_worker(
     const C &color,
     const typename IColoredThreadPoolController<C>::TWorker &worker) {
-  if(this->started_) {
+  if (this->started_) {
     throw ECBusy("Attempted to register a new worker for an already running "
                  "thread pool!");
   }
 
+  if (this->workers_.count(color)) {
+    throw ECInvalidConfiguration(
+        "Attempted to register a second worker for the same color!");
+  }
   this->workers_[color] = worker;
 }
 
 template<typename S, typename C>
 void TColoredThreadPool<S, C>::start(void) {
-  if(this->started_) {
+  if (this->started_) {
     throw ECBusy("Attempted to start an already running thread pool!");
   }
 
-  if(this->stopped_) {
+  if (this->stopped_) {
       throw ECStale(
           "Attempted to start a thread pool that was previously stopped!");
-    }
+  }
 
   this->started_ = true;
 }
@@ -56,15 +61,37 @@ void TColoredThreadPool<S, C>::start(void) {
 template<typename S, typename C>
 std::future<void> TColoredThreadPool<S, C>::submit_work(
     const S &source, const C &color, TWorkItem *work, std::size_t priority) {
+  if (!this->started_) {
+    throw ECNotRunning("Attempted to submit a work item to a not yet started "
+                       "thread pool!");
+  }
+
+  if (this->stopped_) {
+    throw ECStale("Attempted to submit a work item to an already stopped "
+                  "thread pool!");
+  }
+
   std::size_t target_pool;
+  std::future<void> result;
   {
     const std::lock_guard<std::mutex> lock(this->config_mutex_);
     target_pool = this->config_.which_pool(source, color);
   }
 
-  work_record.signal.reset(new std::promise<void>);
-  std::future result = work_record.signal->get_future();
-  
+  // Decision of whether to submit or block on quota here
+  // Decision on whether to submit to work or backlog here
+  // (including quota processing)
+  {
+    const std::lock_guard<std::mutex> q_lock(
+        this->pools_[target_pool].work_mutex);
+    this->pools_[target_pool].work_queue.emplace({});
+    this->pools_[target_pool].work_queue.back().item = work;
+    result = this->pools_[target_pool].work_queue.back().promise.get_future();
+    {
+      const std::lock_guard<std::mutex> c_lock(this->config_mutex_);
+      this->pools_[target_pool].work_queue.back().worker = &this->workers_[color];
+    } // Another submission is possible here.
+  } // Processing of the work item potentially starts here.
 
   return result;
 }
@@ -94,7 +121,8 @@ void TColoredThreadPool<S, C>::pool_enumerator(
           const std::lock_guard<std::mutex> lock(one_pool.work_mutex);
 
           one_pool.work_cv.wait(lock, [this, &one_pool] {
-            return this->stopped_ || !one_pool.work_queue.empty();
+            return this->stopped_ ||
+                   (this->started_ && !one_pool.work_queue.empty());
           });
 
           if (this->stopped_) {
