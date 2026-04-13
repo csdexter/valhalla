@@ -10,9 +10,11 @@
 #include <cstddef>
 #include <functional>
 #include <future>
-#include <limits>
-#include <queue>
+#include <list>
+#include <map>
+#include <mutex>
 #include <thread>
+#include <unordered_map>
 #include <vector>
 
 #include <boost/functional/hash.hpp>
@@ -59,17 +61,23 @@ public:
   virtual void start(void) override;
   virtual std::future<void> submit_work(
       const S &source, const C &color, TWorkItem *work,
-      std::size_t priority = std::numeric_limits<size_t>::max()) override;
+      std::size_t priority = 0) override;
   virtual void stop(void) override;
 private:
   typedef struct {
     TWorkItem *item;
+    S source;
+    std::size_t priority;
     std::promise<void> promise;
     const typename IColoredThreadPoolController<C>::TWorker *worker;
   } TPreparedWorkItem;
+  typedef std::list<TPreparedWorkItem> TWorkQueue;
   typedef struct {
     std::vector<std::thread> threads;
-    std::queue<TPreparedWorkItem> work_queue;
+    TWorkQueue work_queue;
+    std::unordered_map<S, std::map<
+        std::size_t, std::list<typename TWorkQueue::iterator>,
+        std::greater<std::size_t>>> priority_queue;
     std::mutex work_mutex;
     std::condition_variable work_cv;
   } TPool;

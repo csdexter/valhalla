@@ -74,23 +74,37 @@ std::future<void> TColoredThreadPool<S, C>::submit_work(
   std::size_t target_pool;
   std::future<void> result;
   {
-    const std::lock_guard<std::mutex> lock(this->config_mutex_);
+    const std::lock_guard<std::mutex> c_lock(this->config_mutex_);
     target_pool = this->config_.which_pool(source, color);
   }
 
-  // Decision of whether to submit or block on quota here
-  // Decision on whether to submit to work or backlog here
-  // (including quota processing)
+  // Decision of whether to submit or block on (backlog or concurrency) quota here
+  // (including backlog quota processing)
   {
     const std::lock_guard<std::mutex> q_lock(
         this->pools_[target_pool].work_mutex);
-    this->pools_[target_pool].work_queue.emplace({});
-    this->pools_[target_pool].work_queue.back().item = work;
-    result = this->pools_[target_pool].work_queue.back().promise.get_future();
+    auto &priority_queue = this->pools_[target_pool].priority_queue[source];
+    auto boundary_point = priority_queue.upper_bound(priority);
+    typename TWorkQueue::iterator insertion_point;
+
+    if (boundary_point != priority_queue.end()) {
+      insertion_point = this->pools_[target_pool].work_queue.emplace(
+            boundary_point->second.front(), {});
+    } else {
+      this->pools_[target_pool].work_queue.emplace_back({});
+      insertion_point = std::prev(this->pools_[target_pool].work_queue.end());
+    }
+
+    insertion_point->item = work;
+    insertion_point->source = source;
+    insertion_point->priority = priority;
+    result = insertion_point->promise.get_future();
     {
       const std::lock_guard<std::mutex> c_lock(this->config_mutex_);
-      this->pools_[target_pool].work_queue.back().worker = &this->workers_[color];
-    } // Another submission is possible here.
+      insertion_point->worker = &this->workers_[color];
+    }
+
+    priority_queue[priority].push_back(insertion_point);
   } // Processing of the work item potentially starts here.
 
   return result;
@@ -130,12 +144,18 @@ void TColoredThreadPool<S, C>::pool_enumerator(
           }
 
           work = std::move(one_pool.work_queue.front());
-          one_pool.work_queue.pop();
+          one_pool.work_queue.pop_front();
+
+          auto &priority_queue = one_pool.priority_queue[work.source][work.priority];
+          priority_queue.pop_front();
+          if (priority_queue.empty()) {
+            one_pool.priority_queue[work.source].erase(work.priority);
+          }
         }
-        /* Accounting should be updated (borrowed) here. */
+        /* Quota should be updated (borrowed) here. */
         work.worker(work.item);
         work.promise.set_value();
-        /* Accounting should be updated (returned) here. */
+        /* Quota should be updated (returned) here. */
       }
     });
   }
